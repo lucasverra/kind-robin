@@ -4,8 +4,8 @@ sections:
 - type: section_hero
   template: section_hero
   section_id: hero
-  title: Bonjour Jean michel, hello world
-  content: 'Hello World Hello World '
+  title: Bougez Chez Vous
+  content: Des rappels et conseils pour vous aider à rester en forme, chez vous
   image: images/hero.png
   actions:
   - label: Learn More
