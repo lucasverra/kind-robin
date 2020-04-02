@@ -76,7 +76,7 @@ sections:
   subtitle: ''
 menus:
   main:
-    title: Home
+    title: Accueil
     weight: 1
 template: landing
 
