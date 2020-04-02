@@ -8,7 +8,7 @@
     "menu": {
       "actions": [
         {
-          "label": "Mon Compte",
+          "label": "S'inscrire",
           "url": "/signup"
         }
       ]
