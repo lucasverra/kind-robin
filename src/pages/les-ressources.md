@@ -3,7 +3,7 @@ title: Les ressources
 subtitle: 'Ce guide vous fournit une liste des ressources sportives. '
 menus:
   main:
-    title: Style Guide
+    title: Les Ressources
     weight: 3
 template: page
 img_path: "/images/sncf.PNG"
