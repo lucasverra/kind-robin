@@ -14,8 +14,8 @@ export default function HTML(props) {
                     OneSignal.init({
                       appId: "2267b1d7-ec2c-4e4e-8ded-ade2a7ff194d",
                     });
-                    OneSignal.setEmail("a@b.com");
-                    OneSignal.sendTag("toto", "titi"); 
+                    //OneSignal.setEmail("a@b.com");
+                    //OneSignal.sendTag("toto", "titi"); 
                   });
               `,
         }}
