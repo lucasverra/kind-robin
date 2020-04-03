@@ -17,7 +17,8 @@ fields:
   default:
   - Général
   label: categoriePost
-  description: Ecrire la catégorie puis taper sur "Entrée"
+  description: 'Ecrire la catégorie puis taper sur "Entrée". Les options sont : Géneral;
+    Se musler;Se détendre;Se défouler;Avec des enfants '
 - type: datetime
   name: date
   label: Date
