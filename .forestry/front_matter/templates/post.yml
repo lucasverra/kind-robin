@@ -14,7 +14,8 @@ fields:
   description: The text shown just below the Title or the Featured Image.
 - name: categoriepost
   type: tag_list
-  default: []
+  default:
+  - Général
   label: categoriePost
   description: Ecrire la catégorie puis taper sur "Entrée"
 - type: datetime
