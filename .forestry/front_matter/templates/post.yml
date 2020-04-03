@@ -12,6 +12,11 @@ fields:
   name: subtitle
   label: Subtitle
   description: The text shown just below the Title or the Featured Image.
+- name: categoriepost
+  type: tag_list
+  default: []
+  label: categoriePost
+  description: 'Ce post appartient à quelle catégorie ? '
 - type: datetime
   name: date
   label: Date
