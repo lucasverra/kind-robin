@@ -7,7 +7,7 @@ thumb_img_path: "/images/Wireframe Challenge.png"
 img_path: ''
 excerpt: lalalalalalal
 categoriepost:
-- Géneral
+- Général
 
 ---
 lorem ipsum test stack POC pepe
