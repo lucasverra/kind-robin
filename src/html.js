@@ -5,6 +5,21 @@ export default function HTML(props) {
   return (
     <html {...props.htmlAttributes}>
       <head>
+      <script src="https://cdn.onesignal.com/sdks/OneSignalSDK.js" async=""></script>
+      <script
+        dangerouslySetInnerHTML={{
+          __html: `
+              var OneSignal = window.OneSignal || [];
+                  OneSignal.push(function() {
+                    OneSignal.init({
+                      appId: "a67a8317-02d3-4110-858c-7bac96816938",
+                    });
+                    // OneSignal.setEmail("a@b.com");
+                    OneSignal.sendTag("toto", "titi"); 
+                  });
+              `,
+        }}
+      />
         {props.headComponents}
       </head>
       <body {...props.bodyAttributes}>
