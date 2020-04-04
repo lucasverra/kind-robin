@@ -20,7 +20,7 @@ export default class Post extends React.Component {
 
     render() {
         if(!isLoggedIn()){
-            return window.location.replace(`/signup`)
+            if (typeof window !== `undefined`) window.location.replace(`/signup`)
         }
         return (
             <Layout {...this.props}>
