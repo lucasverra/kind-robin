@@ -13,7 +13,8 @@ import SectionReviews from './SectionReviews';
 import Social from './Social';
 import SubscribeForm from './SubscribeForm';
 import Layout from './Layout';
-
+import { initializeParse } from './initParse'
+initializeParse()
 export {
     CtaButtons,
     Footer,

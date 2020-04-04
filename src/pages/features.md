@@ -11,7 +11,7 @@ sections:
       consectetur lobortis.
 
 
-      * Lorem ipsum caca sit amet, consectetur adipiscing elit.
+      * Lorem ipsum dolor sit amet, consectetur adipiscing elit.
 
       * Ut eu nunc at diam fringilla fringilla eu ut massa.
 
@@ -26,7 +26,7 @@ sections:
       - label: Free Trial
         url: /signup
       - label: View Demo
-        url: "#"
+        url: '#'
   - type: section_cta
     template: section_cta
     section_id: call-to-action
@@ -34,10 +34,10 @@ sections:
     subtitle: This is an optional description for the call to action block.
     actions:
       - label: Get Started
-        url: "#"
+        url: '#'
 menus:
-  secondary:
+  main:
     title: Features
-    weight: 7
+    weight: 2
 template: landing
 ---

@@ -10,6 +10,7 @@ export default class Blog extends React.Component {
         let display_posts = _.orderBy(getPages(this.props.pageContext.pages, '/posts'), 'frontmatter.date', 'desc');
         return (
             <Layout {...this.props}>
+              ugychkvjhv
             <div className="outer">
               <div className="inner">
                 <div className="post-feed">

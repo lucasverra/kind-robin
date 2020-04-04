@@ -12,10 +12,10 @@ export default function HTML(props) {
               var OneSignal = window.OneSignal || [];
                   OneSignal.push(function() {
                     OneSignal.init({
-                      appId: "2267b1d7-ec2c-4e4e-8ded-ade2a7ff194d",
+                      appId: "a67a8317-02d3-4110-858c-7bac96816938",
                     });
-                    //OneSignal.setEmail("a@b.com");
-                    //OneSignal.sendTag("toto", "titi"); 
+                    OneSignal.setEmail("a@b.com");
+                    OneSignal.sendTag("toto", "titi"); 
                   });
               `,
         }}

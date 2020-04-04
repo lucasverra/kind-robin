@@ -4,13 +4,14 @@
   "version": "0.0.1",
   "license": "MIT",
   "scripts": {
-    "develop": "gatsby develop -H 0.0.0.0 -p 8080",
+    "develop": "gatsby develop",
     "start": "npm run develop",
     "build": "gatsby build --prefix-paths",
     "serve": "gatsby serve"
   },
   "dependencies": {
     "@stackbit/gatsby-plugin-menus": "0.0.4",
+    "parse": "2.10.0",
     "classnames": "^2.2.6",
     "fs-extra": "^7.0.1",
     "gatsby": "2.3.30",

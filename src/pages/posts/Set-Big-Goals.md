@@ -1,16 +1,14 @@
 ---
 title: Why You Should Set Big Goals
-date: 2019-03-10
+date: '2019-03-10'
 thumb_img_path: images/12_thumb.jpg
 img_path: images/12.jpg
-excerpt: Pellentesque habitant morbi tristique senectus et netus et malesuada fames
-  ac turpis egestas.
+excerpt: >-
+  Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac
+  turpis egestas.
 template: post
-subtitle: ''
-categoriepost:
-- 'Avec des enfants                                '
-
 ---
+
 Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Nullam maximus mauris sagittis, iaculis diam ac, ultrices risus. Aliquam finibus, ipsum eget ultricies imperdiet, arcu diam suscipit urna, eu bibendum tortor tellus vel risus. Praesent quis scelerisque velit. Curabitur varius erat non dignissim porta. Duis viverra sapien a metus semper, et porttitor dolor convallis. Nulla eu dolor volutpat, mollis arcu ut, semper ex. Morbi ultricies, quam et ullamcorper mattis, elit dolor facilisis dui, non consectetur erat elit eu sapien. Duis scelerisque ante iaculis, accumsan mi vel, tempus libero. Fusce quis ipsum in sapien consequat tempor. Duis varius blandit neque quis tempor. Sed sollicitudin ante vitae lectus feugiat tempus. Ut mauris ex, venenatis a vestibulum nec, ullamcorper a erat. Vivamus leo ipsum, porta in iaculis sit amet, euismod non mi.
 
 Curabitur sed tellus eu felis convallis cursus at vitae neque. Phasellus sem nulla, ornare sit amet augue quis, consectetur lobortis diam. Etiam in egestas orci. Curabitur scelerisque id ligula id rutrum. Maecenas pharetra sapien et hendrerit facilisis. Vestibulum finibus mauris et ultricies porta. Praesent laoreet mauris elit, a semper risus euismod at. Pellentesque ullamcorper augue augue, eget porta nisl volutpat nec. Mauris porttitor commodo tortor eu tincidunt. Ut ut enim iaculis, aliquam augue ut, cursus tortor.

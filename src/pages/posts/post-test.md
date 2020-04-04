@@ -2,12 +2,10 @@
 template: post
 title: Post test
 subtitle: ceci est un test test
-date: 2020-04-02T22:00:00.000+00:00
+date: 2020-04-02T22:00:00Z
 thumb_img_path: "/images/Wireframe Challenge.png"
 img_path: ''
 excerpt: lalalalalalal
-categoriepost:
-- Général
 
 ---
-lorem ipsum test stack POC pepe
+lorem ipsum test stack POC

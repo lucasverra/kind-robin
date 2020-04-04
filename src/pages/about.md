@@ -7,7 +7,7 @@ img_path: images/about.jpg
 menus:
   secondary:
     title: About Us
-    weight: 3
+    weight: 1
 template: page
 ---
 
