@@ -8,6 +8,7 @@ export default function (styleAttr) {
         }
         let index = pair.indexOf(':');
         if (index === -1) {
+             // eslint-disable-next-line
             throw 'could not split style attribute into names and values';
         }
         let name = _.camelCase(pair.substring(0, index).trim());

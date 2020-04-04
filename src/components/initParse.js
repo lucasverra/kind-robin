@@ -1,8 +1,8 @@
 import Parse from 'parse'
 
-export const LOCAL_JAVASCRIPT_KEY = `masterKey`
+export const LOCAL_JAVASCRIPT_KEY = `diVw3ws7cEV1cl0ZHtSEuW0or3bbQz9AdCPZQujm`
 export const LOCAL_APP_ID = `Z4nEXPFgTTcJNvQ84WucVrYdtN81Yhv4CNu9FPoL`
-export const LOCAL_SERVER_URL = `http://localhost:1337/parse`
+export const LOCAL_SERVER_URL = `https://parseapi.back4app.com`
 export const LOCAL_APP_WSS_SERVER_URL = undefined
 
 
@@ -23,3 +23,4 @@ export const initializeParse = () => {
   Parse.Object.registerSubclass('Voucher', Voucher)
   Parse.Object.registerSubclass('VoucherTemplate', VoucherTemplate)
 }
+
