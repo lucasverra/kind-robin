@@ -1,6 +1,6 @@
 import React, { Component } from "react";
 import { FaEnvelope, FaLock, FaRegEyeSlash, FaRegEye } from "react-icons/fa";
-import { Link, navigateTo } from "gatsby";
+import { Link , navigate} from "gatsby";
 import { logIn , isLoggedIn} from "../services/auth";
 
 class LoginForm extends Component {
@@ -17,7 +17,7 @@ class LoginForm extends Component {
 
   componentDidMount(){
     if(isLoggedIn()){
-      navigateTo('/profile/')
+      navigate('/profile/')
     }
   }
 
@@ -34,7 +34,7 @@ class LoginForm extends Component {
   handleSubmit = (event) => {
     event.preventDefault();
     logIn(this.state.email, this.state.password).then(() => {
-      navigateTo("/profile/");
+      if (typeof window !== `undefined`) window.location.replace(`/signup`)
     });
   };
 
