@@ -37,7 +37,7 @@ class LoginForm extends Component {
       <form
         onSubmit={event => {
           this.handleSubmit(event);
-          navigate(`/app/profile`);
+          navigate(`/Profile/`);
         }}
         name="loginForm"
         method="POST"
