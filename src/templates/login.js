@@ -1,9 +1,12 @@
 import React from "react";
 import LoginForm from "../components/LoginForm";
+import {Layout} from '../components/index';
+
 import "../sass/custom.scss";
 
-const Login = () => {
+const Login = (props) => {
   return (
+    <Layout {...props}>
     <section className="custom-container">
       <div className="custom-container__left">
         <div className="content">
@@ -18,6 +21,7 @@ const Login = () => {
         </div>
       </div>
     </section>
+    </Layout>
   );
 };
 
