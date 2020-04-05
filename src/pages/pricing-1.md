@@ -1,50 +1,11 @@
 ---
-title: Pricing
+title: Les ressources à votre disposition
 sections:
-- type: section_pricing
-  template: section_pricing
-  section_id: pricing
-  title: Pricing Plans
-  subtitle: You can have a separate pricing page or list everything on the home page.
-  bg: gray
-  pricingplans:
-  - title: Basic
-    price: "$5/m"
-    details: |-
-      * Lorem ipsum dolor sit amet
-      * Mauris a mi tincidunt
-      * Suspendisse ut lacus
-      * Etiam eget dui a augue
-    actions:
-    - label: Order Now
-      url: "/signup"
-  - title: Professional
-    price: "$49/m"
-    details: |-
-      * Curabitur non nunc mollis
-      * Duis a purus nec ligula
-      * Pellentesque sit amet
-      * Fusce tempus mi vitae
-      * Nullam sollicitudin ante
-    highlight: true
-    actions:
-    - label: Order Now
-      url: "/signup"
-  - title: Enterprise
-    price: "$149/m"
-    details: |-
-      * Vestibulum non eros quis
-      * Aenean iaculis lorem
-      * Mauris eleifend sapien
-      * Phasellus lobortis risus
-    actions:
-    - label: Order Now
-      url: "/signup"
 - type: section_faq
   template: section_faq
-  section_id: faq
-  title: Frequently Asked Questions
-  subtitle: Phasellus luctus laoreet arcu, vel porta metus imperdiet sit amet.
+  section_id: 'Voici une liste d''outils pour mieux vivre votre confinement '
+  title: 'La liste '
+  subtitle: Testez les tous !
   bg: gray
   faqitems:
   - question: Mauris ut tellus id arcu sagittis lacinia quis vel justo?
