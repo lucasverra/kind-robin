@@ -1,5 +1,4 @@
 import { User } from "parse";
-import { navigate } from "gatsby";
 
 export const isLoggedIn = () => {
   return User.current()
