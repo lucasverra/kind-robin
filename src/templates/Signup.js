@@ -1,8 +1,10 @@
 import React from "react";
 import SignupForm from "../components/SignupForm";
+import {Layout} from '../components/index';
 
-const Signup = () => {
+const Signup = (props) => {
   return (
+    <Layout {...props}>
     <section className="custom-container">
       <div className="custom-container__left">
         <div className="content">
@@ -17,6 +19,7 @@ const Signup = () => {
         </div>
       </div>
     </section>
+    </Layout>
   );
 };
 
