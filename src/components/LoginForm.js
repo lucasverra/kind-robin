@@ -17,7 +17,7 @@ class LoginForm extends Component {
 
   componentDidMount(){
     if(isLoggedIn()){
-      navigate('/profile/')
+      navigate('/profile')
     }
   }
 
@@ -34,7 +34,7 @@ class LoginForm extends Component {
   handleSubmit = (event) => {
     event.preventDefault();
     logIn(this.state.email, this.state.password).then(() => {
-      if (typeof window !== `undefined`) window.location.replace(`/signup`)
+      if (typeof window !== `undefined`) window.location.replace(`/profile`)
     });
   };
 
