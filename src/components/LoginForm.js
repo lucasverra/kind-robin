@@ -1,7 +1,7 @@
 import React, { Component } from "react";
 import { FaEnvelope, FaLock, FaRegEyeSlash, FaRegEye } from "react-icons/fa";
-import { Link, navigate } from "gatsby";
-import { handleLogin, isLoggedIn } from "../services/auth";
+import { Link, navigateTo } from "gatsby";
+import { logIn , isLoggedIn} from "../services/auth";
 
 class LoginForm extends Component {
   constructor(props) {
@@ -9,35 +9,41 @@ class LoginForm extends Component {
     this.state = {
       hide: true,
       email: ``,
-      password: ``
+      password: ``,
     };
     this.handleToggler = this.handleToggler.bind(this);
     this.handleUpdate = this.handleUpdate.bind(this);
   }
 
-  handleToggler() {
-    this.setState({
-      hide: !this.state.hide
-    });
+  componentDidMount(){
+    if(isLoggedIn()){
+      navigateTo('/Profile/')
+    }
   }
 
-  handleUpdate = event => {
+  handleToggler() {
     this.setState({
-      [event.target.name]: event.target.value
+      hide: !this.state.hide,
+    });
+  }
+  handleUpdate = (event) => {
+    this.setState({
+      [event.target.name]: event.target.value,
     });
   };
-  handleSubmit = event => {
+  handleSubmit = (event) => {
     event.preventDefault();
-    navigate("/profile");
+    logIn(this.state.email, this.state.password).then(() => {
+      navigateTo("/Profile/");
+    });
   };
 
   render() {
     const { hide, email, password } = this.state;
     return (
       <form
-        onSubmit={event => {
+        onSubmit={(event) => {
           this.handleSubmit(event);
-          navigate(`/Profile/`);
         }}
         name="loginForm"
         method="POST"

@@ -1,4 +1,5 @@
 import { User } from "parse";
+import { navigate } from "gatsby";
 
 export const isLoggedIn = () => {
   return User.current()
@@ -9,7 +10,7 @@ export const signUp = (email, password) => {
 };
 
 export const logIn = (email, password) => {
-    User.logIn(email, password).catch(err => console.log(err));
+    return User.logIn(email, password);
 };
 
 export const logOut = (email, password) => {
