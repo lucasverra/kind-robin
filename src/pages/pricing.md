@@ -69,8 +69,6 @@ sections:
           lacus venenatis. Phasellus pellentesque dolor id feugiat faucibus.
           Etiam vehicula nunc velit, in consequat nisl feugiat nec.
 menus:
-  main:
-    title: Pricing
-    weight: 3
+
 template: landing
 ---
