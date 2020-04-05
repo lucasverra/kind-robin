@@ -1,17 +1,10 @@
 .custom-container {
-  min-height: 100vh;
-  position: absolute;
-  top: 0;
-  left: 0;
   font-family: "Nunito Sans", sans-serif;
   display: flex;
   width: 100%;
   padding: 0;
   margin: 0;
   box-sizing: border-box;
-  @media (min-width: 900px) {
-    overflow: hidden;
-  }
 
   @media (max-width: 900px) {
     flex-direction: column;
@@ -114,10 +107,11 @@
           position: absolute;
           left: 0;
           top: 0;
-          transform: translateY(75%);
+          transform: translateY(50%);
         }
         .hider {
-          right: 10%;
+          right: 5%;
+          pointer-events: all;
           cursor: pointer;
           position: absolute;
           top: 0;
@@ -126,16 +120,16 @@
       }
       .email,
       .password {
-        min-height: 35px;
+        height: 35px;
         border: 0px;
         border-bottom: 3px solid #aaa;
         color: #aaa;
         font-size: 1.6rem;
-        width: 90%;
+        width: 100%;
         outline: none;
         margin-bottom: 40px;
         padding-left: 40px;
-        padding-bottom: 10px;
+        padding-bottom: 30px;
 
         &:focus {
           border: 0px;
@@ -160,10 +154,11 @@
       }
       .submit-btn {
         border: 3px solid #0072ff;
+        background-color: transparent;
         color: #0072ff;
-        font-size: 18px;
+        font-size: 16px;
+        text-transform: uppercase;
         letter-spacing: 1px;
-        padding: 1rem 3rem;
         border-radius: 35rem;
         float: right;
         text-transform: uppercase;
