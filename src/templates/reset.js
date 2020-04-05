@@ -1,6 +1,8 @@
 import React from "react";
 import { Layout } from "../components/index";
 
+import "../sass/custom.scss";
+
 export default class Reset extends React.Component {
   render() {
     return (

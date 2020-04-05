@@ -3,6 +3,8 @@ import { Layout } from "../components/index";
 
 import { FaEnvelope } from "react-icons/fa";
 
+import "../sass/custom.scss";
+
 export default class ForgetPassword extends React.Component {
   render() {
     return (

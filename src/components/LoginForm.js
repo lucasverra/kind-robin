@@ -1,7 +1,7 @@
 import React, { Component } from "react";
 import { FaEnvelope, FaLock, FaRegEyeSlash, FaRegEye } from "react-icons/fa";
 import { Link, navigate } from "gatsby";
-import { handleLogin, isLoggedIn } from "../services/auth";
+// import { handleLogin, isLoggedIn } from "../services/auth";
 
 class LoginForm extends Component {
   constructor(props) {

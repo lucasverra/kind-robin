@@ -1,8 +1,10 @@
 import React from "react";
 
 import { Layout } from "../components/index";
-import { logIn } from "../services/auth";
+// import { logIn } from "../services/auth";
 import SignupForm from "../components/SignupForm";
+
+import "../sass/custom.scss";
 
 export default class Signup extends React.Component {
   componentDidMount() {}
