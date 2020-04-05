@@ -1,8 +1,8 @@
 ---
 title: Blog
 menus:
-  secondary:
-    title: Blog
+  main:
+    title: Les Articles
     weight: 2
 template: blog
 ---
