@@ -9,10 +9,14 @@ sections:
   bg: gray
   faqitems:
   - question: Mauris ut tellus id arcu sagittis lacinia quis vel justo?
-    answer: Ut cursus, nunc vitae hendrerit viverra, massa ipsum congue quam, sed
-      tempus mauris lacus sit amet nibh. Curabitur laoreet est maximus mollis feugiat.
-      Praesent nibh libero, placerat et justo at, luctus tristique enim. Pellentesque
-      habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas.
+    answer: |-
+      ##### Outil #1 : Son nom en titre
+
+      ![](/images/logo_alt.png)
+
+      Ut cursus, nunc vitae hendrerit viverra, massa ipsum congue quam, sed tempus mauris lacus sit amet nibh. Curabitur laoreet est maximus mollis feugiat. Praesent nibh libero, placerat et justo at, luctus tristique enim. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas.
+
+      Vous pouvez le retrouver suivant [ce lien](https://http://www.sports.gouv.fr/accueil-du-site/actualites/article/coronavirus-covid-19-avec-le-ministere-des-sports-faire-du-sport-chez-soi-c-est)
   - question: Aliquam eget purus ante?
     answer: 'Nunc sollicitudin libero tincidunt felis pretium, consectetur aliquam
       eros placerat. Sed neque neque, bibendum a pulvinar id, pellentesque eget velit. '
