@@ -5,7 +5,7 @@ sections:
   template: section_hero
   section_id: hero
   title: Bougez Chez Vous
-  content: Des rappels et conseils pour vous aider à rester en forme, chez vous
+  content: Des rappels et conseils pour vous aider à **rester en forme, chez vous**.
   image: "/images/heroporBGV.png"
   actions:
   - label: Je m'inscris
@@ -15,8 +15,8 @@ sections:
   section_id: features
   title: 'Qu''est-ce que c''est ? '
   subtitle: Lorsqu’on doit rester chez soi, maintenir une activité physique régulière
-    peut aider à maintenir la forme et la morale. Pour vous accompagner, le ministère
-    des sports mais à votre disposition bouger chez vous, un outil pour vous aider
+    peut aider à maintenir la forme et le moral. Pour vous accompagner, le ministère
+    des sports met à votre disposition Bouger Chez Vous, un outil pour vous aider
     à intégrer l’activité physique dans votre nouvelle routine à la maison.
   bg: gray
   featureslist:
