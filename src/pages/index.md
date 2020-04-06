@@ -13,9 +13,11 @@ sections:
 - type: section_features
   template: section_features
   section_id: features
-  title: Features
-  subtitle: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam a metus
-    quis lorem malesuada luctus.
+  title: 'Qu''est-ce que c''est ? '
+  subtitle: Lorsqu’on doit rester chez soi, maintenir une activité physique régulière
+    peut aider à maintenir la forme et la morale. Pour vous accompagner, le ministère
+    des sports mais à votre disposition bouger chez vous, un outil pour vous aider
+    à intégrer l’activité physique dans votre nouvelle routine à la maison.
   bg: gray
   featureslist:
   - title: The Best Feature of Your Services
@@ -39,39 +41,18 @@ sections:
     actions:
     - label: Learn More
       url: "/features"
-- type: section_reviews
-  template: section_reviews
-  section_id: reviews
-  title: Testimonials
-  subtitle: 'Aliquam malesuada ligula eget est fringilla blandit. Integer finibus
-    semper libero id sodales. '
-  bg: white
-  reviews:
-  - author: John Doe
-    avatar: images/review1.jpg
-    content: Vestibulum a nunc ut eros condimentum posuere. Nullam dapibus quis nunc
-      non interdum. Pellentesque tortor ligula, gravida ac commodo eu.
-  - author: Jane Roe
-    avatar: images/review2.jpg
-    content: Sed laoreet magna commodo libero euismod sodales. Nunc ac libero convallis,
-      interdum ligula vel, pretium diam. Integer commodo sem at dui sollicitudin,
-      vel posuere justo laoreet.
-  - author: Richard Roe
-    avatar: images/review3.jpg
-    content: Integer consectetur purus neque, ac porttitor enim convallis vitae. Interdum
-      et malesuada fames ac ante ipsum primis in faucibus.
 - type: section_cta
   template: section_cta
   section_id: call-to-action
-  title: This Is Call To Action Block!
-  subtitle: This is an optional description for the call to action block.
+  title: Planifiez vos activités de la semaine!
+  subtitle: Suite à l'inscprtion, vous pourrez nous informer de vos préferences
   actions:
-  - label: Get Started
+  - label: Je m'inscris
     url: "/signup"
 - type: section_posts
   template: section_posts
   section_id: recent-posts
-  title: Latest Posts
+  title: Les derniers articles
   bg: gray
   subtitle: ''
 menus:
