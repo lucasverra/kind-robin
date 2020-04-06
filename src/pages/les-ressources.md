@@ -5,7 +5,6 @@ menus:
   main:
     title: Les Ressources
     weight: 3
-    icon-name: testing
 template: page
 img_path: "/images/sncf.PNG"
 

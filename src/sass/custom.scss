@@ -182,3 +182,62 @@
     }
   }
 }
+
+.custom-container-2 {
+  margin: 60px auto;
+  max-width: 30rem;
+  box-shadow: 0 3px 10px 0 rgba(76, 82, 103, 0.1);
+  padding: 60px;
+  overflow: hidden;
+
+  @media (max-width: 800px) {
+    margin: auto;
+    box-shadow: none;
+  }
+
+  form {
+    .input_container {
+      margin-top: 10px;
+      margin-bottom: 40px;
+    }
+    label {
+      color: #aaa;
+    }
+    input,
+    select {
+      border: 0px;
+      background-color: transparent;
+      border-bottom: 3px solid #aaa;
+      border-radius: 0px;
+
+      &:focus {
+        border-color: #000;
+      }
+    }
+  }
+}
+
+.btn-container {
+  float: right;
+  margin-bottom: 40px;
+
+  button {
+    text-transform: uppercase;
+  }
+
+  .cancel-btn {
+    margin-right: 20px;
+    border: 0px;
+    background-color: transparent;
+    color: #2672ff;
+  }
+  .submit-btn {
+    border-radius: 50rem;
+  }
+
+  @media (max-width: 800px) {
+    button {
+      font-size: 14px;
+    }
+  }
+}
