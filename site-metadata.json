@@ -19,7 +19,7 @@
     "tagline": "Sous le haut patronage du Ministère des sports",
     "has_nav": true,
     "nav_title": "Notre mission",
-    "has_social": false,
+    "has_social": true,
     "social_title": "Community",
     "has_subscribe": false,
     "subscribe_title": "Subscribe",
