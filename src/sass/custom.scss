@@ -1,17 +1,10 @@
 .custom-container {
-  min-height: 100vh;
-  position: absolute;
-  top: 0;
-  left: 0;
   font-family: "Nunito Sans", sans-serif;
   display: flex;
   width: 100%;
   padding: 0;
   margin: 0;
   box-sizing: border-box;
-  @media (min-width: 900px) {
-    overflow: hidden;
-  }
 
   @media (max-width: 900px) {
     flex-direction: column;
@@ -114,10 +107,11 @@
           position: absolute;
           left: 0;
           top: 0;
-          transform: translateY(75%);
+          transform: translateY(50%);
         }
         .hider {
-          right: 10%;
+          right: 5%;
+          pointer-events: all;
           cursor: pointer;
           position: absolute;
           top: 0;
@@ -126,16 +120,16 @@
       }
       .email,
       .password {
-        min-height: 35px;
+        height: 35px;
         border: 0px;
         border-bottom: 3px solid #aaa;
         color: #aaa;
         font-size: 1.6rem;
-        width: 90%;
+        width: 100%;
         outline: none;
         margin-bottom: 40px;
         padding-left: 40px;
-        padding-bottom: 10px;
+        padding-bottom: 30px;
 
         &:focus {
           border: 0px;
@@ -160,10 +154,11 @@
       }
       .submit-btn {
         border: 3px solid #0072ff;
+        background-color: transparent;
         color: #0072ff;
-        font-size: 18px;
+        font-size: 16px;
+        text-transform: uppercase;
         letter-spacing: 1px;
-        padding: 1rem 3rem;
         border-radius: 35rem;
         float: right;
         text-transform: uppercase;
@@ -178,12 +173,71 @@
         }
 
         @media (max-width: 900px) {
-          padding: 0.7rem 2rem;
+          // padding: 0.7rem 2rem;
           font-size: 14px;
           margin-right: 0;
           margin-bottom: 80px;
         }
       }
+    }
+  }
+}
+
+.custom-container-2 {
+  margin: 60px auto;
+  max-width: 30rem;
+  box-shadow: 0 3px 10px 0 rgba(76, 82, 103, 0.1);
+  padding: 60px;
+  overflow: hidden;
+
+  @media (max-width: 800px) {
+    margin: auto;
+    box-shadow: none;
+  }
+
+  form {
+    .input_container {
+      margin-top: 10px;
+      margin-bottom: 40px;
+    }
+    label {
+      color: #aaa;
+    }
+    input,
+    select {
+      border: 0px;
+      background-color: transparent;
+      border-bottom: 3px solid #aaa;
+      border-radius: 0px;
+
+      &:focus {
+        border-color: #000;
+      }
+    }
+  }
+}
+
+.btn-container {
+  float: right;
+  margin-bottom: 40px;
+
+  button {
+    text-transform: uppercase;
+  }
+
+  .cancel-btn {
+    margin-right: 20px;
+    border: 0px;
+    background-color: transparent;
+    color: #2672ff;
+  }
+  .submit-btn {
+    border-radius: 50rem;
+  }
+
+  @media (max-width: 800px) {
+    button {
+      font-size: 14px;
     }
   }
 }
