@@ -4,6 +4,7 @@ import { Layout } from "../components/index";
 import { isLoggedIn, logIn } from "../services/auth";
 
 import ToggleButton from "react-toggle-button";
+import "../sass/custom.scss";
 
 export default class Post extends React.Component {
   constructor(props) {
