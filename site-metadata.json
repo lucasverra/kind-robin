@@ -15,16 +15,16 @@
     }
   },
   "footer": {
-    "logo_img": "images/logo_alt.png",
-    "tagline": "SaaS theme by Stackbit",
+    "logo_img": "/images/minist.png",
+    "tagline": "Sous le haut patronage du Ministère des sports",
     "has_nav": true,
     "nav_title": "Company",
-    "has_social": true,
+    "has_social": false,
     "social_title": "Community",
-    "has_subscribe": true,
+    "has_subscribe": false,
     "subscribe_title": "Subscribe",
     "subscribe_content": "Stay up to date with our latest developments.",
-    "content": "&copy; Stackbit. All rights reserved.",
+    "content": "&copy; Bougez Chez Vous.Marque déposée.",
     "links": [
       {
         "text": "Made with Stackbit",
