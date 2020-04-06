@@ -12,6 +12,9 @@ export default class Profile extends React.Component {
       emails: false,
     };
   }
+  handleSubmit = (event) => {
+    event.preventDefault();
+  };
   render() {
     const options = [
       "6h",
@@ -39,6 +42,9 @@ export default class Profile extends React.Component {
             name="myprefrences"
             method="POST"
             className="fmyprefrences-form"
+            onSubmit={(event) => {
+              this.handleSubmit(event);
+            }}
           >
             <div className="form-row">
               <label>
