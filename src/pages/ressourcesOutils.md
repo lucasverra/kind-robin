@@ -25,7 +25,7 @@ sections:
       faucibus. Etiam vehicula nunc velit, in consequat nisl feugiat nec.
 menus:
   main:
-    title: Pricing
+    title: La boite à outils
     weight: 3
 template: landing
 
