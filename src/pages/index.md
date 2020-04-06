@@ -6,7 +6,7 @@ sections:
   section_id: hero
   title: Bougez Chez Vous
   content: Des rappels et conseils pour vous aider à rester en forme, chez vous
-  image: images/hero.png
+  image: "/images/heroporBGV.png"
   actions:
   - label: Learn More
     url: "/features"
