@@ -1,9 +1,9 @@
 ---
-title: Les ressources
-subtitle: 'Ce guide vous fournit une liste des ressources sportives. '
+title: Vos retours
+subtitle: 'Vous pouvez nous transmettre votre situation. '
 menus:
   main:
-    title: Les Ressources
+    title: Vos retours
     weight: 3
 template: page
 img_path: "/images/sncf.PNG"
