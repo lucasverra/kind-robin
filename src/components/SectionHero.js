@@ -1,5 +1,6 @@
 import React from 'react';
 import _ from 'lodash';
+import {FaBox} from 'react-icons/fa'
 
 import {safePrefix, markdownify, Link} from '../utils';
 
@@ -18,6 +19,7 @@ export default class SectionHero extends React.Component {
                     {_.get(this.props, 'section.title') && 
                     <h2 className="block-title underline">{_.get(this.props, 'section.title')}</h2>
                     }
+                    
                     <div className="block-copy">
                       {markdownify(_.get(this.props, 'section.content'))}
                     </div>
