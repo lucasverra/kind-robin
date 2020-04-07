@@ -15,8 +15,6 @@ subtitle: ''
 
     <iframe width="560" height="315" src="https://www.youtube.com/embed/dQw4w9WgXcQ" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
-<iframe width="560" height="315" src="[https://www.youtube.com/embed/dQw4w9WgXcQ](https://www.youtube.com/embed/dQw4w9WgXcQ "https://www.youtube.com/embed/dQw4w9WgXcQ")" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-
 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas sagittis convallis bibendum. Aenean ac massa vitae lectus semper iaculis. Pellentesque urna nibh, volutpat ac accumsan a, malesuada non arcu. Ut mi eros, facilisis eget dictum quis, semper ut velit. Phasellus vulputate, odio eu consequat sollicitudin, arcu nulla auctor elit, vitae placerat elit elit sit amet ipsum. Curabitur pulvinar leo ac laoreet semper. Integer ut libero dui. Ut id nunc ornare, ornare tellus eu, rutrum ipsum. Donec molestie iaculis tristique. Quisque euismod commodo leo ac ultrices.
 
 Morbi ut odio interdum, vestibulum neque eu, dictum massa. Maecenas fermentum, metus ut maximus pellentesque, nibh sem venenatis purus, eget ultricies elit lorem finibus justo. Nullam a faucibus diam. Mauris nisi ligula, fringilla a arcu eu, commodo euismod tellus. Sed blandit massa vel ligula ullamcorper fermentum. Praesent ex justo, ultrices ac imperdiet id, auctor quis nulla. Nunc eu blandit nulla. In faucibus pellentesque libero. Sed facilisis lectus id tellus tempus vestibulum eget eget felis. Nulla facilisi. Sed sed sem tristique, pellentesque diam eu, sollicitudin massa.
