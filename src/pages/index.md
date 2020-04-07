@@ -5,7 +5,10 @@ sections:
   template: section_hero
   section_id: hero
   title: Bougez Chez Vous
-  content: Des rappels et conseils pour vous aider à **rester en forme, chez vous**.
+  content: |-
+    Des rappels et conseils pour vous aider à **rester en forme, chez vous**.
+
+    Et la je prépare plus de texte pour Laura qui en souhaite plus.
   image: "/images/heroporBGV.png"
   actions:
   - label: Mon profile
