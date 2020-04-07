@@ -1,4 +1,6 @@
 ---
+categoriepost:
+- Se détendre
 title: 5 Customer Service Skills that Every Employee Needs
 subtitle: 'Apparently, there are 5 Service Skills that Every Employee Needs'
 date: '2018-01-11'

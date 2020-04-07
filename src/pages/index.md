@@ -5,11 +5,14 @@ sections:
   template: section_hero
   section_id: hero
   title: Bougez Chez Vous
-  content: Des rappels et conseils pour vous aider à **rester en forme, chez vous**.
+  content: |-
+    Des rappels et conseils pour vous aider à **rester en forme, chez vous**.
+
+    Et la je prépare plus de texte pour Laura qui en souhaite plus.
   image: "/images/heroporBGV.png"
   actions:
-  - label: Je m'inscris
-    url: "/signup"
+  - label: Mon profile
+    url: "/profile"
 - type: section_features
   template: section_features
   section_id: features
@@ -20,13 +23,14 @@ sections:
     à intégrer l’activité physique dans votre nouvelle routine à la maison.
   bg: gray
   featureslist:
-  - title: The Best Feature of Your Services
-    content: Nam pulvinar ante eu ultricies volutpat. Aenean hendrerit, eros sed aliquet
-      luctus, lorem risus volutpat dolor, nec dignissim diam neque consequat ex.
-    image: images/feature1.png
+  - title: "Un contenu sportif ouvert à tous \U0001F450, sans besoin d'inscription."
+    content: 'Que vous soyez expert.e fitness ou un.e néophyte, vous trouverez du
+      contenu percutant pour votre activité sportive à la maison. Les enfants sont
+      aussi invités ! '
+    image: "/images/featcontBCV.png"
     actions:
-    - label: Learn More
-      url: "/features"
+    - label: Acceder au contenu
+      url: "/blog"
   - title: Awesome Feature of Your Services
     content: Etiam vel urna sed massa egestas vulputate eu a velit. Sed ut nisl nec
       sapien interdum luctus. Cras rhoncus condimentum metus sit amet auctor.

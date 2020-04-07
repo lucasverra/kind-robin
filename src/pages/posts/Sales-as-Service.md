@@ -1,4 +1,6 @@
 ---
+categoriepost:
+- Se défouler
 title: Sales as a Service
 subtitle: A interesting tale about Sales
 date: '2018-01-15'
