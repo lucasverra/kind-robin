@@ -1,4 +1,6 @@
 ---
+categoriepost:
+- Général
 title: Why You Should Set Big Goals
 date: '2019-03-10'
 thumb_img_path: images/12_thumb.jpg

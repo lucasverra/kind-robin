@@ -1,4 +1,6 @@
 ---
+categoriepost:
+- Se défouler
 title: Customer Loyalty Programs That Stick
 subtitle: A story about customer loyalty
 date: '2019-04-23'

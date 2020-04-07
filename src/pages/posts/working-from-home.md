@@ -1,4 +1,6 @@
 ---
+categoriepost:
+- Se muscler
 title: The Advantages and Disadvantages of Working from Home
 date: '2019-04-22'
 thumb_img_path: images/9_thumb.jpg

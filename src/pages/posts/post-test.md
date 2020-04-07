@@ -1,4 +1,6 @@
 ---
+categoriepost:
+- Général
 template: post
 title: Post test
 subtitle: ceci est un test test
