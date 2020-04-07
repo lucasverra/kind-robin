@@ -11,9 +11,9 @@ export default class Header extends React.Component {
         return <FaHome />;
       } else if (title === "Les Articles") {
         return <FaNewspaper />;
-      } else if (title === "Pricing") {
+      } else if (title === "La boite à outils") {
         return <FaBullhorn />;
-      } else if (title === "Les Ressources") {
+      } else if (title === "Vos retours") {
         return <FaPager />;
       }
     };
