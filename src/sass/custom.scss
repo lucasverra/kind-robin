@@ -214,6 +214,34 @@
         border-color: #000;
       }
     }
+    textarea {
+      background-color: transparent;
+      border: 3px solid #aaa;
+      &:focus {
+        border-color: #000;
+      }
+    }
+    .radio_values {
+      margin-bottom: 40px;
+      display: flex;
+      flex-direction: row;
+      &-wrapper {
+        &:not(:last-child) {
+          margin-right: 20px;
+        }
+      }
+    }
+
+    .checkbox_values {
+      margin-bottom: 40px;
+      display: flex;
+      flex-direction: row;
+      &-wrapper {
+        &:not(:last-child) {
+          margin-right: 20px;
+        }
+      }
+    }
   }
 }
 

@@ -71,12 +71,35 @@ export default class MyActualStatus extends React.Component {
 
             <div className="form-row">
               <label>05</label>
-              <div className="input_container"></div>
+              <div className="checkbox_values">
+                <div className="checkbox_values-wrapper">
+                  <input type="checkbox" id="a" name="a" value="a" />
+                  <label>a</label>
+                </div>
+                <div className="checkbox_values-wrapper">
+                  <input type="checkbox" id="b" name="b" value="b" />
+                  <label>b</label>
+                </div>
+                <div className="checkbox_values-wrapper">
+                  <input type="checkbox" id="c" name="c" value="c" />
+                  <label>c</label>
+                </div>
+                <div className="checkbox_values-wrapper">
+                  <input type="checkbox" id="d" name="d" value="d" />
+                  <label>d</label>
+                </div>
+              </div>
+            </div>
+            <div className="form-row">
+              <label>06</label>
+              <div className="input_container">
+                <input type="date" id="06" name="06" />
+              </div>
             </div>
 
             <div className="btn-container">
-              <button className="submit-btn" type="submit">
-                sauvegarder
+              <button className="button secondary" type="submit">
+                Submit
               </button>
             </div>
           </form>
