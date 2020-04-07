@@ -8,8 +8,8 @@ sections:
   content: Des rappels et conseils pour vous aider à **rester en forme, chez vous**.
   image: "/images/heroporBGV.png"
   actions:
-  - label: Je m'inscris
-    url: "/signup"
+  - label: Mon profile
+    url: "/profile"
 - type: section_features
   template: section_features
   section_id: features
