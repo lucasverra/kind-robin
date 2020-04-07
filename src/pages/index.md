@@ -20,13 +20,13 @@ sections:
     à intégrer l’activité physique dans votre nouvelle routine à la maison.
   bg: gray
   featureslist:
-  - title: "Un contenu sportif ouvert à tous \U0001F450"
+  - title: "Un contenu sportif ouvert à tous \U0001F450, sans besoin d'inscription."
     content: 'Que vous soyez expert.e fitness ou un.e néophyte, vous trouverez du
       contenu percutant pour votre activité sportive à la maison. Les enfants sont
       aussi invités ! '
-    image: "/images/herobcvmod1.png"
+    image: "/images/featcontBCV.png"
     actions:
-    - label: Le contenu
+    - label: Acceder au contenu
       url: "/blog"
   - title: Awesome Feature of Your Services
     content: Etiam vel urna sed massa egestas vulputate eu a velit. Sed ut nisl nec
