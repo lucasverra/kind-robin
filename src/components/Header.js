@@ -1,6 +1,6 @@
 import React from "react";
 import _ from "lodash";
-import { FaNewspaper, FaHome, FaBullhorn, FaPager } from "react-icons/fa";
+import { FaNewspaper, FaHome, FaBullhorn, FaPager, FaGift, FaClipboardCheck } from "react-icons/fa";
 
 import { Link, safePrefix } from "../utils";
 
@@ -14,7 +14,7 @@ export default class Header extends React.Component {
       } else if (title === "La boite à outils") {
         return <FaGift />;
       } else if (title === "Vos retours") {
-        return <FaCheck-square-o />;
+        return <FaClipboardCheck />;
       }
     };
     return (
