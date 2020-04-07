@@ -7,7 +7,7 @@ import "../sass/custom.scss";
 const Login = (props) => {
   return (
     <Layout {...props}>
-    <section className="custom-container testing">
+    <section className="custom-container">
       <div className="custom-container__left">
         <div className="content">
           <h2>Bonjour</h2>
