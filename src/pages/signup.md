@@ -8,4 +8,4 @@ menus:
   secondary:
     title: Sign Up
     weight: 1
-template: Signup
+template: signup
