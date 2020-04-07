@@ -1,7 +1,7 @@
 import React from "react";
 import { Layout } from "../components/index";
 import ToggleButton from "react-toggle-button";
-import {isLoggedIn} from '../services/auth';
+import { isLoggedIn } from "../services/auth";
 
 import "../sass/custom.scss";
 
@@ -17,17 +17,22 @@ export default class Profile extends React.Component {
   handleSubmit = (event) => {
     event.preventDefault();
   };
-  componentDidMount(){
+  componentDidMount() {
     var OneSignal = window.OneSignal || [];
-    OneSignal.push(function() {
-    OneSignal.init({
+    OneSignal.push(function () {
+      OneSignal.init({
         appId: "2267b1d7-ec2c-4e4e-8ded-ade2a7ff194d",
       });
-      OneSignal.setDefaultNotificationUrl("https://kind-robin-60456.netlify.com/profile");
+      OneSignal.setDefaultNotificationUrl(
+        "https://kind-robin-60456.netlify.com/profile"
+      );
       //OneSignal.setEmail("a@b.com");
-      //OneSignal.sendTag("toto", "titi"); 
+      //OneSignal.sendTag("toto", "titi");
     });
-}
+    if (!isLoggedIn()) {
+      if (typeof window !== `undefined`) window.location.replace(`/Login`);
+    }
+  }
   render() {
     const options = [
       "6h",
@@ -48,9 +53,7 @@ export default class Profile extends React.Component {
       "21h",
       "22h",
     ];
-    if(!isLoggedIn()){
-        if (typeof window !== `undefined`) window.location.replace(`/Login`)
-    }
+
     return (
       <Layout {...this.props}>
         <section className="custom-container-2">
