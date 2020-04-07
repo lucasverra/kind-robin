@@ -1,6 +1,4 @@
 ---
-categoriepost:
-- Se défouler
 title: How Our Design Team Collaborates
 date: 2019-03-24
 thumb_img_path: images/11_thumb.jpg
