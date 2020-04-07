@@ -318,3 +318,41 @@
     }
   }
 }
+
+.categories_filter {
+  margin-bottom: 40px;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  flex-wrap: wrap;
+  align-items: center;
+  padding: 0;
+
+  .filter_category {
+    list-style: none;
+    text-transform: uppercase;
+    font-weight: bold;
+    letter-spacing: 1px;
+    background-color: #fafafa;
+    cursor: pointer;
+    color: #333;
+    font-size: 12px;
+    padding: 10px 25px;
+    border: 1px solid #333;
+    border-radius: 20rem;
+    transition: all 0.3s;
+    margin-bottom: 20px;
+
+    &:hover,
+    &:focus,
+    &:visited,
+    &:active {
+      background-color: #333;
+      color: #fff;
+    }
+
+    &:not(:last-child) {
+      margin-right: 15px;
+    }
+  }
+}
