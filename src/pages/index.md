@@ -20,13 +20,14 @@ sections:
     à intégrer l’activité physique dans votre nouvelle routine à la maison.
   bg: gray
   featureslist:
-  - title: The Best Feature of Your Services
-    content: Nam pulvinar ante eu ultricies volutpat. Aenean hendrerit, eros sed aliquet
-      luctus, lorem risus volutpat dolor, nec dignissim diam neque consequat ex.
-    image: images/feature1.png
+  - title: "Un contenu sportif ouvert à tous \U0001F450"
+    content: 'Que vous soyez expert.e fitness ou un.e néophyte, vous trouverez du
+      contenu percutant pour votre activité sportive à la maison. Les enfants sont
+      aussi invités ! '
+    image: "/images/herobcvmod1.png"
     actions:
-    - label: Learn More
-      url: "/features"
+    - label: Le contenu
+      url: "/blog"
   - title: Awesome Feature of Your Services
     content: Etiam vel urna sed massa egestas vulputate eu a velit. Sed ut nisl nec
       sapien interdum luctus. Cras rhoncus condimentum metus sit amet auctor.
