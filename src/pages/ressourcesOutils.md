@@ -22,7 +22,7 @@ sections:
       2. L’Organisation Mondiale de la Santé recommande de réaliser **au moins deux fois par semaine des activités variées** qui renforcent les muscles et améliorent la souplesse et l’équilibre.
       3. Il est tout aussi important de **réduire son temps passé en position assise ou allongée**, et de rompre les périodes prolongées passées en position assise par **quelques minutes de marche et d’étirements au minimum toutes les 2 heures**.
 
-      Vous pouvez retrouver plus d'information [ici.]()
+      Vous pouvez retrouver plus d'information [ici.](http://www.sports.gouv.fr/accueil-du-site/actualites/article/coronavirus-covid-19-avec-le-ministere-des-sports-faire-du-sport-chez-soi-c-est)
   - question: Aliquam eget purus ante?
     answer: 'Nunc sollicitudin libero tincidunt felis pretium, consectetur aliquam
       eros placerat. Sed neque neque, bibendum a pulvinar id, pellentesque eget velit. '
