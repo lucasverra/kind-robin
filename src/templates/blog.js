@@ -51,9 +51,12 @@ export default class Blog extends React.Component {
         <div className="outer">
           <div className="inner">
             <ul className="categories_filter">
-              {newCats.map((category) => (
+              {newCats.map((category, id) => (
                 <li
-                  className="filter_category"
+                  key={id}
+                  className={`${
+                    category === activeCategory && "activeCat"
+                  } filter_category`}
                   onClick={() => this.handleFilter(category)}
                 >
                   {category}
