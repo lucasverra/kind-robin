@@ -50,8 +50,8 @@ sections:
 - type: section_cta
   template: section_cta
   section_id: call-to-action
-  title: Planifiez vos activités de la semaine!
-  subtitle: Suite à l'inscprtion, vous pourrez nous informer de vos préferences
+  title: Inscrivez-vous pour bénéficier de rappels et conseils personnalisés
+  subtitle: Et commencez dès à présent à planifier vos activités!
   actions:
   - label: Je m'inscris
     url: "/signup"
