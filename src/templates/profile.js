@@ -41,7 +41,7 @@ export default class Profile extends React.Component {
     var OneSignal = window.OneSignal || [];
     OneSignal.push(function() {
     OneSignal.init({
-        appId: "11bb4174-b9e7-47cb-b2e0-43dc4d7d5144",
+        appId: "2267b1d7-ec2c-4e4e-8ded-ade2a7ff194d",
         allowLocalhostAsSecureOrigin: true
       });
       OneSignal.setDefaultNotificationUrl("https://kind-robin-60456.netlify.com/profile");
