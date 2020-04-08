@@ -76,7 +76,8 @@ export default class Profile extends React.Component {
     ];
     if(!isLoggedIn()){
         if (typeof window !== `undefined`) window.location.replace(`/Login`)
-    }
+        return null
+    }else{
     return (
       <Layout {...this.props}>
         <section className="custom-container-2">
@@ -220,4 +221,5 @@ export default class Profile extends React.Component {
       </Layout>
     );
   }
+}
 }
