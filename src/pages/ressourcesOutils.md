@@ -4,19 +4,25 @@ sections:
 - type: section_faq
   template: section_faq
   section_id: 'Voici une liste d''outils pour mieux vivre votre confinement '
-  title: 'La liste '
-  subtitle: Testez les tous !
+  title: Ressources
+  subtitle: Le Ministère des Sports met à votre disposition des informations et ressources
+    pour vous aider à BougerChezVous en ces temps de confinement.
   bg: gray
   faqitems:
-  - question: Mauris ut tellus id arcu sagittis lacinia quis vel justo?
+  - question: 'Recommandations : De combien d’activité physique avons-nous besoin
+      ? '
     answer: |-
-      ##### Outil #1 : Son nom en titre
+      ##### De combien d’activité physique avons-nous besoin ?
 
-      ![](/images/logo_alt.png)
+      L’activité physique permet de maintenir une bonne santé physique et mentale.
 
-      Ut cursus, nunc vitae hendrerit viverra, massa ipsum congue quam, sed tempus mauris lacus sit amet nibh. Curabitur laoreet est maximus mollis feugiat. Praesent nibh libero, placerat et justo at, luctus tristique enim. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas.
+      La quantité précise d’activité physique nécessaire à chacun pour se sentir bien dépend évidemment de son âge, métabolisme, de ses habitudes sportives et de son état de santé, mais trois recommandations principales sont à garder en tête :
 
-      Vous pouvez le retrouver suivant [ce lien](https://http://www.sports.gouv.fr/accueil-du-site/actualites/article/coronavirus-covid-19-avec-le-ministere-des-sports-faire-du-sport-chez-soi-c-est)
+      1. Les travaux de médecins recommandent une pratique minimale d’activité physique dynamique, correspondant à **1 heure par jour pour les enfants et les adolescents**, et à **30 minutes par jour pour les adultes**.
+      2. L’Organisation Mondiale de la Santé recommande de réaliser **au moins deux fois par semaine des activités variées** qui renforcent les muscles et améliorent la souplesse et l’équilibre.
+      3. Il est tout aussi important de **réduire son temps passé en position assise ou allongée**, et de rompre les périodes prolongées passées en position assise par **quelques minutes de marche et d’étirements au minimum toutes les 2 heures**.
+
+      Vous pouvez retrouver plus d'information [ici.]()
   - question: Aliquam eget purus ante?
     answer: 'Nunc sollicitudin libero tincidunt felis pretium, consectetur aliquam
       eros placerat. Sed neque neque, bibendum a pulvinar id, pellentesque eget velit. '
