@@ -5,8 +5,8 @@ sections:
   template: section_faq
   section_id: 'Voici une liste d''outils pour mieux vivre votre confinement '
   title: Ressources
-  subtitle: Le Ministère des Sports met à votre disposition des informations et ressources
-    pour vous aider à BougerChezVous en ces temps de confinement.
+  subtitle: Le Ministère des Sports met à votre disposition des ressources pour vous
+    aider à BougerChezVous en ces temps de confinement.
   bg: gray
   faqitems:
   - question: 'Recommandations : De combien d’activité physique avons-nous besoin
