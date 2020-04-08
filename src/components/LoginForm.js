@@ -1,7 +1,10 @@
 import React, { Component } from "react";
 import { FaEnvelope, FaLock, FaRegEyeSlash, FaRegEye } from "react-icons/fa";
-import { Link , navigate} from "gatsby";
-import { logIn , isLoggedIn} from "../services/auth";
+import { Link, navigate } from "gatsby";
+import { logIn, isLoggedIn } from "../services/auth";
+
+import "react-loader-spinner/dist/loader/css/react-spinner-loader.css";
+import Loader from "react-loader-spinner";
 
 class LoginForm extends Component {
   constructor(props) {
@@ -10,14 +13,15 @@ class LoginForm extends Component {
       hide: true,
       email: ``,
       password: ``,
+      loading: false,
     };
     this.handleToggler = this.handleToggler.bind(this);
     this.handleUpdate = this.handleUpdate.bind(this);
   }
 
-  componentDidMount(){
-    if(isLoggedIn()){
-      navigate('/profile')
+  componentDidMount() {
+    if (isLoggedIn()) {
+      navigate("/profile");
     }
   }
 
@@ -33,13 +37,21 @@ class LoginForm extends Component {
   };
   handleSubmit = (event) => {
     event.preventDefault();
-    logIn(this.state.email, this.state.password).then(() => {
-      if (typeof window !== `undefined`) window.location.replace(`/profile`)
+    this.setState({
+      loading: true,
     });
+    setTimeout(() => {
+      this.setState({
+        loading: false,
+      });
+      logIn(this.state.email, this.state.password).then(() => {
+        if (typeof window !== `undefined`) window.location.replace(`/profile`);
+      });
+    }, 2000);
   };
 
   render() {
-    const { hide, email, password } = this.state;
+    const { hide, email, password, loading } = this.state;
     return (
       <form
         onSubmit={(event) => {
@@ -94,8 +106,8 @@ class LoginForm extends Component {
           </div>
         </div>
 
-        <button className="submit-btn" type="submit">
-          Sing In
+        <button className="submit-btn" type="submit" disabled={loading}>
+          {loading ? <Loader type="Oval" color="#fff" /> : "Sing In"}
         </button>
       </form>
     );

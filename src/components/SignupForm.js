@@ -2,24 +2,47 @@ import React, { Component } from "react";
 import { FaEnvelope, FaLock, FaRegEyeSlash, FaRegEye } from "react-icons/fa";
 import { Link } from "gatsby";
 
+import "react-loader-spinner/dist/loader/css/react-spinner-loader.css";
+import Loader from "react-loader-spinner";
+
 class SignupForm extends Component {
   constructor(props) {
     super(props);
     this.state = {
-      hide: true
+      hide: true,
+      loading: false,
     };
     this.handleToggler = this.handleToggler.bind(this);
   }
 
   handleToggler() {
     this.setState({
-      hide: !this.state.hide
+      hide: !this.state.hide,
     });
   }
+
+  handleSubmit = (event) => {
+    event.preventDefault();
+    this.setState({
+      loading: true,
+    });
+    setTimeout(() => {
+      this.setState({
+        loading: false,
+      });
+    }, 2000);
+  };
   render() {
-    const { hide } = this.state;
+    const { hide, loading } = this.state;
     return (
-      <form name="signupForm" method="POST" className="signup-form">
+      <form
+        name="signupForm"
+        method="POST"
+        className="signup-form"
+        onSubmit={(event) => {
+          this.handleSubmit(event);
+        }}
+      >
         <div className="form-row">
           <label>
             <span className="screen-reader-text">Email</span>
@@ -58,8 +81,8 @@ class SignupForm extends Component {
           </div>
         </div>
 
-        <button className="submit-btn" type="submit">
-          Create An Account
+        <button className="submit-btn" type="submit" disabled={loading}>
+          {loading ? <Loader type="Oval" color="#fff" /> : "Create An Account"}
         </button>
       </form>
     );

@@ -3,6 +3,8 @@ import { Layout } from "../components/index";
 import ToggleButton from "react-toggle-button";
 import { isLoggedIn } from "../services/auth";
 
+import "react-loader-spinner/dist/loader/css/react-spinner-loader.css";
+import Loader from "react-loader-spinner";
 import "../sass/custom.scss";
 
 export default class Profile extends React.Component {
@@ -12,10 +14,19 @@ export default class Profile extends React.Component {
       notifications: false,
       content: false,
       emails: false,
+      loading: false,
     };
   }
   handleSubmit = (event) => {
     event.preventDefault();
+    this.setState({
+      loading: true,
+    });
+    setTimeout(() => {
+      this.setState({
+        loading: false,
+      });
+    }, 2000);
   };
   componentDidMount() {
     var OneSignal = window.OneSignal || [];
@@ -31,6 +42,7 @@ export default class Profile extends React.Component {
     });
   }
   render() {
+    const { loading } = this.state;
     const options = [
       "6h",
       "7h",
@@ -187,8 +199,12 @@ export default class Profile extends React.Component {
                 <button className="cancel-btn" type="submit">
                   annuler
                 </button>
-                <button className="submit-btn" type="submit">
-                  sauvegarder
+                <button className="submit-btn" type="submit" disabled={loading}>
+                  {loading ? (
+                    <Loader type="Oval" color="#fff" />
+                  ) : (
+                    "sauvegarder"
+                  )}
                 </button>
               </div>
             </form>
