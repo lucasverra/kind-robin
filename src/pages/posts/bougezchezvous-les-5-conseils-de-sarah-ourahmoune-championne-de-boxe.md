@@ -1,6 +1,6 @@
 ---
 categoriepost:
-- Se musler
+- Se muscler
 template: post
 title: 'BougezChezVous : Les 5 conseils de Sarah Ourahmoune, championne de boxe'
 subtitle: ''

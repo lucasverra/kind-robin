@@ -1,6 +1,6 @@
 ---
 categoriepost:
-- Se musler
+- Se muscler
 title: Release Notes - Azimuth Improvements and New Integrations
 subtitle: >-
   Amet nibh adipiscing adipiscing. Commodo ante vis placerat interdum massa
