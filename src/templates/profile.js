@@ -1,7 +1,8 @@
 import React from "react";
 import { Layout } from "../components/index";
 import ToggleButton from "react-toggle-button";
-import {isLoggedIn} from '../services/auth';
+import { isLoggedIn } from '../services/auth';
+import { setPrefrence , getCurrentUser } from '../services/auth'
 
 import "../sass/custom.scss";
 
@@ -9,14 +10,27 @@ export default class Profile extends React.Component {
   constructor(props) {
     super(props);
     this.state = {
-      notifications: false,
-      content: false,
-      emails: false,
+      name:'',
+      exerciceHour:'',
+      physicalActivityGoal:'',
+      timeExerciseEachDay:'',
+      hasNotificationsPush:false,
+      hasNotificationsEmail:true,
+      hasChildFriendlyContent:false,
     };
   }
   handleSubmit = (event) => {
     event.preventDefault();
+    setPrefrence(this.state)
   };
+
+  handleChange = e => {
+      debugger
+    this.setState({
+      [e.target.name]: e.target.value
+    });
+  };
+  
   componentDidMount(){
     var OneSignal = window.OneSignal || [];
     OneSignal.push(function() {
@@ -27,6 +41,18 @@ export default class Profile extends React.Component {
       //OneSignal.setEmail("a@b.com");
       //OneSignal.sendTag("toto", "titi"); 
     });
+    debugger
+
+    if(getCurrentUser){
+        getCurrentUser().fetch()
+        .then(
+                (user) => {
+                if(user.get('userPreference')){
+                    this.setState({...user.get('userPreference')})
+                }
+                }
+            )
+    }
 }
   render() {
     const options = [
@@ -50,7 +76,8 @@ export default class Profile extends React.Component {
     ];
     if(!isLoggedIn()){
         if (typeof window !== `undefined`) window.location.replace(`/Login`)
-    }
+        return null
+    }else{
     return (
       <Layout {...this.props}>
         <section className="custom-container-2">
@@ -70,8 +97,10 @@ export default class Profile extends React.Component {
               <div className="input_container">
                 <input
                   className="name"
+                  onChange={this.handleChange}
                   type="text"
                   name="name"
+                  value={this.state.name}
                   required
                   autoFocus
                 />
@@ -88,7 +117,7 @@ export default class Profile extends React.Component {
                 </span>
               </label>
               <div className="input_container">
-                <select id="time" name="time" className="time">
+                <select id="time" name="timeExerciseEachDay" className="time" onChange={this.handleChange}>
                   <option></option>
                   {options.map((value, index) => {
                     return (
@@ -100,7 +129,6 @@ export default class Profile extends React.Component {
                 </select>
               </div>
             </div>
-
             <div className="form-row">
               <label>
                 Quel est votre objectif d’activité physique?
@@ -109,7 +137,7 @@ export default class Profile extends React.Component {
                 </span>
               </label>
               <div className="input_container">
-                <select id="goals" name="goals" className="goals">
+                <select  onChange={this.handleChange} id="goals" name="physicalActivityGoal" className="goals">
                   <option></option>
                   <option value="Se musler">Se musler</option>
                   <option value="Se détendre">Se détendre</option>
@@ -128,10 +156,10 @@ export default class Profile extends React.Component {
                 <ToggleButton
                   inactiveLabel="no"
                   activeLabel="yes"
-                  value={this.state.notifications || false}
+                  value={this.state.hasNotificationsPush}
                   onToggle={(value) => {
                     this.setState({
-                      notifications: !this.state.notifications,
+                        hasNotificationsPush: !this.state.hasNotificationsPush,
                     });
                   }}
                 />
@@ -149,10 +177,10 @@ export default class Profile extends React.Component {
                 <ToggleButton
                   inactiveLabel="no"
                   activeLabel="yes"
-                  value={this.state.content || false}
+                  value={this.state.hasChildFriendlyContent}
                   onToggle={(value) => {
                     this.setState({
-                      content: !this.state.content,
+                        hasChildFriendlyContent: !this.state.hasChildFriendlyContent,
                     });
                   }}
                 />
@@ -170,10 +198,10 @@ export default class Profile extends React.Component {
                 <ToggleButton
                   inactiveLabel="no"
                   activeLabel="yes"
-                  value={this.state.emails || false}
+                  value={this.state.hasNotificationsEmail}
                   onToggle={(value) => {
                     this.setState({
-                      emails: !this.state.emails,
+                        hasNotificationsEmail: !this.state.hasNotificationsEmail,
                     });
                   }}
                 />
@@ -193,4 +221,5 @@ export default class Profile extends React.Component {
       </Layout>
     );
   }
+}
 }

@@ -8,8 +8,8 @@
     "menu": {
       "actions": [
         {
-          "label": "S'inscrire",
-          "url": "/signup"
+          "label": "Mon profil",
+          "url": "/profile"
         }
       ]
     }
@@ -20,11 +20,11 @@
     "has_nav": true,
     "nav_title": "Notre mission",
     "has_social": true,
-    "social_title": "Community",
+    "social_title": "Les réseaux sociaux",
     "has_subscribe": false,
     "subscribe_title": "Subscribe",
     "subscribe_content": "Stay up to date with our latest developments.",
-    "content": "&copy; Bougez Chez Vous. Marque déposée.",
+    "content": "&copy; Bougez Chez Vous 2020. Marque déposée.",
     "links": [
       {
         "text": "Ministère des sports",
