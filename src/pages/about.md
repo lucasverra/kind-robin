@@ -9,6 +9,6 @@ menus:
 template: page
 
 ---
-BougezChezVous est le fruit d'une collaboration entre le ministère des Sports (www.sports.gouv.fr), la Direction interministérielle de la transformation publique (www.modernisation.gouv.fr) et le Behavioural Insights Team (www.bi.team), une organisation indépendante spécialiste de l'application des sciences comportementales aux politiques publiques.
+BougezChezVous est le fruit d'une collaboration entre le ministère des Sports ([www.sports.gouv.fr](www.sports.gouv.fr)), la Direction interministérielle de la transformation publique ([www.modernisation.gouv.fr](www.modernisation.gouv.fr)) et le Behavioural Insights Team ([www.bi.team](www.bi.team)), une organisation indépendante spécialiste de l'application des sciences comportementales aux politiques publiques.
 
-Pour plus d'information, contactez-nous sur agenda.sport@bi.team 
+Pour plus d'information, contactez-nous sur agenda.sport@bi.team.
