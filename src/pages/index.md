@@ -5,11 +5,15 @@ sections:
   template: section_hero
   section_id: hero
   title: Bougez Chez Vous
-  content: "Des rappels et conseils pour vous aider à **rester en forme, chez vous**.\n\nEt
-    la je prépare plus de texte pour Laura qui en souhaite plus. Edition "
+  content: |-
+    Des rappels et conseils pour vous aider à **rester en forme, chez vous**.
+
+    Lorsqu'on doit rester chez soi, maintenir une activité physique régulière peut aider à maintenir la forme et le moral.
+
+    ​Pour vous accompagner, le Ministère des Sports met à votre disposition BougezChezVous, une application pour vous aider à intégrer l’activité physique à votre nouveau quotidien.
   image: "/images/heroporBGV.png"
   actions:
-  - label: Mon profile
+  - label: Je m'inscris
     url: "/profile"
 - type: section_features
   template: section_features
