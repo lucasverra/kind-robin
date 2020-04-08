@@ -128,7 +128,6 @@ export default class Profile extends React.Component {
                 </select>
               </div>
             </div>
-
             <div className="form-row">
               <label>
                 Quel est votre objectif d’activité physique?
