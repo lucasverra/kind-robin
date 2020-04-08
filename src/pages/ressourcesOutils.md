@@ -63,13 +63,25 @@ sections:
       plaisir ! Que ce soit en choisissant de la musique qui vous plaît, en faisant
       du sport avec vos proches, ou en alternant des activités de musculation et des
       activités plaisir - l’important est de se faire du bien!"
-  - question: Sed scelerisque in ipsum eu sollicitudin?
-    answer: Nullam quis ultrices ipsum. Integer eleifend laoreet quam, ac dignissim
-      nisi mollis eget. Ut vitae nisi sit amet nisi suscipit dictum faucibus eget
-      magna. Vivamus in hendrerit magna, non pellentesque metus. Morbi orci odio,
-      dictum at efficitur sit amet, luctus in ipsum. Nunc pellentesque mi vel dui
-      vulputate, a lobortis lacus venenatis. Phasellus pellentesque dolor id feugiat
-      faucibus. Etiam vehicula nunc velit, in consequat nisl feugiat nec.
+  - question: 'Suggestions : Des applications pour trouver des idées d’activités'
+    answer: |-
+      Le ministère des Sports a [recensé pour vous plusieurs applications offrant des suggestions d’exercices et d’activités](http://sports.gouv.fr/IMG/pdf/appsportliste-2.pdf), répondant à vos différentes attentes : Me détendre, Me défouler, Me muscler, Faire attention à son poids, Activités adaptées aux personnes en situation de handicap, Activités rapides pour les pressés, ou Activités en famille.
+
+      Afin de continuer à vous soutenir dans votre pratique d’activité physique, le ministère a également accordé son haut patronage aux plateformes numériques Be Sport, My Coach , Goove.app et BougeChezToi dont les contenus correspondent à des critères de qualité vérifiés par l’Observatoire national de l’activité physique et de la sédentarité (ONAPS).
+
+      Ces acteurs se sont engagés à proposer gratuitement à tous les publics leurs supports conçus par des professionnels du sport, de la santé et de l’activité physique adaptée.
+
+      Des séances d’entraînement variées à base d’exercices de renforcement musculaire, stretching et mouvements fondamentaux sont notamment proposées en accès libre sur les différentes plateformes (mobile, tablette et ordinateur).
+
+      Liens vers les applications :
+
+      Be Sport (disponible sur [Apple Store](https://apps.apple.com/us/app/be-sport/id1104216922) et [Google Play](https://play.google.com/store/apps/details?id=com.besport.www.mobile&hl=en_GB))
+
+      Activiti by My Coach (disponible sur [Apple Store](https://apps.apple.com/fr/app/activiti-x-mycoach/id1503192846) et [Google Play](https://play.google.com/store/apps/details?id=com.mycoachsport.activiti&hl=en_US))
+
+      [Goove app](https://www.goove.app/free-access/themes) (web-application disponible sans téléchargement)
+
+      Bouge chez toi (disponible sur [Apple Store](https://apps.apple.com/us/app/bougecheztoi/id1504279693?ign-mpt=uo%3D2))
 menus:
   main:
     title: La boite à outils
