@@ -18,11 +18,8 @@ sections:
 - type: section_features
   template: section_features
   section_id: features
-  title: 'Qu''est-ce que c''est ? '
-  subtitle: Lorsqu’on doit rester chez soi, maintenir une activité physique régulière
-    peut aider à maintenir la forme et le moral. Pour vous accompagner, le ministère
-    des sports met à votre disposition Bouger Chez Vous, un outil pour vous aider
-    à intégrer l’activité physique dans votre nouvelle routine à la maison.
+  title: ''
+  subtitle: ''
   bg: gray
   featureslist:
   - title: "Des conseils et idées d'activités ouverts à tous \U0001F450"
@@ -43,13 +40,6 @@ sections:
     actions:
     - label: Voir des exemples de rappels et conseils
       url: "/blog"
-  - title: Cool Feature of Your Services
-    content: In ante enim, lobortis quis congue vel, finibus sit amet mi. Aenean quis
-      venenatis sem. Proin eget massa id metus eleifend maximus sit amet nec urna.
-    image: images/feature3.png
-    actions:
-    - label: Learn More
-      url: "/features"
 - type: section_cta
   template: section_cta
   section_id: call-to-action
