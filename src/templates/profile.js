@@ -117,7 +117,7 @@ export default class Profile extends React.Component {
                 </span>
               </label>
               <div className="input_container">
-                <select id="time" name="timeExerciseEachDay" className="time" onChange={this.handleChange}>
+                <select value={this.state.timeExerciseEachDay} id="time" name="timeExerciseEachDay" className="time" onChange={this.handleChange}>
                   <option></option>
                   {options.map((value, index) => {
                     return (
@@ -137,7 +137,7 @@ export default class Profile extends React.Component {
                 </span>
               </label>
               <div className="input_container">
-                <select  onChange={this.handleChange} id="goals" name="physicalActivityGoal" className="goals">
+                <select value={this.state.physicalActivityGoal}  onChange={this.handleChange} id="goals" name="physicalActivityGoal" className="goals">
                   <option></option>
                   <option value="Se musler">Se musler</option>
                   <option value="Se détendre">Se détendre</option>
