@@ -3,6 +3,9 @@ import { FaEnvelope, FaLock, FaRegEyeSlash, FaRegEye } from "react-icons/fa";
 import { Link , navigate} from "gatsby";
 import { logIn , isLoggedIn} from "../services/auth";
 
+import "react-loader-spinner/dist/loader/css/react-spinner-loader.css";
+import Loader from "react-loader-spinner";
+
 class LoginForm extends Component {
   constructor(props) {
     super(props);
@@ -10,6 +13,7 @@ class LoginForm extends Component {
       hide: true,
       email: ``,
       password: ``,
+      loading: false
     };
     this.handleToggler = this.handleToggler.bind(this);
     this.handleUpdate = this.handleUpdate.bind(this);
@@ -33,13 +37,18 @@ class LoginForm extends Component {
   };
   handleSubmit = (event) => {
     event.preventDefault();
+    this.setState({ loading: true});
+
     logIn(this.state.email, this.state.password).then(() => {
+      this.setState({
+        loading: false,
+      });
       if (typeof window !== `undefined`) window.location.replace(`/profile`)
     });
   };
 
   render() {
-    const { hide, email, password } = this.state;
+    const { hide, email, password , loading} = this.state;
     return (
       <form
         onSubmit={(event) => {
@@ -95,7 +104,7 @@ class LoginForm extends Component {
         </div>
 
         <button className="submit-btn" type="submit">
-          Sing In
+          {loading ? <Loader type="Oval" color="#fff" /> : "Sing In"}
         </button>
       </form>
     );

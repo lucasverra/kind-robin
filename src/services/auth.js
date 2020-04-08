@@ -5,7 +5,7 @@ export const isLoggedIn = () => {
 }
 
 export const signUp = (email, password) => {
-      User.signUp(email, password).catch(err => console.log(err));
+      return User.signUp(email, password, {email});
 };
 
 export const logIn = (email, password) => {

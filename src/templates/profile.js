@@ -15,7 +15,7 @@ export default class Profile extends React.Component {
       physicalActivityGoal:'',
       timeExerciseEachDay:'',
       hasNotificationsPush:false,
-      hasNotificationsEmail:true,
+      hasNotificationsEmail:false,
       hasChildFriendlyContent:false,
     };
   }
