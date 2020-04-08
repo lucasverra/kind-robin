@@ -16,7 +16,17 @@ export const logOut = (email, password) => {
     User.logOut().catch(err => console.log(err));
 };
 
-export const setPrefrence = () => {
-    User.logOut().catch(err => console.log(err));
+export const setPrefrence = (userPreference) => {
+    if(User.current()){
+        User.current().set({userPreference})
+        User.current().save()
+            .then(x => console.log(x))
+            .catch( err => console.log(err))
+    }
 };
+
+
+export const getCurrentUser = () => {
+    return User.current()
+}
 
