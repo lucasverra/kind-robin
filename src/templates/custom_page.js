@@ -3,14 +3,30 @@ import _ from "lodash";
 
 import { Layout } from "../components/index";
 import { safePrefix, htmlToReact } from "../utils";
-
+import "react-loader-spinner/dist/loader/css/react-spinner-loader.css";
+import Loader from "react-loader-spinner";
 import "../sass/custom.scss";
 
 export default class CustomPage extends React.Component {
+  constructor(props) {
+    super(props);
+    this.state = {
+      loading: false,
+    };
+  }
   handleSubmit = (event) => {
     event.preventDefault();
+    this.setState({
+      loading: true,
+    });
+    setTimeout(() => {
+      this.setState({
+        loading: false,
+      });
+    }, 2000);
   };
   render() {
+    const { loading } = this.state;
     return (
       <Layout {...this.props}>
         <div className="outer">
@@ -126,8 +142,12 @@ export default class CustomPage extends React.Component {
                   </div>
 
                   <div className="btn-container">
-                    <button className="button secondary" type="submit">
-                      Submit
+                    <button
+                      className="button secondary"
+                      type="submit"
+                      disabled={loading}
+                    >
+                      {loading ? <Loader type="Oval" color="#fff" /> : "Submit"}
                     </button>
                   </div>
                 </form>
