@@ -17,8 +17,8 @@ Tout au long du confinement, **Goove**, **Activiti by My Coach** et **BeSport** 
 
 Conçus par des professionnels du sport, ils sont en accès libre sur les différentes plateformes (mobile, tablette et ordinateur).
 
-* **A la recherche d'un entrainement ?** Goove vous offre des séances pour senior et débutant, de souplesse et de renforcement musculaire
-* **Motivé(e) mais besoin de commencer en douceur ?** Activiti by My Coach vous propose des exercices simples et adaptés au confinement
-* **Envie de garder le contact avec votre club de sport ?** BeSport vous permet de rester en contact avec vos coéquipiers et d'organiser des événements virtuels
+* **A la recherche d'un entrainement ?** [Goove](https://www.goove.app/free-access/themes) vous offre des séances pour senior et débutant, de souplesse et de renforcement musculaire
+* **Motivé(e) mais besoin de commencer en douceur ?** [Activiti by My Coach](https://play.google.com/store/apps/details?id=com.mycoachsport.activiti&hl=en_US) vous propose des exercices simples et adaptés au confinement 
+* **Envie de garder le contact avec votre club de sport ?** [BeSport](https://play.google.com/store/apps/details?id=com.besport.www.mobile&hl=en_GB) vous permet de rester en contact avec vos coéquipiers et d'organiser des événements virtuels
 
 **Alors, pourquoi ne pas les essayer dés aujourd'hui ?**
