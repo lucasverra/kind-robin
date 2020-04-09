@@ -15,7 +15,7 @@ export default class Profile extends React.Component {
       physicalActivityGoal:'',
       timeExerciseEachDay:'',
       hasNotificationsPush:false,
-      hasNotificationsEmail:true,
+      hasNotificationsEmail:false,
       hasChildFriendlyContent:false,
     };
   }
@@ -25,23 +25,29 @@ export default class Profile extends React.Component {
   };
 
   handleChange = e => {
-      debugger
     this.setState({
       [e.target.name]: e.target.value
     });
   };
+
+  handleOptionsChange = e => {
+  debugger
+  this.setState({
+    [e.target.name]: {key:e.target.key, value:e.target.value}
+  });
+};
   
   componentDidMount(){
     var OneSignal = window.OneSignal || [];
     OneSignal.push(function() {
     OneSignal.init({
         appId: "2267b1d7-ec2c-4e4e-8ded-ade2a7ff194d",
+        allowLocalhostAsSecureOrigin: true
       });
       OneSignal.setDefaultNotificationUrl("https://kind-robin-60456.netlify.com/profile");
       //OneSignal.setEmail("a@b.com");
       //OneSignal.sendTag("toto", "titi"); 
     });
-    debugger
 
     if(getCurrentUser){
         getCurrentUser().fetch()
@@ -117,7 +123,7 @@ export default class Profile extends React.Component {
                 </span>
               </label>
               <div className="input_container">
-                <select id="time" name="timeExerciseEachDay" className="time" onChange={this.handleChange}>
+                <select value={this.state.timeExerciseEachDay} id="time" name="timeExerciseEachDay" className="time" onChange={this.handleChange}>
                   <option></option>
                   {options.map((value, index) => {
                     return (
@@ -137,11 +143,11 @@ export default class Profile extends React.Component {
                 </span>
               </label>
               <div className="input_container">
-                <select  onChange={this.handleChange} id="goals" name="physicalActivityGoal" className="goals">
+                <select value={this.state.physicalActivityGoal.value}  onChange={this.handleOptionsChange} id="goals" name="physicalActivityGoal" className="goals">
                   <option></option>
-                  <option value="Se musler">Se musler</option>
-                  <option value="Se détendre">Se détendre</option>
-                  <option value="Se défouler">Se défouler</option>
+                  <option key={'buildMuscle'} value="Se musler">Se musler</option>
+                  <option key={'relax'} value="Se détendre">Se détendre</option>
+                  <option key={'letOffSteam'} value="Se défouler">Se défouler</option>
                 </select>
               </div>
             </div>
