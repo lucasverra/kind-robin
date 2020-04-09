@@ -84,7 +84,7 @@ sections:
       Bouge chez toi (disponible sur [Apple Store](https://apps.apple.com/us/app/bougecheztoi/id1504279693?ign-mpt=uo%3D2))
 menus:
   main:
-    title: La boite à outils
+    title: Les Ressources 
     weight: 3
 template: landing
 
