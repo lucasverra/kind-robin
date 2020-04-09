@@ -7,7 +7,7 @@ title: 3 applications gratuites pour identifier des activités sportives adapté
 subtitle: ''
 date: 2020-04-08T23:00:00.000+00:00
 thumb_img_path: "/images/unnamed-1.png"
-img_path: "/images/unnamed-2.png"
+img_path: ''
 excerpt: ''
 
 ---
