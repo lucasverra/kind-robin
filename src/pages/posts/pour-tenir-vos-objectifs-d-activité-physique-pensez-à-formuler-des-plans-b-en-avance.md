@@ -4,7 +4,7 @@ categoriepost:
 template: post
 title: Pour tenir vos objectifs d'activité physique, pensez à formuler des plans B
   en avance !
-subtitle: Essayez cette exercice simple pour maintenir vos plans
+subtitle: Essayez cette exercice simple pour maintenir votre rhythme
 date: 2020-04-09T00:00:00+01:00
 thumb_img_path: "/images/make-an-exercise-plan-full.jpg"
 img_path: ''
