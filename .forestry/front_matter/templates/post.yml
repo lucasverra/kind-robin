@@ -44,15 +44,11 @@ fields:
   config:
     required: true
 pages:
-- src/pages/posts/Azimuth-Improvements.md
-- src/pages/posts/Customer-Loyalty.md
-- src/pages/posts/Customer-Service-Skills-that-Every-Employee-Needs.md
-- src/pages/posts/Design-Azimuth.md
-- src/pages/posts/Design-Team-Collaborates.md
-- src/pages/posts/Sales-as-Service.md
-- src/pages/posts/Set-Big-Goals.md
-- src/pages/posts/User-Journey-Mapping.md
 - src/pages/posts/bougezchezvous-les-5-conseils-de-sarah-ourahmoune-championne-de-boxe.md
+- src/pages/posts/ce-week-end-je-m-entraîne-avec-les-champions.md
+- src/pages/posts/de-nombreux-studios-offrent-des-cours-de-sport-gratuits-en-ligne.md
+- src/pages/posts/essayez-ces-cours-d-ep-en-ligne.md
 - src/pages/posts/le-premier-pas-vers-une-routine-active-faire-un-plan.md
-- src/pages/posts/post-test.md
-- src/pages/posts/working-from-home.md
+- src/pages/posts/les-studios-gratuits-offrant-des-cours-de-yoga-pilates-et-relaxation.md
+- src/pages/posts/pour-tenir-vos-objectifs-d-activité-physique-pensez-à-formuler-des-plans-b-en-avance.md
+- src/pages/posts/vous-ne-savez-pas-par-quelle-activité-commencer-laissez-vous-guider-3-applications-gratuites-pour-identifier-des-activités-sportives-adaptées-à-tous.md
