@@ -44,7 +44,6 @@ fields:
   config:
     required: true
 pages:
-- src/pages/posts/Azimuth-Improvements.md
 - src/pages/posts/Customer-Loyalty.md
 - src/pages/posts/Customer-Service-Skills-that-Every-Employee-Needs.md
 - src/pages/posts/Design-Azimuth.md
