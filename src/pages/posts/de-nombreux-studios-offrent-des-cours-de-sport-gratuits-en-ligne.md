@@ -5,7 +5,7 @@ title: De nombreux studios offrent des cours de sport gratuits en ligne
 subtitle: 'Du mal à vous motiver sans vos cours de sport ? '
 date: 2020-04-09T00:00:00+01:00
 thumb_img_path: "/images/LesMills.png"
-img_path: "/images/LesMills-1.png"
+img_path: ''
 excerpt: ''
 
 ---
