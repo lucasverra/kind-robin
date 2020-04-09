@@ -1,6 +1,7 @@
 ---
-title: Les ressources
-subtitle: "Ce guide vous fournit une liste des ressources sportives. "
+title: Comment s’est passée cette semaine à “bouger chez vous” ?
+subtitle: 'Remplissez ces quelques questions pour vous aider à continuer sur votre
+  lancée. '
 menus:
   main:
     title: Vos retours
