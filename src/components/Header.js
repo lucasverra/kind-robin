@@ -1,6 +1,12 @@
 import React from "react";
 import _ from "lodash";
-import { FaNewspaper, FaHome, FaBullhorn, FaPager } from "react-icons/fa";
+import {
+  FaNewspaper,
+  FaHome,
+  FaGift,
+  FaClipboardCheck,
+  FaUserCircle,
+} from "react-icons/fa";
 
 import { Link, safePrefix } from "../utils";
 
@@ -11,10 +17,10 @@ export default class Header extends React.Component {
         return <FaHome />;
       } else if (title === "Les Articles") {
         return <FaNewspaper />;
-      } else if (title === "Pricing") {
-        return <FaBullhorn />;
-      } else if (title === "Les Ressources") {
-        return <FaPager />;
+      } else if (title === "La boite à outils") {
+        return <FaGift />;
+      } else if (title === "Vos retours") {
+        return <FaClipboardCheck />;
       }
     };
     return (
@@ -116,6 +122,7 @@ export default class Header extends React.Component {
                                   to={safePrefix(_.get(action, "url"))}
                                   className="button"
                                 >
+                                  <FaUserCircle />
                                   {_.get(action, "label")}
                                 </Link>
                               </li>

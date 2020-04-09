@@ -1,4 +1,6 @@
 ---
+categoriepost:
+- Se défouler
 title: A Guide To User Journey Mapping
 subtitle: >-
   Praesent ut cursus enim, sit amet dictum turpis. Etiam justo orci, consectetur
