@@ -1,5 +1,6 @@
 ---
-categoriepost: []
+categoriepost:
+- Se défouler
 template: post
 title: De nombreux studios offrent des cours de sport gratuits en ligne
 subtitle: 'Du mal à vous motiver sans vos cours de sport ? '
