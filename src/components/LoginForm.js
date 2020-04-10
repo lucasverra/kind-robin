@@ -95,7 +95,7 @@ class LoginForm extends Component {
         </div>
 
         <button className="submit-btn" type="submit">
-          Sing In
+          Se connecter
         </button>
       </form>
     );
