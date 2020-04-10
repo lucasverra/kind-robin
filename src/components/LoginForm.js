@@ -106,7 +106,6 @@ class LoginForm extends Component {
         <button className="submit-btn" type="submit">
 
           {loading ? <Loader type="Oval" color="#fff" /> : "Se connecter"}
-          Se connecter
 
         </button>
       </form>
