@@ -156,10 +156,10 @@ export default class Profile extends React.Component {
                     var OneSignal = window.OneSignal || [];
                     OneSignal.push(function() {
                     OneSignal.init({
-                        appId: "2267b1d7-ec2c-4e4e-8ded-ade2a7ff194d",
+                        appId: "6936bf61-536c-401e-b409-0f609f670749",
                         allowLocalhostAsSecureOrigin: true
                       });
-                      OneSignal.setDefaultNotificationUrl("https://kind-robin-60456.netlify.com/profile");
+                      OneSignal.setDefaultNotificationUrl("https://bougezchezvous-sprint-client.netlify.com/profile");
                       //OneSignal.setEmail("a@b.com");
                       //OneSignal.sendTag("toto", "titi"); 
                     });
