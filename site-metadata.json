@@ -15,7 +15,7 @@
     }
   },
   "footer": {
-    "logo_img": "/images/minist.png",
+    "logo_img": "/images/MIN_Sports_CMJN_Concours_Vecto.jpg",
     "tagline": "Sous le haut patronage du Ministère des sports",
     "has_nav": true,
     "nav_title": "Notre mission",
@@ -24,7 +24,7 @@
     "has_subscribe": false,
     "subscribe_title": "Subscribe",
     "subscribe_content": "Stay up to date with our latest developments.",
-    "content": "&copy; Bougez Chez Vous 2020. Marque déposée.",
+    "content": "&copy; Bougez Chez Vous 2020.",
     "links": [
       {
         "text": "Ministère des sports",
