@@ -1,18 +1,23 @@
 ---
 title: Contact
 sections:
-  - type: section_contact
-    template: section_contact
-    section_id: contact
-    title: Contact
-    content: >-
-      Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam a metus
-      quis lorem malesuada luctus. Cras lacinia, eros at dapibus molestie, risus
-      tortor pretium ligula.
-    bg: gray
+- template: section_content
+  bg: gray
+  type: section_content
+  section_id: Prendre contact
+  title: Comment pouvons-nous vous aider ?
+  content: |-
+    Afin de nous diriger vos recommandations ou demandes, veillez-nous écrire à :
+
+    ### contact@bi.team
+  image: ''
+  actions:
+  - label: Revenir à l'Acceuil
+    url: "/"
 menus:
   secondary:
     title: Contact
     weight: 3
 template: landing
+
 ---
