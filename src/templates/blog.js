@@ -46,6 +46,10 @@ export default class Blog extends React.Component {
 
     const newCats = handleDuplocateCategories(categories);
 
+    const getPostTag = (tag) => {
+      return "tag-" + tag.toString().replace(/\s+/g, "-").toLowerCase();
+    };
+
     return (
       <Layout {...this.props}>
         <div className="outer">
@@ -101,6 +105,13 @@ export default class Blog extends React.Component {
                               {_.get(post, "frontmatter.title")}
                             </Link>
                           </h2>
+                          <span
+                            className={`tag ${getPostTag(
+                              _.get(post, "frontmatter.categoriepost")
+                            )}`}
+                          >
+                            {_.get(post, "frontmatter.categoriepost")}
+                          </span>
                         </header>
                         <div className="post-excerpt">
                           <p>{_.get(post, "frontmatter.excerpt")}</p>

@@ -496,3 +496,39 @@ button {
   background-color: #333 !important;
   color: #fff !important;
 }
+
+.tag {
+  display: inline-block;
+  margin-top: 10px;
+  font-size: 10px;
+  text-transform: lowercase;
+  padding: 5px 10px;
+  background-color: #000;
+  color: #fff;
+  border-radius: 5px;
+
+  &-général {
+    background-color: #1dd1a1 !important;
+    color: #fff !important;
+  }
+
+  &-avec-des-enfants {
+    background-color: #ff9ff3 !important;
+    color: #fff !important;
+  }
+
+  &-se-défouler {
+    background-color: #ff6b6b !important;
+    color: #fff !important;
+  }
+
+  &-se-détendre {
+    background-color: #48dbfb !important;
+    color: #fff !important;
+  }
+
+  &-se-muscler {
+    background-color: #feca57 !important;
+    color: #fff !important;
+  }
+}
