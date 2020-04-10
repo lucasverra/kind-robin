@@ -11,7 +11,6 @@ const Voucher = Parse.Object.extend('Voucher')
 const VoucherTemplate = Parse.Object.extend('VoucherTemplate')
 
 export const initializeParse = () => {
-    debugger
   Parse.initialize(LOCAL_APP_ID, LOCAL_JAVASCRIPT_KEY)
   Parse.serverURL = LOCAL_SERVER_URL;
   
