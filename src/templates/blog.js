@@ -56,7 +56,9 @@ export default class Blog extends React.Component {
                   key={id}
                   className={`${
                     category === activeCategory && "activeCat"
-                  } filter_category`}
+                  } filter_category filter_category-${category
+                    .replace(/\s+/g, "-")
+                    .toLowerCase()}`}
                   onClick={() => this.handleFilter(category)}
                 >
                   {category}

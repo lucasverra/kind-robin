@@ -361,15 +361,14 @@ button {
     letter-spacing: 1px;
     background-color: #fafafa;
     cursor: pointer;
-    color: #333;
     font-size: 12px;
     padding: 10px 25px;
-    border: 1px solid #333;
+    border: 2px solid;
     border-radius: 20rem;
     transition: all 0.3s;
     margin-bottom: 20px;
 
-    @media(max-width: 700px){
+    @media (max-width: 700px) {
       font-size: 9px;
       padding: 5px 13px;
       margin-bottom: 10px;
@@ -386,8 +385,109 @@ button {
     &:not(:last-child) {
       margin-right: 15px;
 
-      @media(max-width: 700px){
+      @media (max-width: 700px) {
         margin-right: 7px;
+      }
+    }
+
+    &-all {
+      border-color: #333 !important;
+
+      &:hover,
+      &:focus,
+      &:visited,
+      &:active {
+        background-color: #333;
+        color: #fff;
+      }
+    }
+
+    &-général {
+      border-color: #1dd1a1 !important;
+      color: #1dd1a1 !important;
+
+      &.activeCat {
+        background-color: #1dd1a1 !important;
+        color: #fff !important;
+      }
+
+      &:hover,
+      &:focus,
+      &:visited,
+      &:active {
+        background-color: #1dd1a1 !important;
+        color: #fff !important;
+      }
+    }
+
+    &-avec-des-enfants {
+      border-color: #ff9ff3 !important;
+      color: #ff9ff3 !important;
+
+      &.activeCat {
+        background-color: #ff9ff3 !important;
+        color: #fff !important;
+      }
+
+      &:hover,
+      &:focus,
+      &:visited,
+      &:active {
+        background-color: #ff9ff3 !important;
+        color: #fff !important;
+      }
+    }
+
+    &-se-défouler {
+      border-color: #ff6b6b !important;
+      color: #ff6b6b !important;
+
+      &.activeCat {
+        background-color: #ff6b6b !important;
+        color: #fff !important;
+      }
+
+      &:hover,
+      &:focus,
+      &:visited,
+      &:active {
+        background-color: #ff6b6b !important;
+        color: #fff !important;
+      }
+    }
+
+    &-se-détendre {
+      border-color: #48dbfb !important;
+      color: #48dbfb !important;
+
+      &.activeCat {
+        background-color: #48dbfb !important;
+        color: #fff !important;
+      }
+      &:hover,
+      &:focus,
+      &:visited,
+      &:active {
+        background-color: #48dbfb !important;
+        color: #fff !important;
+      }
+    }
+
+    &-se-muscler {
+      border-color: #feca57 !important;
+      color: #feca57 !important;
+
+      &.activeCat {
+        background-color: #feca57 !important;
+        color: #fff !important;
+      }
+
+      &:hover,
+      &:focus,
+      &:visited,
+      &:active {
+        background-color: #feca57 !important;
+        color: #fff !important;
       }
     }
   }
