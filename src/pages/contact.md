@@ -7,7 +7,7 @@ sections:
   section_id: Prendre contact
   title: Comment pouvons-nous vous aider ?
   content: |-
-    Afin de nous diriger vos reccomendations ou demandes, veillez nous écrire à :
+    Afin de nous diriger vos recommandations ou demandes, veillez-nous écrire à :
 
     ### contact@bi.team
   image: ''
