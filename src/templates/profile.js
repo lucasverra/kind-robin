@@ -223,7 +223,7 @@ export default class Profile extends React.Component {
 
             <div className="btn-container">
               <button className="cancel-btn" type="button" onClick={this.handleLogOut}>
-                annuler
+                Déconnexion
               </button>
               <button className="submit-btn" type="submit">
                 sauvegarder
