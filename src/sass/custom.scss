@@ -532,3 +532,40 @@ button {
     color: #fff !important;
   }
 }
+
+.btn-submit {
+  width: 200px;
+  height: 50px;
+  transition: all 0.3s;
+  background-color: #0072ff !important;
+  color: #fff !important;
+  opacity: 1;
+
+  &.btn-loading {
+    transition: all 0.3s;
+    opacity: .6 !important;
+    cursor: not-allowed;
+  }
+  &.btn-success {
+    transition: all 0.3s;
+    background-color: #4bb543 !important;
+    border-color: #4bb543 !important;
+    svg {
+      transition: all 0.3s;
+      font-size: 24px;
+      margin-top: 3px;
+      color: #fff !important;
+    }
+  }
+  &.btn-error {
+    transition: all 0.3s;
+    background-color: #a63232 !important;
+    border-color: #a63232 !important;
+    svg {
+      transition: all 0.3s;
+      font-size: 24px;
+      margin-top: 3px;
+      color: #fff !important;
+    }
+  }
+}
