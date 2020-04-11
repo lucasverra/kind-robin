@@ -10,6 +10,14 @@ img_path: ''
 excerpt: ''
 
 ---
+<iframe
+  width="100%"
+  height="315"
+  src="https://www.youtube-nocookie.com/embed/tUPWC-WsDQA?rel=0"
+  frameborder="0"
+  allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
+  allowfullscreen
+></iframe>
 L'école est fermée, mais il existe encore de nombreuses façons d'encourager votre enfant à rester actif! 
 
 Les profs de sport trouvent de nouvelles façons d'encourager des familles à bougez en s'invitant chaque jour dans votre salon. 

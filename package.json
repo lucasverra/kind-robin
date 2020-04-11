@@ -14,8 +14,11 @@
     "classnames": "^2.2.6",
     "fs-extra": "^7.0.1",
     "gatsby": "2.3.30",
+    "gatsby-plugin-manifest": "^2.3.3",
     "gatsby-plugin-react-helmet": "^3.0.0",
     "gatsby-plugin-sass": "^2.2.1",
+    "gatsby-plugin-sharp": "^2.5.4",
+    "gatsby-remark-embedder": "^2.0.0",
     "gatsby-source-filesystem": "2.0.28",
     "gatsby-transformer-remark": "2.3.8",
     "js-yaml": "^3.12.2",
@@ -31,10 +34,10 @@
     "react-helmet": "^5.2.0",
     "react-html-parser": "^2.0.2",
     "react-icons": "^3.9.0",
+    "react-loader-spinner": "^3.1.5",
     "react-script-tag": "^1.1.2",
     "react-toggle-button": "^2.2.0",
     "rehype-react": "^3.0.2",
-    "sprintf-js": "^1.1.2",
-    "react-loader-spinner": "^3.1.5"
+    "sprintf-js": "^1.1.2"
   }
 }
