@@ -1,24 +1,18 @@
-import React from "react";
-import PropTypes from "prop-types";
+import React from "react"
+import PropTypes from "prop-types"
 
 export default function HTML(props) {
   return (
     <html {...props.htmlAttributes}>
       <head>
-        <meta name="theme-color" content="#fff" />
-
-        <meta name="apple-mobile-web-app-status-bar-style" content="#fff" />
-        <script
-          src="https://cdn.onesignal.com/sdks/OneSignalSDK.js"
-          async=""
-        ></script>
-        <script
-          dangerouslySetInnerHTML={{
-            __html: `
+      <script src="https://cdn.onesignal.com/sdks/OneSignalSDK.js" async=""></script>
+      <script
+        dangerouslySetInnerHTML={{
+          __html: `
               
               `,
-          }}
-        />
+        }}
+      />
         {props.headComponents}
       </head>
       <body {...props.bodyAttributes}>
@@ -34,7 +28,7 @@ export default function HTML(props) {
         {props.postBodyComponents}
       </body>
     </html>
-  );
+  )
 }
 
 HTML.propTypes = {
@@ -44,4 +38,4 @@ HTML.propTypes = {
   preBodyComponents: PropTypes.array,
   body: PropTypes.string,
   postBodyComponents: PropTypes.array,
-};
+}
