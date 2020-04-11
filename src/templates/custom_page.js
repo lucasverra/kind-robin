@@ -21,8 +21,7 @@ export default class CustomPage extends React.Component {
       buttonState: "loading",
     });
     setTimeout(() => this.setState({ buttonState: "success" }), 2000);
-    setTimeout(() => this.setState({ buttonState: "error" }), 4000);
-    setTimeout(() => this.setState({ buttonState: "" }), 6000);
+    setTimeout(() => this.setState({ buttonState: "" }), 4000);
   };
   conditionalButton = () => {
     let { buttonState } = this.state;

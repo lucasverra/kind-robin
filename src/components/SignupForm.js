@@ -5,44 +5,77 @@ import { signUp } from "../services/auth";
 
 import "react-loader-spinner/dist/loader/css/react-spinner-loader.css";
 import Loader from "react-loader-spinner";
+import { FaCheck, FaTimes } from "react-icons/fa";
 
 class SignupForm extends Component {
   constructor(props) {
     super(props);
     this.state = {
       hide: true,
-      loading: false
+      buttonState: "",
     };
     this.handleToggler = this.handleToggler.bind(this);
   }
 
   handleToggler() {
     this.setState({
-      hide: !this.state.hide
+      hide: !this.state.hide,
     });
   }
   handleSubmit = (event) => {
     event.preventDefault();
-    signUp(this.state.email, this.state.password).then(
-      () => {
-        this.setState({
-          loading: false,
-        });
-        if (typeof window !== `undefined`) window.location.replace(`/profile`)
-      }
-    )
     this.setState({
-      loading: true,
+      buttonState: "loading",
     });
-  }
+    setTimeout(() => {
+      try {
+        signUp(this.state.email, this.state.password).then(() => {
+          this.setState({
+            buttonState: "success",
+          });
+          if (typeof window !== `undefined`)
+            window.location.replace(`/profile`);
+        });
+      } catch (e) {
+        this.setState({
+          buttonState: "error",
+        });
+        console.log(e.message);
+      } finally {
+        this.setState({
+          buttonState: "",
+        });
+      }
+    }, 1500);
+  };
+
+  conditionalButton = () => {
+    let { buttonState } = this.state;
+    if (buttonState === "loading") {
+      return <Loader type="Oval" color="#fff" />;
+    }
+    if (buttonState === "success") {
+      return <FaCheck />;
+    }
+    if (buttonState === "error") {
+      return <FaTimes />;
+    } else {
+      return "Sign Up";
+    }
+  };
 
   handleChange = (event) => {
-    this.setState({[event.target.name]: event.target.value})
-  }
+    this.setState({ [event.target.name]: event.target.value });
+  };
   render() {
-    const { hide, loading } = this.state;
+    const { hide, buttonState } = this.state;
     return (
-      <form name="signupForm" method="POST" className="signup-form"  onSubmit={this.handleSubmit}>
+      <form
+        name="signupForm"
+        method="POST"
+        className="signup-form"
+        onSubmit={this.handleSubmit}
+      >
         <div className="form-row">
           <label>
             <span className="screen-reader-text">Email</span>
@@ -83,8 +116,13 @@ class SignupForm extends Component {
           </div>
         </div>
 
-        <button className="submit-btn" type="submit">
-        {loading ? <Loader type="Oval" color="#fff" /> : "Create An Account"}
+        <button
+          className={`${
+            buttonState && `btn-${buttonState}`
+          } button secondary btn-submit submit-btn`}
+          type="submit"
+        >
+          {this.conditionalButton()}
         </button>
       </form>
     );
