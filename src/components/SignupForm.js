@@ -7,6 +7,8 @@ import "react-loader-spinner/dist/loader/css/react-spinner-loader.css";
 import Loader from "react-loader-spinner";
 import { FaCheck, FaTimes } from "react-icons/fa";
 
+import "../sass/custom.scss";
+
 class SignupForm extends Component {
   constructor(props) {
     super(props);
@@ -27,26 +29,28 @@ class SignupForm extends Component {
     this.setState({
       buttonState: "loading",
     });
-    setTimeout(() => {
-      try {
-        signUp(this.state.email, this.state.password).then(() => {
-          this.setState({
-            buttonState: "success",
-          });
+    signUp(this.state.email, this.state.password)
+      .then(() => {
+        this.setState({
+          buttonState: "success",
+        });
+        setTimeout(() => {
           if (typeof window !== `undefined`)
             window.location.replace(`/profile`);
-        });
-      } catch (e) {
+        }, 1500);
+      })
+      .catch((e) => {
         this.setState({
           buttonState: "error",
         });
-        console.log(e.message);
-      } finally {
-        this.setState({
-          buttonState: "",
-        });
-      }
-    }, 1500);
+      })
+      .finally(() => {
+        setTimeout(() => {
+          this.setState({
+            buttonState: "",
+          });
+        }, 3000);
+      });
   };
 
   conditionalButton = () => {

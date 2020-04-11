@@ -1,7 +1,7 @@
 import React from "react";
 import { Layout } from "../components/index";
 import ToggleButton from "react-toggle-button";
-import { isLoggedIn } from "../services/auth";
+import { isLoggedIn, logOut } from "../services/auth";
 import { setPrefrence, getCurrentUser } from "../services/auth";
 import { FaCheck, FaTimes } from "react-icons/fa";
 import Loader from "react-loader-spinner";
@@ -25,11 +25,6 @@ export default class Profile extends React.Component {
   handleSubmit = (event) => {
     event.preventDefault();
     setPrefrence(this.state);
-    this.setState({
-      buttonState: "loading",
-    });
-    setTimeout(() => this.setState({ buttonState: "error" }), 2000);
-    setTimeout(() => this.setState({ buttonState: "" }), 4000);
   };
 
   conditionalButton = () => {
@@ -58,6 +53,11 @@ export default class Profile extends React.Component {
     this.setState({
       [e.target.name]: { key: e.target.key, value: e.target.value },
     });
+  };
+
+  handleLogOut = () => {
+    logOut();
+    if (typeof window !== `undefined`) window.location.replace(`/`);
   };
 
   componentDidMount() {
@@ -262,8 +262,12 @@ export default class Profile extends React.Component {
               </div>
 
               <div className="btn-container">
-                <button className="cancel-btn" type="submit">
-                  annuler
+                <button
+                  className="cancel-btn"
+                  type="button"
+                  onClick={this.handleLogOut}
+                >
+                  Déconnexion
                 </button>
                 <button
                   className={`${

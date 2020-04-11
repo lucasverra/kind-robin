@@ -41,20 +41,27 @@ class LoginForm extends Component {
     this.setState({
       buttonState: "loading",
     });
-    setTimeout(() => {
-      try {
-        logIn(this.state.email, this.state.password).then(() => {
-          setTimeout(() => this.setState({ buttonState: "success" }), 1500);
+    logIn(this.state.email, this.state.password)
+      .then(() => {
+        this.setState({ buttonState: "success" });
+        setTimeout(() => {
           if (typeof window !== `undefined`)
             window.location.replace(`/profile`);
+        }, 1500);
+      })
+      .catch((e) => {
+        this.setState({
+          buttonState: "error",
         });
-      } catch (e) {
-        this.setState({ buttonState: "error" });
-        console.log(e.message);
-      } finally {
-        this.setState({ buttonState: "" });
-      }
-    }, 1500);
+        console.log(e);
+      })
+      .finally(() => {
+        setTimeout(() => {
+          this.setState({
+            buttonState: "",
+          });
+        }, 3000);
+      });
   };
 
   conditionalButton = () => {
@@ -121,7 +128,8 @@ class LoginForm extends Component {
         </div>
         <div className="form-row">
           <div className="addition_text">
-            Don't have an account? <Link to="/signup">Sign up here</Link>
+            Vous n'avez pas de compte ?{" "}
+            <Link to="/signup">Enregistrez-vous</Link>
           </div>
           <div className="addition_text">
             Forget password? <Link to="/forgetpassword">Reset</Link>
