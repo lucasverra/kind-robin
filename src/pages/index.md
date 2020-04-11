@@ -11,7 +11,7 @@ sections:
     Lorsqu'on doit rester chez soi, maintenir une activité physique régulière peut aider à maintenir la forme et le moral.
 
     ​Pour vous accompagner, le Ministère des Sports met à votre disposition BougezChezVous, une application pour vous aider à intégrer l’activité physique à votre nouveau quotidien.
-  image: "/images/heroporBGV.png"
+  image: "/images/herobcvmod1.png"
   actions:
   - label: Je m'inscris
     url: "/profile"
@@ -26,7 +26,7 @@ sections:
     content: Que vous soyez expert.e fitness ou un.e néophyte, vous avons recensé
       du contenu de qualité pour encourager l'activité physique à la maison. Les enfants
       sont aussi invités !
-    image: "/images/featcontBCV.png"
+    image: "/images/featcontBCV-1.png"
     actions:
     - label: 'Accéder aux ressources '
       url: "/blog"
