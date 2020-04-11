@@ -2,7 +2,7 @@ import React from "react";
 import { Layout } from "../components/index";
 import ToggleButton from "react-toggle-button";
 import { isLoggedIn } from '../services/auth';
-import { setPrefrence , getCurrentUser } from '../services/auth'
+import { setPrefrence , getCurrentUser, logOut } from '../services/auth'
 
 import "../sass/custom.scss";
 
@@ -29,6 +29,11 @@ export default class Profile extends React.Component {
       [e.target.name]: e.target.value
     });
   };
+
+  handleLogOut = () => { 
+    logOut()
+    if (typeof window !== `undefined`) window.location.replace(`/`)
+  }
 
   handleOptionsChange = e => {
   debugger
@@ -217,8 +222,8 @@ export default class Profile extends React.Component {
             </div>
 
             <div className="btn-container">
-              <button className="cancel-btn" type="submit">
-                annuler
+              <button className="cancel-btn" type="button" onClick={this.handleLogOut}>
+                Déconnexion
               </button>
               <button className="submit-btn" type="submit">
                 sauvegarder

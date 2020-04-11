@@ -26,7 +26,7 @@ sections:
     content: Que vous soyez expert.e fitness ou un.e néophyte, vous avons recensé
       du contenu de qualité pour encourager l'activité physique à la maison. Les enfants
       sont aussi invités !
-    image: "/images/featcontBCV.png"
+    image: "/images/featcontBCV-1.png"
     actions:
     - label: 'Accéder aux ressources '
       url: "/blog"
