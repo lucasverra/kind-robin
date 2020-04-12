@@ -1,8 +1,10 @@
 import React from "react";
 import { Layout } from "../components/index";
 import ToggleButton from "react-toggle-button";
-import { isLoggedIn } from '../services/auth';
-import { setPrefrence , getCurrentUser, logOut } from '../services/auth'
+import { isLoggedIn, logOut } from "../services/auth";
+import { setPrefrence, getCurrentUser } from "../services/auth";
+import { FaCheck, FaTimes } from "react-icons/fa";
+import Loader from "react-loader-spinner";
 
 import "../sass/custom.scss";
 
@@ -10,51 +12,67 @@ export default class Profile extends React.Component {
   constructor(props) {
     super(props);
     this.state = {
-      name:'',
-      exerciceHour:'',
-      physicalActivityGoal:'',
-      timeExerciseEachDay:'',
-      hasNotificationsPush:false,
-      hasNotificationsEmail:false,
-      hasChildFriendlyContent:false,
+      name: "",
+      exerciceHour: "",
+      physicalActivityGoal: "",
+      timeExerciseEachDay: "",
+      hasNotificationsPush: false,
+      hasNotificationsEmail: false,
+      hasChildFriendlyContent: false,
+      buttonState: "",
     };
   }
   handleSubmit = (event) => {
     event.preventDefault();
-    setPrefrence(this.state)
+    setPrefrence(this.state);
   };
 
-  handleChange = e => {
+  conditionalButton = () => {
+    let { buttonState } = this.state;
+    if (buttonState === "loading") {
+      return <Loader type="Oval" color="#fff" />;
+    }
+    if (buttonState === "success") {
+      return <FaCheck />;
+    }
+    if (buttonState === "error") {
+      return <FaTimes />;
+    } else {
+      return "sauvegarder";
+    }
+  };
+
+  handleChange = (e) => {
     this.setState({
-      [e.target.name]: e.target.value
+      [e.target.name]: e.target.value,
     });
   };
 
-  handleLogOut = () => { 
-    logOut()
-    if (typeof window !== `undefined`) window.location.replace(`/`)
-  }
+  handleOptionsChange = (e) => {
+    debugger;
+    this.setState({
+      [e.target.name]: { key: e.target.key, value: e.target.value },
+    });
+  };
 
-  handleOptionsChange = e => {
-  debugger
-  this.setState({
-    [e.target.name]: {key:e.target.key, value:e.target.value}
-  });
-};
-  
-  componentDidMount(){
-    if(getCurrentUser){
-        getCurrentUser().fetch()
-        .then(
-                (user) => {
-                if(user.get('userPreference')){
-                    this.setState({...user.get('userPreference')})
-                }
-                }
-            )
+  handleLogOut = () => {
+    logOut();
+    if (typeof window !== `undefined`) window.location.replace(`/`);
+  };
+
+  componentDidMount() {
+    if (getCurrentUser) {
+      getCurrentUser()
+        .fetch()
+        .then((user) => {
+          if (user.get("userPreference")) {
+            this.setState({ ...user.get("userPreference") });
+          }
+        });
     }
-}
+  }
   render() {
+    const { buttonState } = this.state;
     const options = [
       "6h",
       "7h",
@@ -74,82 +92,102 @@ export default class Profile extends React.Component {
       "21h",
       "22h",
     ];
-    if(!isLoggedIn()){
-        if (typeof window !== `undefined`) window.location.replace(`/Login`)
-        return null
-    }else{
-    return (
-      <Layout {...this.props}>
-        <section className="custom-container-2">
-          <form
-            name="myprefrences"
-            method="POST"
-            className="fmyprefrences-form"
-            onSubmit={(event) => {
-              this.handleSubmit(event);
-            }}
-          >
-            <div className="form-row">
-              <label>
-                Nom
-                <span className="screen-reader-text">Nom</span>
-              </label>
-              <div className="input_container">
-                <input
-                  className="name"
-                  onChange={this.handleChange}
-                  type="text"
-                  name="name"
-                  value={this.state.name}
-                  required
-                  autoFocus
-                />
+    if (!isLoggedIn()) {
+      if (typeof window !== `undefined`) window.location.replace(`/Login`);
+      return null;
+    } else {
+      return (
+        <Layout {...this.props}>
+          <section className="custom-container-2">
+            <form
+              name="myprefrences"
+              method="POST"
+              className="fmyprefrences-form"
+              onSubmit={(event) => {
+                this.handleSubmit(event);
+              }}
+            >
+              <div className="form-row">
+                <label>
+                  Nom
+                  <span className="screen-reader-text">Nom</span>
+                </label>
+                <div className="input_container">
+                  <input
+                    className="name"
+                    onChange={this.handleChange}
+                    type="text"
+                    name="name"
+                    value={this.state.name}
+                    required
+                    autoFocus
+                  />
+                </div>
               </div>
-            </div>
 
-            <div className="form-row">
-              <label>
-                A quelle heure souhaiteriez-vous faire de l'exercice chaque
-                jour?
-                <span className="screen-reader-text">
+              <div className="form-row">
+                <label>
                   A quelle heure souhaiteriez-vous faire de l'exercice chaque
                   jour?
-                </span>
-              </label>
-              <div className="input_container">
-                <select value={this.state.timeExerciseEachDay} id="time" name="timeExerciseEachDay" className="time" onChange={this.handleChange}>
-                  <option></option>
-                  {options.map((value, index) => {
-                    return (
-                      <option key={index} value={value}>
-                        {value}
-                      </option>
-                    );
-                  })}
-                </select>
+                  <span className="screen-reader-text">
+                    A quelle heure souhaiteriez-vous faire de l'exercice chaque
+                    jour?
+                  </span>
+                </label>
+                <div className="input_container">
+                  <select
+                    value={this.state.timeExerciseEachDay}
+                    id="time"
+                    name="timeExerciseEachDay"
+                    className="time"
+                    onChange={this.handleChange}
+                  >
+                    <option></option>
+                    {options.map((value, index) => {
+                      return (
+                        <option key={index} value={value}>
+                          {value}
+                        </option>
+                      );
+                    })}
+                  </select>
+                </div>
               </div>
-            </div>
-            <div className="form-row">
-              <label>
-                Quel est votre objectif d’activité physique?
-                <span className="screen-reader-text">
+              <div className="form-row">
+                <label>
                   Quel est votre objectif d’activité physique?
-                </span>
-              </label>
-              <div className="input_container">
-                <select value={this.state.physicalActivityGoal.value}  onChange={this.handleOptionsChange} id="goals" name="physicalActivityGoal" className="goals">
-                  <option></option>
-                  <option key={'buildMuscle'} value="Se musler">Se musler</option>
-                  <option key={'relax'} value="Se détendre">Se détendre</option>
-                  <option key={'letOffSteam'} value="Se défouler">Se défouler</option>
-                </select>
+                  <span className="screen-reader-text">
+                    Quel est votre objectif d’activité physique?
+                  </span>
+                </label>
+                <div className="input_container">
+                  <select
+                    value={this.state.physicalActivityGoal.value}
+                    onChange={this.handleOptionsChange}
+                    id="goals"
+                    name="physicalActivityGoal"
+                    className="goals"
+                  >
+                    <option></option>
+                    <option key={"buildMuscle"} value="Se musler">
+                      Se musler
+                    </option>
+                    <option key={"relax"} value="Se détendre">
+                      Se détendre
+                    </option>
+                    <option key={"letOffSteam"} value="Se défouler">
+                      Se défouler
+                    </option>
+                  </select>
+                </div>
               </div>
-            </div>
-            <div className="form-row">
-              <label>
-                Souhaitez vous recevoir des notification push?
-                <span className="screen-reader-text">
+              <div className="form-row">
+                <label>
                   Souhaitez vous recevoir des notification push?
+                  <span className="screen-reader-text">
+                    Souhaitez vous recevoir des notification push?
+                  </span>
+                </label>
                 </span>
               </label>
               <div className="input_container">
@@ -170,69 +208,80 @@ export default class Profile extends React.Component {
                     });
                     this.setState({
                         hasNotificationsPush: !this.state.hasNotificationsPush,
-                    });
-                  }}
-                />
+                      });
+                    }}
+                  />
+                </div>
               </div>
-            </div>
 
-            <div className="form-row">
-              <label>
-                Souhaitez vous recevoir des contenus adaptés aux enfants?
-                <span className="screen-reader-text">
+              <div className="form-row">
+                <label>
                   Souhaitez vous recevoir des contenus adaptés aux enfants?
-                </span>
-              </label>
-              <div className="input_container">
-                <ToggleButton
-                  inactiveLabel="no"
-                  activeLabel="yes"
-                  value={this.state.hasChildFriendlyContent}
-                  onToggle={(value) => {
-                    this.setState({
-                        hasChildFriendlyContent: !this.state.hasChildFriendlyContent,
-                    });
-                  }}
-                />
+                  <span className="screen-reader-text">
+                    Souhaitez vous recevoir des contenus adaptés aux enfants?
+                  </span>
+                </label>
+                <div className="input_container">
+                  <ToggleButton
+                    inactiveLabel="no"
+                    activeLabel="yes"
+                    value={this.state.hasChildFriendlyContent}
+                    onToggle={(value) => {
+                      this.setState({
+                        hasChildFriendlyContent: !this.state
+                          .hasChildFriendlyContent,
+                      });
+                    }}
+                  />
+                </div>
               </div>
-            </div>
 
-            <div className="form-row">
-              <label>
-                Souhaitez vous recevoir des notification email?
-                <span className="screen-reader-text">
+              <div className="form-row">
+                <label>
                   Souhaitez vous recevoir des notification email?
-                </span>
-              </label>
-              <div className="input_container">
-                <ToggleButton
-                  inactiveLabel="no"
-                  activeLabel="yes"
-                  value={this.state.hasNotificationsEmail}
-                  onToggle={(value) => {
-                    var OneSignal = window.OneSignal || [];
-                    console.log(getCurrentUser().get('email'))
-                    OneSignal.setEmail(getCurrentUser().get('email'));
-                    this.setState({
-                        hasNotificationsEmail: !this.state.hasNotificationsEmail,
-                    });
-                  }}
-                />
+                  <span className="screen-reader-text">
+                    Souhaitez vous recevoir des notification email?
+                  </span>
+                </label>
+                <div className="input_container">
+                  <ToggleButton
+                    inactiveLabel="no"
+                    activeLabel="yes"
+                    value={this.state.hasNotificationsEmail}
+                    onToggle={(value) => {
+                      var OneSignal = window.OneSignal || [];
+                      console.log(getCurrentUser().get("email"));
+                      OneSignal.setEmail(getCurrentUser().get("email"));
+                      this.setState({
+                        hasNotificationsEmail: !this.state
+                          .hasNotificationsEmail,
+                      });
+                    }}
+                  />
+                </div>
               </div>
-            </div>
 
-            <div className="btn-container">
-              <button className="cancel-btn" type="button" onClick={this.handleLogOut}>
-                Déconnexion
-              </button>
-              <button className="submit-btn" type="submit">
-                sauvegarder
-              </button>
-            </div>
-          </form>
-        </section>
-      </Layout>
-    );
+              <div className="btn-container">
+                <button
+                  className="cancel-btn"
+                  type="button"
+                  onClick={this.handleLogOut}
+                >
+                  Déconnexion
+                </button>
+                <button
+                  className={`${
+                    buttonState && `btn-${buttonState}`
+                  } button secondary btn-submit submit-btn`}
+                  type="submit"
+                >
+                  {this.conditionalButton()}
+                </button>
+              </div>
+            </form>
+          </section>
+        </Layout>
+      );
+    }
   }
-}
 }
