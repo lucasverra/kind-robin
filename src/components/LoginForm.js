@@ -1,10 +1,11 @@
 import React, { Component } from "react";
 import { FaEnvelope, FaLock, FaRegEyeSlash, FaRegEye } from "react-icons/fa";
-import { Link , navigate} from "gatsby";
-import { logIn , isLoggedIn} from "../services/auth";
+import { Link, navigate } from "gatsby";
+import { logIn, isLoggedIn } from "../services/auth";
 
 import "react-loader-spinner/dist/loader/css/react-spinner-loader.css";
 import Loader from "react-loader-spinner";
+import { FaCheck, FaTimes } from "react-icons/fa";
 
 class LoginForm extends Component {
   constructor(props) {
@@ -13,15 +14,15 @@ class LoginForm extends Component {
       hide: true,
       email: ``,
       password: ``,
-      loading: false
+      buttonState: "",
     };
     this.handleToggler = this.handleToggler.bind(this);
     this.handleUpdate = this.handleUpdate.bind(this);
   }
 
-  componentDidMount(){
-    if(isLoggedIn()){
-      navigate('/profile')
+  componentDidMount() {
+    if (isLoggedIn()) {
+      navigate("/profile");
     }
   }
 
@@ -37,18 +38,49 @@ class LoginForm extends Component {
   };
   handleSubmit = (event) => {
     event.preventDefault();
-    this.setState({ loading: true});
-
-    logIn(this.state.email, this.state.password).then(() => {
-      this.setState({
-        loading: false,
-      });
-      if (typeof window !== `undefined`) window.location.replace(`/profile`)
+    this.setState({
+      buttonState: "loading",
     });
+    logIn(this.state.email, this.state.password)
+      .then(() => {
+        this.setState({ buttonState: "success" });
+        setTimeout(() => {
+          if (typeof window !== `undefined`)
+            window.location.replace(`/profile`);
+        }, 1500);
+      })
+      .catch((e) => {
+        this.setState({
+          buttonState: "error",
+        });
+        console.log(e);
+      })
+      .finally(() => {
+        setTimeout(() => {
+          this.setState({
+            buttonState: "",
+          });
+        }, 3000);
+      });
+  };
+
+  conditionalButton = () => {
+    let { buttonState } = this.state;
+    if (buttonState === "loading") {
+      return <Loader type="Oval" color="#fff" />;
+    }
+    if (buttonState === "success") {
+      return <FaCheck />;
+    }
+    if (buttonState === "error") {
+      return <FaTimes />;
+    } else {
+      return "Se connecter";
+    }
   };
 
   render() {
-    const { hide, email, password , loading} = this.state;
+    const { hide, email, password, buttonState } = this.state;
     return (
       <form
         onSubmit={(event) => {
@@ -96,17 +128,21 @@ class LoginForm extends Component {
         </div>
         <div className="form-row">
           <div className="addition_text">
-            Vous n'avez pas de compte ? <Link to="/signup">Enregistrez-vous</Link>
+            Vous n'avez pas de compte ?{" "}
+            <Link to="/signup">Enregistrez-vous</Link>
           </div>
           <div className="addition_text">
             Forget password? <Link to="/forgetpassword">Reset</Link>
           </div>
         </div>
 
-        <button className="submit-btn" type="submit">
-
-          {loading ? <Loader type="Oval" color="#fff" /> : "Se connecter"}
-
+        <button
+          className={`${
+            buttonState && `btn-${buttonState}`
+          } button secondary btn-submit submit-btn`}
+          type="submit"
+        >
+          {this.conditionalButton()}
         </button>
       </form>
     );

@@ -5,44 +5,88 @@ import { signUp } from "../services/auth";
 
 import "react-loader-spinner/dist/loader/css/react-spinner-loader.css";
 import Loader from "react-loader-spinner";
+import { FaCheck, FaTimes } from "react-icons/fa";
+
+import "../sass/custom.scss";
 
 class SignupForm extends Component {
   constructor(props) {
     super(props);
     this.state = {
       hide: true,
-      loading: false
+      buttonState: "",
+      gdpr: false,
     };
     this.handleToggler = this.handleToggler.bind(this);
   }
 
   handleToggler() {
     this.setState({
-      hide: !this.state.hide
+      hide: !this.state.hide,
     });
   }
   handleSubmit = (event) => {
     event.preventDefault();
-    signUp(this.state.email, this.state.password).then(
-      () => {
-        this.setState({
-          loading: false,
-        });
-        if (typeof window !== `undefined`) window.location.replace(`/profile`)
-      }
-    )
     this.setState({
-      loading: true,
+      buttonState: "loading",
     });
-  }
+    signUp(this.state.email, this.state.password)
+      .then(() => {
+        this.setState({
+          buttonState: "success",
+        });
+        setTimeout(() => {
+          if (typeof window !== `undefined`)
+            window.location.replace(`/profile`);
+        }, 1500);
+      })
+      .catch((e) => {
+        this.setState({
+          buttonState: "error",
+        });
+      })
+      .finally(() => {
+        setTimeout(() => {
+          this.setState({
+            buttonState: "",
+          });
+        }, 3000);
+      });
+  };
+
+  handleGdpr = (e) => {
+    this.setState({
+      gdpr: e.target.checked,
+    });
+  };
+
+  conditionalButton = () => {
+    let { buttonState } = this.state;
+    if (buttonState === "loading") {
+      return <Loader type="Oval" color="#fff" />;
+    }
+    if (buttonState === "success") {
+      return <FaCheck />;
+    }
+    if (buttonState === "error") {
+      return <FaTimes />;
+    } else {
+      return "Sign Up";
+    }
+  };
 
   handleChange = (event) => {
-    this.setState({[event.target.name]: event.target.value})
-  }
+    this.setState({ [event.target.name]: event.target.value });
+  };
   render() {
-    const { hide, loading } = this.state;
+    const { hide, buttonState, gdpr } = this.state;
     return (
-      <form name="signupForm" method="POST" className="signup-form"  onSubmit={this.handleSubmit}>
+      <form
+        name="signupForm"
+        method="POST"
+        className="signup-form"
+        onSubmit={this.handleSubmit}
+      >
         <div className="form-row">
           <label>
             <span className="screen-reader-text">Email</span>
@@ -78,13 +122,33 @@ class SignupForm extends Component {
           </div>
         </div>
         <div className="form-row">
+          <div className="gdpr_checkbox">
+            <input
+              name="gdpr"
+              id="gdpr"
+              type="checkbox"
+              onChange={this.handleGdpr}
+              checked={gdpr}
+            />
+            <label htmlFor="gdpr">
+              You agree with our <Link to="/">terms and conditions</Link>
+            </label>
+          </div>
+        </div>
+        <div className="form-row">
           <div className="addition_text">
             Have an account? <Link to="/login">Sign in here</Link>
           </div>
         </div>
 
-        <button className="submit-btn" type="submit">
-        {loading ? <Loader type="Oval" color="#fff" /> : "Create An Account"}
+        <button
+          className={`${
+            buttonState && `btn-${buttonState}`
+          } button secondary btn-submit submit-btn`}
+          type="submit"
+          disabled={!gdpr}
+        >
+          {this.conditionalButton()}
         </button>
       </form>
     );

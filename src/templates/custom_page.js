@@ -3,14 +3,42 @@ import _ from "lodash";
 
 import { Layout } from "../components/index";
 import { safePrefix, htmlToReact } from "../utils";
+import Loader from "react-loader-spinner";
 
 import "../sass/custom.scss";
+import { FaCheck, FaTimes } from "react-icons/fa";
 
 export default class CustomPage extends React.Component {
+  constructor(props) {
+    super(props);
+    this.state = {
+      buttonState: "",
+    };
+  }
   handleSubmit = (event) => {
     event.preventDefault();
+    this.setState({
+      buttonState: "loading",
+    });
+    setTimeout(() => this.setState({ buttonState: "success" }), 2000);
+    setTimeout(() => this.setState({ buttonState: "" }), 4000);
+  };
+  conditionalButton = () => {
+    let { buttonState } = this.state;
+    if (buttonState === "loading") {
+      return <Loader type="Oval" color="#fff" />;
+    }
+    if (buttonState === "success") {
+      return <FaCheck />;
+    }
+    if (buttonState === "error") {
+      return <FaTimes />;
+    } else {
+      return "submit";
+    }
   };
   render() {
+    const { buttonState } = this.state;
     return (
       <Layout {...this.props}>
         <div className="outer">
@@ -126,8 +154,13 @@ export default class CustomPage extends React.Component {
                   </div>
 
                   <div className="btn-container">
-                    <button className="button secondary" type="submit">
-                      Submit
+                    <button
+                      className={`${
+                        buttonState && `btn-${buttonState}`
+                      } button secondary btn-submit`}
+                      type="submit"
+                    >
+                      {this.conditionalButton()}
                     </button>
                   </div>
                 </form>
