@@ -10,16 +10,16 @@ img_path: "/images/make-an-exercise-plan-full.jpg"
 excerpt: ''
 
 ---
-Pensez dès aujourd’hui à planifier vos activités pour la semaine prochaine. 
+**Pensez dès aujourd’hui à planifier vos activités pour la semaine prochaine.**
 
-Quels jours allez-vous pouvoir faire de l’activité physique ? Et que ferez-vous? Placez de rappels dans votre calendrier dès maintenant. 
+Quels jours allez-vous pouvoir faire de l’activité physique ? Et que ferez-vous? Placez de rappels dans votre calendrier dès maintenant.
 
-Pour être sûr(e) de pouvoir vous en tenir à ces plans, une technique reconnue vise à compléter des phrases de ce type : 
+Pour être sûr(e) de pouvoir vous en tenir à ces plans, une technique reconnue vise à compléter des phrases de ce type :
 
-* Si j’ai trop de travail pour pouvoir faire du sport au moment où je l'avais décidé, alors je … 
-* Si je manque de motivation à ce moment-là, alors je.... 
-* Si mes enfants ont besoin de moi à ce moment-là, alors je … Complétez ces plans B pour être sûr(e) d'atteindre les objectifs que vous vous êtes fixés. 
+* Si j’ai trop de travail pour pouvoir faire du sport au moment où je l'avais décidé, alors je …
+* Si je manque de motivation à ce moment-là, alors je....
+* Si mes enfants ont besoin de moi à ce moment-là, alors je … Complétez ces plans B pour être sûr(e) d'atteindre les objectifs que vous vous êtes fixés.
 
-**Bonne semaine !** 
+**Bonne semaine !**
 
 L'équipe Bougez Chez Vous
