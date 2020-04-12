@@ -188,25 +188,25 @@ export default class Profile extends React.Component {
                     Souhaitez vous recevoir des notification push?
                   </span>
                 </label>
-                </span>
-              </label>
-              <div className="input_container">
-                <ToggleButton
-                  inactiveLabel="no"
-                  activeLabel="yes"
-                  value={this.state.hasNotificationsPush}
-                  onToggle={(value) => {
-                    var OneSignal = window.OneSignal || [];
-                    OneSignal.push(function() {
-                    OneSignal.init({
-                        appId: "6936bf61-536c-401e-b409-0f609f670749",
-                        allowLocalhostAsSecureOrigin: true
+                <div className="input_container">
+                  <ToggleButton
+                    inactiveLabel="no"
+                    activeLabel="yes"
+                    value={this.state.hasNotificationsPush}
+                    onToggle={(value) => {
+                      var OneSignal = window.OneSignal || [];
+                      OneSignal.push(function () {
+                        OneSignal.init({
+                          appId: "2267b1d7-ec2c-4e4e-8ded-ade2a7ff194d",
+                          allowLocalhostAsSecureOrigin: true,
+                        });
+                        OneSignal.setDefaultNotificationUrl(
+                          "https://kind-robin-60456.netlify.com/profile"
+                        );
+                        //OneSignal.setEmail("a@b.com");
+                        //OneSignal.sendTag("toto", "titi");
                       });
-                      OneSignal.setDefaultNotificationUrl("https://bougezchezvous-sprint-client.netlify.com/profile");
-                      //OneSignal.setEmail("a@b.com");
-                      //OneSignal.sendTag("toto", "titi"); 
-                    });
-                    this.setState({
+                      this.setState({
                         hasNotificationsPush: !this.state.hasNotificationsPush,
                       });
                     }}
