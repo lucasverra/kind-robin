@@ -2,12 +2,11 @@
 categoriepost:
 - Général
 template: post
-title: C'est dimanche! Pensez dès aujourd'hui à vos activités de la semaine prochaine
-  pour continuer à Bouger Chez Vous
-subtitle: Essayez cette exercice simple pour maintenir votre rhythme
+title: C'est dimanche! Planifiez votre semaine pour continuer à Bouger Chez Vous
+subtitle: ''
 date: 2020-04-08T23:00:00.000+00:00
 thumb_img_path: "/images/make-an-exercise-plan-full.jpg"
-img_path: ''
+img_path: "/images/make-an-exercise-plan-full.jpg"
 excerpt: ''
 
 ---
