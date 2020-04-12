@@ -7,8 +7,8 @@ subtitle: ''
 date: 2020-04-08T23:00:00.000+00:00
 thumb_img_path: "/images/LesMills.png"
 img_path: "/images/LesMills-1.png"
-excerpt: 'Vous avez besoin de vous défouler, mais du mal à vous motiver sans vos cours
-  de sport ? '
+excerpt: 'Besoin de vous défouler, mais du mal à vous motiver sans vos cours de sport
+  ? '
 
 ---
 Votre studio préféré a dû fermer ses portes ? Ce n'est pas une raison pour manquer votre séance de sport !
