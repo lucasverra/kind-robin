@@ -22,9 +22,24 @@ export default class Profile extends React.Component {
       buttonState: "",
     };
   }
+
   handleSubmit = (event) => {
     event.preventDefault();
-    setPrefrence(this.state);
+    this.setState({
+      buttonState: "loading",
+    });
+
+    setTimeout(() => {
+      setPrefrence(this.state);
+      this.setState({
+        buttonState: "success",
+      });
+    }, 1500);
+    setTimeout(() => {
+      this.setState({
+        buttonState: "",
+      });
+    }, 3000);
   };
 
   conditionalButton = () => {
@@ -49,7 +64,7 @@ export default class Profile extends React.Component {
   };
 
   handleOptionsChange = (e) => {
-    debugger;
+    // debugger;
     this.setState({
       [e.target.name]: { key: e.target.key, value: e.target.value },
     });
@@ -68,6 +83,9 @@ export default class Profile extends React.Component {
           if (user.get("userPreference")) {
             this.setState({ ...user.get("userPreference") });
           }
+          this.setState({
+            buttonState: "",
+          });
         });
     }
   }
