@@ -543,7 +543,7 @@ button {
 
   &.btn-loading {
     transition: all 0.3s;
-    opacity: .6 !important;
+    opacity: 0.6 !important;
     cursor: not-allowed;
   }
   &.btn-success {
@@ -567,5 +567,27 @@ button {
       margin-top: 3px;
       color: #fff !important;
     }
+  }
+
+  &:disabled {
+    opacity: 0.6;
+    cursor: not-allowed !important;
+
+    &:hover {
+      opacity: 0.6 !important;
+    }
+  }
+}
+
+.gdpr_checkbox {
+  margin-bottom: 20px;
+  input {
+    margin-right: 5px;
+  }
+  label{
+    text-transform: none !important;
+  }
+  a {
+    color: #0072ff;
   }
 }

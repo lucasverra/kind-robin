@@ -15,6 +15,7 @@ class SignupForm extends Component {
     this.state = {
       hide: true,
       buttonState: "",
+      gdpr: false,
     };
     this.handleToggler = this.handleToggler.bind(this);
   }
@@ -53,6 +54,12 @@ class SignupForm extends Component {
       });
   };
 
+  handleGdpr = (e) => {
+    this.setState({
+      gdpr: e.target.checked,
+    });
+  };
+
   conditionalButton = () => {
     let { buttonState } = this.state;
     if (buttonState === "loading") {
@@ -72,7 +79,7 @@ class SignupForm extends Component {
     this.setState({ [event.target.name]: event.target.value });
   };
   render() {
-    const { hide, buttonState } = this.state;
+    const { hide, buttonState, gdpr } = this.state;
     return (
       <form
         name="signupForm"
@@ -115,6 +122,20 @@ class SignupForm extends Component {
           </div>
         </div>
         <div className="form-row">
+          <div className="gdpr_checkbox">
+            <input
+              name="gdpr"
+              id="gdpr"
+              type="checkbox"
+              onChange={this.handleGdpr}
+              checked={gdpr}
+            />
+            <label htmlFor="gdpr">
+              You agree with our <Link to="/">terms and conditions</Link>
+            </label>
+          </div>
+        </div>
+        <div className="form-row">
           <div className="addition_text">
             Have an account? <Link to="/login">Sign in here</Link>
           </div>
@@ -125,6 +146,7 @@ class SignupForm extends Component {
             buttonState && `btn-${buttonState}`
           } button secondary btn-submit submit-btn`}
           type="submit"
+          disabled={!gdpr}
         >
           {this.conditionalButton()}
         </button>
