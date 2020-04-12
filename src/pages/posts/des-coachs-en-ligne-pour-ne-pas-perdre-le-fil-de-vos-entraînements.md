@@ -1,6 +1,6 @@
 ---
 categoriepost:
-- Général
+- se muscler
 template: post
 title: Des coachs en ligne pour ne pas perdre le fil de vos entraînements
 subtitle: ''
