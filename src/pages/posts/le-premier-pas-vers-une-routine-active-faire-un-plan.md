@@ -2,11 +2,11 @@
 categoriepost:
 - Général
 template: post
-title: Bougez Chez Vous vous aide à établir un nouveau rythme, et à vous y tenir.
+title: Faites le premier pas pour arriver à BougerChezVous chaque jour
 subtitle: ''
 date: 2020-03-29T22:00:00.000+00:00
-thumb_img_path: "/images/make-an-exercise-plan-full.jpg"
-img_path: "/images/make-an-exercise-plan-full.jpg"
+thumb_img_path: "/images/istockphoto-460170779-1024x1024.jpg"
+img_path: "/images/istockphoto-460170779-1024x1024.jpg"
 excerpt: 'Vous souhaitez faire plus d''activité physique, plus régulièrement, mais
   avez du mal à vous y tenir ?   '
 
