@@ -2,10 +2,10 @@
 categoriepost:
 - Général
 template: post
-title: Pour tenir vos objectifs d'activité physique, pensez à formuler des plans B
-  en avance !
+title: C'est dimanche! Pensez dès aujourd'hui à vos activités de la semaine prochaine
+  pour continuer à Bouger Chez Vous
 subtitle: Essayez cette exercice simple pour maintenir votre rhythme
-date: 2020-04-09T00:00:00+01:00
+date: 2020-04-08T23:00:00.000+00:00
 thumb_img_path: "/images/make-an-exercise-plan-full.jpg"
 img_path: ''
 excerpt: ''
