@@ -2,20 +2,23 @@
 categoriepost:
 - Général
 template: post
-title: 'Le premier pas vers une routine active : faire un plan '
+title: Faites le premier pas pour arriver à BougerChezVous chaque jour
 subtitle: ''
-date: 2020-03-29T22:00:00.000+00:00
-thumb_img_path: "/images/calen.PNG"
-img_path: "/images/calen-1.PNG"
-excerpt: ''
+date: 2020-04-19T18:00:00+01:00
+thumb_img_path: "/images/istockphoto-460170779-1024x1024.jpg"
+img_path: "/images/istockphoto-460170779-1024x1024.jpg"
+excerpt: 'Vous souhaitez faire plus d''activité physique, plus régulièrement, mais
+  avez du mal à vous y tenir ?   '
 
 ---
-La recherche montre que le simple fait de formuler un plan et de l'inscrire dans un calendrier peut nous aider à atteindre nos objectifs et à former de nouvelles habitudes.
+**Vous souhaitez faire plus d'activité physique, plus régulièrement ?**
 
-Pour vous aider à démarrer, faites un plan pour cette semaine : **Choisissez trois jours où vous ferez une activité physique d'au moins 30 minutes**. Notez-les dès maintenant dans votre agenda, sur votre calendrier ou sur votre téléphone portable.
+Le premier vers de nouvelles habitudes : Etablir un plan, en décidant quelles activités physiques vous ferez, et quand.
 
-Libre à vous de choisir ces activités, qu’il s’agisse d'une séance vidéo de yoga, d'un entraînement de muscu sans équipement, ou d’une séance de danse dans votre salon! Pour un peu d’inspiration, explorez dès maintenant les options disponibles sur la page "[les ressources](https://kind-robin-60456.netlify.com/ressourcesOutils/ "les ressources")".
+Pour vous aider à démarrer, faites un plan pour cette semaine : choisissez trois jours où vous ferez une activité physique d'au moins 30 minutes. Notez-les dès à présent dans votre agenda, sur votre calendrier ou sur votre téléphone portable.
 
-A vos calendriers!
+Envie d'explorer d'autres contenus, qu’il s’agisse d'une séance vidéo de yoga, d'un entraînement de muscu sans équipement, ou d’une séance de danse dans votre salon ? N'hésitez pas à explorer dès maintenant les options disponibles sur la page "[Les Ressources](https://kind-robin-60456.netlify.com/ressourcesOutils/ "les ressources")".
+
+**Lancez-vous : à vos calendriers!**
 
 L'équipe Bougez Chez Vous

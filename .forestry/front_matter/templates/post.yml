@@ -17,8 +17,9 @@ fields:
   default:
   - Général
   label: categoriePost
-  description: 'Ecrire la catégorie puis taper sur "Entrée". Les options sont : Géneral;
-    Se musler;Se détendre;Se défouler;Avec des enfants '
+  description: "Copier-Coller la catégorie puis taper sur \"Entrée\".(\U0001F534 case
+    sensitive) Les options sont : Géneral; Se muscler;Se détendre;Se défouler;Avec
+    des enfants "
 - type: datetime
   name: date
   label: Date
@@ -44,9 +45,13 @@ fields:
   config:
     required: true
 pages:
+- src/pages/posts/7-minutes-d-exercices-par-jour-peuvent-suffire.md
+- src/pages/posts/besoin-de-respirer-3-activités-relaxantes-à-essayer-pendant-le-confinement.md
+- src/pages/posts/besoin-de-vous-défouler-essayez-un-entraînement-de-haute-intensité-aujourd-hui.md
 - src/pages/posts/bougezchezvous-les-5-conseils-de-sarah-ourahmoune-championne-de-boxe.md
 - src/pages/posts/ce-week-end-je-m-entraîne-avec-les-champions.md
 - src/pages/posts/de-nombreux-studios-offrent-des-cours-de-sport-gratuits-en-ligne.md
+- src/pages/posts/des-coachs-en-ligne-pour-ne-pas-perdre-le-fil-de-vos-entraînements.md
 - src/pages/posts/essayez-ces-cours-d-ep-en-ligne.md
 - src/pages/posts/le-premier-pas-vers-une-routine-active-faire-un-plan.md
 - src/pages/posts/les-studios-gratuits-offrant-des-cours-de-yoga-pilates-et-relaxation.md
