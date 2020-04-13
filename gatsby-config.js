@@ -46,7 +46,7 @@ module.exports = {
               },
             },
           },
-          [`gatsby-remark-component`]
+          `gatsby-remark-component`,
           // Other plugins here...
         ],
       },
