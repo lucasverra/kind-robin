@@ -199,11 +199,11 @@ export default class Profile extends React.Component {
                       var OneSignal = window.OneSignal || [];
                       OneSignal.push(function () {
                         OneSignal.init({
-                          appId: "6936bf61-536c-401e-b409-0f609f670749",
+                          appId: `${process.env.ONE_SIGNAL_APP_ID}`,
                           allowLocalhostAsSecureOrigin: true,
                         });
                         OneSignal.setDefaultNotificationUrl(
-                          "https://bougezchezvous-sprint-client.netlify.com/profile"
+                          `${process.env.ONE_SIGNAL_URL_START}`
                         );
                         //OneSignal.setEmail("a@b.com");
                         //OneSignal.sendTag("toto", "titi");

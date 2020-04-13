@@ -1,8 +1,8 @@
 import Parse from 'parse'
 
-export const LOCAL_JAVASCRIPT_KEY = `diVw3ws7cEV1cl0ZHtSEuW0or3bbQz9AdCPZQujm`
-export const LOCAL_APP_ID = `Z4nEXPFgTTcJNvQ84WucVrYdtN81Yhv4CNu9FPoL`
-export const LOCAL_SERVER_URL = `https://parseapi.back4app.com`
+export const LOCAL_JAVASCRIPT_KEY = `${process.env.LOCAL_APP_ID}`
+export const LOCAL_APP_ID = `${process.env.REACT_APP_JAVASCRIPT_KEY}`
+export const LOCAL_SERVER_URL = `${process.env.LOCAL_SERVER_URL}`
 export const LOCAL_APP_WSS_SERVER_URL = undefined
 
 
