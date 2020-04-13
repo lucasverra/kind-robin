@@ -199,11 +199,11 @@ export default class Profile extends React.Component {
                       var OneSignal = window.OneSignal || [];
                       OneSignal.push(function () {
                         OneSignal.init({
-                          appId: `${process.env.ONE_SIGNAL_APP_ID}`,
+                          appId: `${process.env.GATSBY_ONE_SIGNAL_APP_ID}`,
                           allowLocalhostAsSecureOrigin: true,
                         });
                         OneSignal.setDefaultNotificationUrl(
-                          `${process.env.ONE_SIGNAL_URL_START}`
+                          `${process.env.GATSBY_ONE_SIGNAL_URL_START}`
                         );
                         //OneSignal.setEmail("a@b.com");
                         //OneSignal.sendTag("toto", "titi");

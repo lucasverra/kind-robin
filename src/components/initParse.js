@@ -1,8 +1,8 @@
 import Parse from 'parse'
 
-export const LOCAL_JAVASCRIPT_KEY = `${process.env.LOCAL_APP_ID}`
-export const LOCAL_APP_ID = `${process.env.REACT_APP_JAVASCRIPT_KEY}`
-export const LOCAL_SERVER_URL = `${process.env.LOCAL_SERVER_URL}`
+export const LOCAL_JAVASCRIPT_KEY = `${process.env.GATSBY_LOCAL_APP_ID}`
+export const LOCAL_APP_ID = `${process.env.GATSBY_REACT_APP_JAVASCRIPT_KEY}`
+export const LOCAL_SERVER_URL = `${process.env.GATSBY_LOCAL_SERVER_URL}`
 export const LOCAL_APP_WSS_SERVER_URL = undefined
 
 
