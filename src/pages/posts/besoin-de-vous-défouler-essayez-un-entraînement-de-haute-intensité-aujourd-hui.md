@@ -1,0 +1,24 @@
+---
+categoriepost:
+- Général
+template: post
+title: Besoin de vous défouler ? Essayez un entraînement de haute intensité aujourd'hui
+  !
+subtitle: ''
+date: 2020-04-22T00:00:00+01:00
+thumb_img_path: "/images/iStock-542827872.jpg"
+img_path: "/images/iStock-542827872.jpg"
+excerpt: ''
+
+---
+Vous voulez brûler des calories mais que vous n'avez pas beaucoup de temps ? 
+
+Les **entrainements de haute intensité (HIIT)** sont un excellent moyen de vous mettre au défi sans avoir à quitter la maison. 
+
+Ils consistent en des courtes périodes d’exercice de haute intensité alternées avec des périodes de récupération. Ils n'utilisent pour la plupart pas d'équipement, ciblent tout votre corps, et durent en général moins de 30 minutes, ce qui en fait un entraînement parfait à faire chez vous. 
+
+[Move Your Fit ](https://www.moveyourfit.com/hiit/)propose des vidéos de HIIT pour tous les niveaux, comme par exemple celle-ci pour les débutants :
+
+    <iframe width="560" height="315" src="https://www.youtube.com/embed/8YsUv_kf-qg" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+**Pensez à essayer un des ces entrainements dés aujourd'hui ! Et notre conseil: Mettez la musique à fond!** 
