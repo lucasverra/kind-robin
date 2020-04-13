@@ -1,6 +1,6 @@
 import React from "react";
 import _ from "lodash";
-
+import {ButtonSubmit} from "../utils/ButtonSubmit"
 import { Layout } from "../components/index";
 import { safePrefix, htmlToReact } from "../utils";
 import Loader from "react-loader-spinner";
@@ -34,9 +34,22 @@ export default class CustomPage extends React.Component {
     if (buttonState === "error") {
       return <FaTimes />;
     } else {
-      return "submit";
+      return "Enregistrer";
     }
   };
+
+  displayOptions = (optionCount, key, startFrom) => {
+    let optionComponents = [] 
+    for (let index =  startFrom; index < optionCount; index++) {
+      optionComponents.push(
+        <div key={key+index} className="radio_values-wrapper">
+        <input type="radio" name={index} value={key} /> {index}
+      </div>
+      )
+    }
+    return optionComponents
+  }
+
   render() {
     const { buttonState } = this.state;
     return (
@@ -76,80 +89,35 @@ export default class CustomPage extends React.Component {
                   }}
                 >
                   <div className="form-row">
-                    <label>01</label>
+                    <label>Sur une échelle de 1 à 10, comment vous sentez-vous aujourd’hui ? Ici, 1 correspond à “je ne me sens pas bien du tout” et 10 à “je me sens en super forme”</label>
+                    <div className="radio_values">
+                      {this.displayOptions(11, 'howfell', 1)}
+                    </div>
+                  </div>
+                  <div className="form-row">
+                    <label>La semaine dernière : combien de jours avez-vous fait une activité physique ? </label>
+                    <div className="radio_values">
+                      {this.displayOptions(8, 'manydaydidsport', 0)} 
+                    </div>
+                  </div>
+
+                  <div className="form-row">
+                    <label>Cette semaine : combien de jours planifiez-vous de faire une activité physique ?</label>
+                    <div className="radio_values">
+                      {this.displayOptions(8, 'manydaywillsport', 0)} 
+                    </div>
+                  </div>
+
+                  <div className="form-row">
+                    <label>Quelle(s) activité(s) avez-vous prévu de faire ?</label>
                     <div className="input_container">
                       <input
-                        className="01"
-                        type="text"
-                        name="01"
-                        required
-                        autoFocus
-                      />
-                    </div>
-                  </div>
-                  <div className="form-row">
-                    <label>02</label>
-                    <div className="input_container">
-                      <textarea className="01" name="02" rows="3" />
-                    </div>
-                  </div>
-
-                  <div className="form-row">
-                    <label>03</label>
-                    <div className="radio_values">
-                      <div className="radio_values-wrapper">
-                        <input type="radio" name="03" value="a" /> a
-                      </div>
-                      <div className="radio_values-wrapper">
-                        <input type="radio" name="03" value="b" /> b
-                      </div>
-                      <div className="radio_values-wrapper">
-                        <input type="radio" name="03" value="c" /> c
-                      </div>
-                      <div className="radio_values-wrapper">
-                        <input type="radio" name="03" value="d" /> d
-                      </div>
-                    </div>
-                  </div>
-
-                  <div className="form-row">
-                    <label>04</label>
-                    <div className="input_container">
-                      <select id="05" name="05" className="05">
-                        <option></option>
-                        <option value="a">a</option>
-                        <option value="b">b</option>
-                        <option value="c">c</option>
-                        <option value="d">d</option>
-                      </select>
-                    </div>
-                  </div>
-
-                  <div className="form-row">
-                    <label>05</label>
-                    <div className="checkbox_values">
-                      <div className="checkbox_values-wrapper">
-                        <input type="checkbox" id="a" name="a" value="a" />
-                        <label>a</label>
-                      </div>
-                      <div className="checkbox_values-wrapper">
-                        <input type="checkbox" id="b" name="b" value="b" />
-                        <label>b</label>
-                      </div>
-                      <div className="checkbox_values-wrapper">
-                        <input type="checkbox" id="c" name="c" value="c" />
-                        <label>c</label>
-                      </div>
-                      <div className="checkbox_values-wrapper">
-                        <input type="checkbox" id="d" name="d" value="d" />
-                        <label>d</label>
-                      </div>
-                    </div>
-                  </div>
-                  <div className="form-row">
-                    <label>06</label>
-                    <div className="input_container">
-                      <input type="date" id="06" name="06" />
+                          className="01"
+                          type="text"
+                          name="01"
+                          required
+                          autoFocus
+                        />
                     </div>
                   </div>
 
@@ -160,7 +128,7 @@ export default class CustomPage extends React.Component {
                       } button secondary btn-submit`}
                       type="submit"
                     >
-                      {this.conditionalButton()}
+                      <ButtonSubmit text={'Enregister'} buttonState={buttonState}></ButtonSubmit>
                     </button>
                   </div>
                 </form>
