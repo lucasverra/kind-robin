@@ -8,8 +8,8 @@ module.exports = {
     {
       resolve: `gatsby-plugin-manifest`,
       options: {
-        name: `Sous le haut patronage du Ministère des sports`,
-        short_name: `Ministère des sports`,
+        name: `Bougez Chez Vous`,
+        short_name: `Bougez Chez Vous`,
         start_url: `/`,
         background_color: `#0072ff`,
         theme_color: `#ffffff`,
