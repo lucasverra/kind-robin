@@ -16,6 +16,10 @@ export const logOut = (email, password) => {
     User.logOut().catch(err => console.log(err));
 };
 
+export const ResetPaswword = (email) => {
+    return User.requestPasswordReset(email)
+}
+
 export const setPrefrence = (userPreference) => {
     if(User.current()){
         User.current().set({userPreference})

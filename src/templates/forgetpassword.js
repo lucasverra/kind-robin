@@ -1,9 +1,8 @@
 import React from "react";
 import { Layout } from "../components/index";
-
+import { ResetPaswword } from "../services/auth"
 import { FaEnvelope } from "react-icons/fa";
-import Loader from "react-loader-spinner";
-import { FaCheck, FaTimes } from "react-icons/fa";
+import { ButtonSubmit } from '../utils/ButtonSubmit'
 
 import "../sass/custom.scss";
 
@@ -12,31 +11,30 @@ export default class ForgetPassword extends React.Component {
     super(props);
     this.state = {
       buttonState: "",
+      email:""
     };
   }
-  conditionalButton = () => {
-    let { buttonState } = this.state;
-    if (buttonState === "loading") {
-      return <Loader type="Oval" color="#fff" />;
-    }
-    if (buttonState === "success") {
-      return <FaCheck />;
-    }
-    if (buttonState === "error") {
-      return <FaTimes />;
-    } else {
-      return "generate link";
-    }
-  };
 
   handleSubmit = (event) => {
     event.preventDefault();
+
     this.setState({
       buttonState: "loading",
     });
-    setTimeout(() => this.setState({ buttonState: "success" }), 2000);
-    setTimeout(() => this.setState({ buttonState: "" }), 4000);
+
+    debugger
+    ResetPaswword(this.state.email)
+      .then((r) =>   this.setState({ buttonState: "success" }))
+      .catch(e => this.setState({ buttonState: "error" })
+
+    )
   };
+
+  handleChange = (e) => {
+    this.setState({
+      [e.target.name]: e.target.value,
+    });
+  } 
 
   render() {
     const { buttonState } = this.state;
@@ -68,6 +66,8 @@ export default class ForgetPassword extends React.Component {
                       className="email"
                       type="email"
                       name="email"
+                      onChange={this.handleChange}
+                      value={this.state.email}
                       required
                     />
                   </div>
@@ -79,7 +79,7 @@ export default class ForgetPassword extends React.Component {
                   } button secondary btn-submit submit-btn`}
                   type="submit"
                 >
-                  {this.conditionalButton()}
+                  <ButtonSubmit text={"generate link"} buttonState={this.state.buttonState}></ButtonSubmit>
                 </button>
               </form>
             </div>

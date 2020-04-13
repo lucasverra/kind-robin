@@ -2,10 +2,10 @@ import React, { Component } from "react";
 import { FaEnvelope, FaLock, FaRegEyeSlash, FaRegEye } from "react-icons/fa";
 import { Link } from "gatsby";
 import { signUp } from "../services/auth";
+import { ButtonSubmit } from "../utils/ButtonSubmit"
 
 import "react-loader-spinner/dist/loader/css/react-spinner-loader.css";
-import Loader from "react-loader-spinner";
-import { FaCheck, FaTimes } from "react-icons/fa";
+
 
 import "../sass/custom.scss";
 
@@ -59,22 +59,6 @@ class SignupForm extends Component {
       gdpr: e.target.checked,
     });
   };
-
-  conditionalButton = () => {
-    let { buttonState } = this.state;
-    if (buttonState === "loading") {
-      return <Loader type="Oval" color="#fff" />;
-    }
-    if (buttonState === "success") {
-      return <FaCheck />;
-    }
-    if (buttonState === "error") {
-      return <FaTimes />;
-    } else {
-      return "Sign Up";
-    }
-  };
-
   handleChange = (event) => {
     this.setState({ [event.target.name]: event.target.value });
   };
@@ -148,7 +132,7 @@ class SignupForm extends Component {
           type="submit"
           disabled={!gdpr}
         >
-          {this.conditionalButton()}
+        <ButtonSubmit text={"Sign Up"} buttonState={this.state.buttonState}></ButtonSubmit>
         </button>
       </form>
     );

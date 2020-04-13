@@ -8,8 +8,8 @@ module.exports = {
     {
       resolve: `gatsby-plugin-manifest`,
       options: {
-        name: `Sous le haut patronage du Ministère des sports`,
-        short_name: `Ministère des sports`,
+        name: `Bougez Chez Vous`,
+        short_name: `Bougez Chez Vous`,
         start_url: `/`,
         background_color: `#0072ff`,
         theme_color: `#ffffff`,
@@ -34,7 +34,21 @@ module.exports = {
     {
       resolve: `gatsby-transformer-remark`,
       options: {
-        plugins: [`gatsby-remark-component`],
+        plugins: [
+          {
+            resolve: `gatsby-remark-embedder`,
+            options: {
+              customTransformers: [
+                // Your custom transformers
+              ],
+              services: {
+                // The service-specific options by the name of the service
+              },
+            },
+          },
+          `gatsby-remark-component`,
+          // Other plugins here...
+        ],
       },
     },
     {
