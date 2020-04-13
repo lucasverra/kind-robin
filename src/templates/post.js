@@ -14,7 +14,7 @@ export default class Post extends React.Component {
                 <article className="post post-full">
                   <header className="post-header">
                     <h1 className="post-title">{_.get(this.props, 'pageContext.frontmatter.title')}</h1>
-                    <h1 className="post-title">{_.get(this.props, 'pageContext.frontmatter.categoriepost')}</h1>
+                    <h5 className="post-title">{_.get(this.props, 'pageContext.frontmatter.categoriepost')}</h5>
                   </header>
                   {_.get(this.props, 'pageContext.frontmatter.img_path') && 
                   <div className="post-thumbnail">
