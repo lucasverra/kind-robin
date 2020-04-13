@@ -1,6 +1,6 @@
 ---
 categoriepost:
-- Général
+- se détendre
 template: post
 title: Besoin de respirer ? 3 activités relaxantes à essayer pendant le confinement
 subtitle: ''
