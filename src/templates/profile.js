@@ -187,8 +187,8 @@ export default class Profile extends React.Component {
                     className="goals"
                   >
                     <option></option>
-                    <option key={"buildMuscle"} value="Se musler">
-                      Se musler
+                    <option key={"buildMuscle"} value="Se muscler">
+                      Se muscler
                     </option>
                     <option key={"relax"} value="Se détendre">
                       Se détendre
