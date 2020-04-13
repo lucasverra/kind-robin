@@ -8,7 +8,7 @@ subtitle: ''
 date: 2020-04-22T00:00:00+01:00
 thumb_img_path: "/images/iStock-542827872.jpg"
 img_path: "/images/iStock-542827872.jpg"
-excerpt: ''
+excerpt: Les HIIT s'adaptent à tous les niveaux, et ne demandent souvent aucun équipement.
 
 ---
 Vous voulez brûler des calories mais que vous n'avez pas beaucoup de temps ? 
