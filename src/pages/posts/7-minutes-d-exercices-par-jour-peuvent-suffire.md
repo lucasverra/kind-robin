@@ -2,11 +2,11 @@
 categoriepost:
 - Général
 template: post
-title: 7 minutes d'exercices par jour peuvent suffire
+title: 7 minutes d'exercices peuvent suffire pour intégrer le sport à votre quotidien
 subtitle: ''
 date: 2020-04-20T00:00:00+01:00
-thumb_img_path: ''
-img_path: ''
+thumb_img_path: "/images/iStock-925905698.jpg"
+img_path: "/images/iStock-925905698.jpg"
 excerpt: Prêt.e à relever le défi cette semaine ?
 
 ---
