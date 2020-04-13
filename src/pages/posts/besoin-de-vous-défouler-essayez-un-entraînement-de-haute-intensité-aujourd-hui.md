@@ -1,6 +1,6 @@
 ---
 categoriepost:
-- se défouler
+- Se défouler
 template: post
 title: Besoin de vous défouler ? Essayez un entraînement de haute intensité aujourd'hui
   !
