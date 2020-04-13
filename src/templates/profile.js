@@ -3,8 +3,7 @@ import { Layout } from "../components/index";
 import ToggleButton from "react-toggle-button";
 import { isLoggedIn, logOut } from "../services/auth";
 import { setPrefrence, getCurrentUser } from "../services/auth";
-import { FaCheck, FaTimes } from "react-icons/fa";
-import Loader from "react-loader-spinner";
+import {ButtonSubmit} from "../utils/ButtonSubmit"
 
 import "../sass/custom.scss";
 
@@ -40,21 +39,6 @@ export default class Profile extends React.Component {
         buttonState: "",
       });
     }, 3000);
-  };
-
-  conditionalButton = () => {
-    let { buttonState } = this.state;
-    if (buttonState === "loading") {
-      return <Loader type="Oval" color="#fff" />;
-    }
-    if (buttonState === "success") {
-      return <FaCheck />;
-    }
-    if (buttonState === "error") {
-      return <FaTimes />;
-    } else {
-      return "sauvegarder";
-    }
   };
 
   handleChange = (e) => {
@@ -293,7 +277,7 @@ export default class Profile extends React.Component {
                   } button secondary btn-submit submit-btn`}
                   type="submit"
                 >
-                  {this.conditionalButton()}
+                  <ButtonSubmit text={"sauvegarder"} buttonState={this.state.buttonState}></ButtonSubmit>
                 </button>
               </div>
             </form>
