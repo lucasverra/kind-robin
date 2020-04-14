@@ -19,6 +19,6 @@ Ils consistent en des courtes périodes d’exercice de haute intensité altern�
 
 [Move Your Fit ](https://www.moveyourfit.com/hiit/)propose des vidéos de HIIT pour tous les niveaux, comme par exemple celle-ci pour les débutants :
 
-[https://youtu.be/8YsUv_kf-qg](https://youtu.be/8YsUv_kf-qg "https://youtu.be/8YsUv_kf-qg")
+https://youtu.be/8YsUv_kf-qg
 
 [**Pensez**](https://youtu.be/8YsUv_kf-qg) **à essayer un des ces entrainements dés aujourd'hui ! Et notre conseil: Mettez la musique à fond!**
