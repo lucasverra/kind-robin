@@ -11,7 +11,7 @@ export default class Blog extends React.Component {
   constructor(props) {
     super(props);
     this.state = {
-      activeCategory: "all",
+      activeCategory: "tous",
     };
   }
 
@@ -22,7 +22,7 @@ export default class Blog extends React.Component {
   };
 
   render() {
-    const categories = ["all"];
+    const categories = ["tous"];
     const { activeCategory } = this.state;
     let display_posts = _.orderBy(
       getPages(this.props.pageContext.pages, "/posts"),
@@ -75,7 +75,7 @@ export default class Blog extends React.Component {
                   _.get(post, "frontmatter.categoriepost").indexOf(
                     activeCategory
                   ) < 0 &&
-                  activeCategory !== "all"
+                  activeCategory !== "tous"
                 )
                   return null;
                 return (

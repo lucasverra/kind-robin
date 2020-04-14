@@ -1,6 +1,6 @@
 ---
 categoriepost:
-- Général
+- Conseils pour tous
 template: post
 title: 3 applications gratuites proposant des activités sportives adaptées à tous
 subtitle: ''

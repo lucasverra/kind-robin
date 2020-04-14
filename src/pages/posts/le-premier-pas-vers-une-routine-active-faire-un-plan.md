@@ -1,6 +1,6 @@
 ---
 categoriepost:
-- Général
+- Conseils pour tous
 template: post
 title: Faites le premier pas pour arriver à BougerChezVous chaque jour
 subtitle: ''
