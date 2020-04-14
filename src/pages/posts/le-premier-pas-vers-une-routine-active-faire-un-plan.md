@@ -4,9 +4,9 @@ categoriepost:
 template: post
 title: Faites le premier pas pour arriver à BougerChezVous chaque jour
 subtitle: ''
-date: 2020-04-19T18:00:00+01:00
-thumb_img_path: "/images/istockphoto-460170779-1024x1024.jpg"
-img_path: "/images/istockphoto-460170779-1024x1024.jpg"
+date: 2020-04-19T17:00:00.000+00:00
+thumb_img_path: "/images/istockphoto-460170779-1024x1024-1.jpg"
+img_path: "/images/istockphoto-460170779-1024x1024-1.jpg"
 excerpt: 'Vous souhaitez faire plus d''activité physique, plus régulièrement, mais
   avez du mal à vous y tenir ?   '
 
