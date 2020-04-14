@@ -1,6 +1,6 @@
 ---
 categoriepost:
-- Général
+- Conseils pour tous
 template: post
 title: C'est dimanche! Planifiez votre semaine pour continuer à Bouger Chez Vous
 subtitle: ''

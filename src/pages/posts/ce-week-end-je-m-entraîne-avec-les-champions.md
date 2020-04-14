@@ -1,6 +1,6 @@
 ---
 categoriepost:
-- Général
+- Conseils pour tous
 template: post
 title: 'Ce week-end, je m''entraîne avec les champions ! '
 subtitle: Des athlètes vous proposent de partager leurs séances de sport

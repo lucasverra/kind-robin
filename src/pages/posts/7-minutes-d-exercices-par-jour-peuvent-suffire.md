@@ -1,6 +1,6 @@
 ---
 categoriepost:
-- Général
+- Conseils pour tous
 template: post
 title: 7 minutes d'exercices peuvent suffire pour intégrer le sport à votre quotidien
 subtitle: ''
