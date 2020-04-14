@@ -19,7 +19,7 @@ export default class Header extends React.Component {
         return <FaNewspaper />;
       } else if (title === "Les Ressources") {
         return <FaGift />;
-      } else if (title === "Vos retours") {
+      } else if (title === "Vos Retours") {
         return <FaClipboardCheck />;
       }
     };
