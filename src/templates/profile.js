@@ -183,11 +183,59 @@ export default class Profile extends React.Component {
                   </select>
                 </div>
               </div>
+            
               <div className="form-row">
                 <label>
-                  Souhaitez vous recevoir des notification push?
+                  Souhaitez vous recevoir des contenus adaptés aux enfants ?
                   <span className="screen-reader-text">
-                    Souhaitez vous recevoir des notification push?
+                    Souhaitez vous recevoir des contenus adaptés aux enfants ?
+                  </span>
+                </label>
+                <div className="input_container">
+                  <ToggleButton
+                    inactiveLabel="no"
+                    activeLabel="yes"
+                    value={this.state.hasChildFriendlyContent}
+                    onToggle={(value) => {
+                      this.setState({
+                        hasChildFriendlyContent: !this.state
+                          .hasChildFriendlyContent,
+                      });
+                    }}
+                  />
+                </div>
+              </div>
+
+              <div className="form-row">
+                <label>
+                Acceptez-vous de recevoir des notifications par email ?
+                  <span className="screen-reader-text">
+                  Acceptez-vous de recevoir des notifications par email ?
+                  </span>
+                </label>
+                <div className="input_container">
+                  <ToggleButton
+                    inactiveLabel="no"
+                    activeLabel="yes"
+                    value={this.state.hasNotificationsEmail}
+                    onToggle={(value) => {
+                      var OneSignal = window.OneSignal || [];
+                      console.log(getCurrentUser().get("email"));
+                      OneSignal.setEmail(getCurrentUser().get("email"));
+                      this.setState({
+                        hasNotificationsEmail: !this.state
+                          .hasNotificationsEmail,
+                      });
+                    }}
+                  />
+                </div>
+              </div>
+
+              <div className="form-row">
+                <label>
+                Acceptez-vous de recevoir des notifications push ?
+                  <span className="screen-reader-text">
+                  Acceptez-vous de recevoir des notifications push ?
                   </span>
                 </label>
                 <div className="input_container">
@@ -210,53 +258,6 @@ export default class Profile extends React.Component {
                       });
                       this.setState({
                         hasNotificationsPush: !this.state.hasNotificationsPush,
-                      });
-                    }}
-                  />
-                </div>
-              </div>
-
-              <div className="form-row">
-                <label>
-                  Souhaitez vous recevoir des contenus adaptés aux enfants?
-                  <span className="screen-reader-text">
-                    Souhaitez vous recevoir des contenus adaptés aux enfants?
-                  </span>
-                </label>
-                <div className="input_container">
-                  <ToggleButton
-                    inactiveLabel="no"
-                    activeLabel="yes"
-                    value={this.state.hasChildFriendlyContent}
-                    onToggle={(value) => {
-                      this.setState({
-                        hasChildFriendlyContent: !this.state
-                          .hasChildFriendlyContent,
-                      });
-                    }}
-                  />
-                </div>
-              </div>
-
-              <div className="form-row">
-                <label>
-                  Souhaitez vous recevoir des notification email?
-                  <span className="screen-reader-text">
-                    Souhaitez vous recevoir des notification email?
-                  </span>
-                </label>
-                <div className="input_container">
-                  <ToggleButton
-                    inactiveLabel="no"
-                    activeLabel="yes"
-                    value={this.state.hasNotificationsEmail}
-                    onToggle={(value) => {
-                      var OneSignal = window.OneSignal || [];
-                      console.log(getCurrentUser().get("email"));
-                      OneSignal.setEmail(getCurrentUser().get("email"));
-                      this.setState({
-                        hasNotificationsEmail: !this.state
-                          .hasNotificationsEmail,
                       });
                     }}
                   />
