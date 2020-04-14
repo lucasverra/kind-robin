@@ -7,7 +7,6 @@ menus:
   secondary:
     title: Politique de confidentialité
     weight: 2
-template: page
 
 ---
 ##### **Introduction**
