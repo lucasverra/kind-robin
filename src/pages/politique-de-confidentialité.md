@@ -42,8 +42,7 @@ Nous collecterons les données suivantes:
 3. Vos préférences de contenus
 4. Réponses à une courte enquête hebdomadaire sur votre activité physique et votre état d’esprit
 
-#####   
-**Que faisons-nous avec ces informations ?**
+##### **Que faisons-nous avec ces informations ?**
 
 Le BIT traite vos données personnelles afin de mettre en place et piloter l’application web que nous avons développée.
 
@@ -51,7 +50,7 @@ Vos données seront utilisées: 1) pour vous envoyer des notifications par email
 
 Les résultats de cette étude pourraient être publiés dans le cadre d’un rapport scientifique, et de publications associées (blogs, articles, etc.). Les résultats ne seront publiés que sous forme agrégée et ne permettront pas d’identifier, directement ou indirectement, les usagers de l’application.
 
-**Quelle est la base légale pour le traitement de vos données personnelles ?**
+##### **Quelle est la base légale pour le traitement de vos données personnelles ?**
 
 Les lois sur la protection des données nous obligent à remplir certaines conditions avant de pouvoir utiliser vos données de la manière décrite dans le présent avis, notamment en imposant que nous ayons une base légale pour le traitement.
 
