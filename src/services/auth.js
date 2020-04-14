@@ -87,11 +87,16 @@ export const sendSurvey = (data) => {
     debugger
     const Survey = Object.extend("Survey");
 
-    let dataTosend = data;
+    let dataTosend = {};
 
     if(User.current()){
-        dataTosend = {...data, email:User.current.get('email')}
+        dataTosend.email = User.current().get('email')
     }
+
+    dataTosend.howfellCheckedIndex = data.howfellCheckedIndex;
+    dataTosend.manydaywillsportCheckedIndex = data.manydaywillsportCheckedIndex;
+    dataTosend.manydaydidsportCheckedIndex = data.manydaydidsportCheckedIndex;
+    dataTosend.preferedMessage = data.preferedMessage;
 
   let newSurvey = new Survey();
   return newSurvey.save(dataTosend);
