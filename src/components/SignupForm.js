@@ -115,13 +115,13 @@ class SignupForm extends Component {
               checked={gdpr}
             />
             <label htmlFor="gdpr">
-              You agree with our <Link to="/">terms and conditions</Link>
+            En cochant cette case, je reconnais avoir pris connaissance des <Link to="/conditions">Conditions Générales d'Utilisation.</Link>
             </label>
           </div>
         </div>
         <div className="form-row">
           <div className="addition_text">
-            Have an account? <Link to="/login">Sign in here</Link>
+          Vous avez un profil ? <Link to="/login">Connectez-vous ici</Link>
           </div>
         </div>
 
@@ -132,7 +132,7 @@ class SignupForm extends Component {
           type="submit"
           disabled={!gdpr}
         >
-        <ButtonSubmit text={"Sign Up"} buttonState={this.state.buttonState}></ButtonSubmit>
+        <ButtonSubmit text={"S'inscrire"} buttonState={this.state.buttonState}></ButtonSubmit>
         </button>
       </form>
     );

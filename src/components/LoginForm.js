@@ -117,7 +117,7 @@ class LoginForm extends Component {
             <Link to="/signup">Enregistrez-vous</Link>
           </div>
           <div className="addition_text">
-            Forget password? <Link to="/forgetpassword">Reset</Link>
+            Mot de passe oublié ? <Link to="/forgetpassword">Réinitialisez-le ici</Link>
           </div>
         </div>
 
