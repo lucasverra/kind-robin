@@ -13,9 +13,9 @@ export default class CustomPage extends React.Component {
     super(props);
     this.state = {
       buttonState: "",
-      howfellCheckedIndex:1,
-      manydaywillsportCheckedIndex:0,
-      manydaydidsportCheckedIndex:0,
+      howfellCheckedIndex:"",
+      manydaywillsportCheckedIndex:"",
+      manydaydidsportCheckedIndex:"",
       preferedMessage:""
     };
   }
