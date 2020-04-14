@@ -9,7 +9,7 @@ sections:
   content: |-
     Afin de nous diriger vos recommandations ou demandes, veuillez-nous écrire à :
 
-    ### agendaenforme@bi.team
+    ### agenda.sport@bi.team
   image: ''
   actions:
   - label: Revenir à l'Accueil
