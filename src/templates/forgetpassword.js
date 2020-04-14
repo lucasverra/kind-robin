@@ -43,13 +43,13 @@ export default class ForgetPassword extends React.Component {
         <section className="custom-container">
           <div className="custom-container__left">
             <div className="content">
-              <h2>Hello</h2>
-              <p>Enter your email to receive reset link.</p>
+              <h2>Bonjour</h2>
+              <p>Entrez votre adresse électronique pour recevoir le lien de réinitialisation.</p>
             </div>
           </div>
           <div className="custom-container__right">
             <div className="content">
-              <h3 className="title">Forget Password?</h3>
+              <h3 className="title"> Mot de passe oublié ?</h3>
               <form
                 name="forgetPasswordForm"
                 method="POST"
@@ -79,7 +79,7 @@ export default class ForgetPassword extends React.Component {
                   } button secondary btn-submit submit-btn`}
                   type="submit"
                 >
-                  <ButtonSubmit text={"generate link"} buttonState={this.state.buttonState}></ButtonSubmit>
+                  <ButtonSubmit text={"générer un lien"} buttonState={this.state.buttonState}></ButtonSubmit>
                 </button>
               </form>
             </div>

@@ -20,13 +20,13 @@ export default class Signup extends React.Component {
         <section className="custom-container">
           <div className="custom-container__left">
             <div className="content">
-              <h2>Hello</h2>
-              <p>Create a new account to continue</p>
+              <h2>Bonjour</h2>
+              <p>Créer un profil pour continuer</p>
             </div>
           </div>
           <div className="custom-container__right">
             <div className="content">
-              <h3 className="title">Sign up</h3>
+              <h3 className="title">S'inscrire</h3>
               <SignupForm />
             </div>
           </div>
