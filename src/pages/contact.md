@@ -16,8 +16,8 @@ sections:
     url: "/"
 menus:
   secondary:
-    title: Contact
-    weight: 3
+    title: Prendre contact
+    weight: 4
 template: landing
 
 ---
