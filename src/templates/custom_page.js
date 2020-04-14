@@ -137,7 +137,6 @@ export default class CustomPage extends React.Component {
                         className="01"
                         type="text"
                         name="preferedMessage"
-                        required
                         autoFocus
                         onChange={this.handleChange}
                       />
