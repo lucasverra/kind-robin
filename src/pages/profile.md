@@ -2,8 +2,8 @@
 title: Profil
 menus:
   secondary:
-    title: Profile
-    weight: 1
+    title: Mon profil / Inscription
+    weight: 3
 template: profile
 
 ---

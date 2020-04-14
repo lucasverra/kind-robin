@@ -1,10 +1,10 @@
 ---
 title: 'Qui sommes nous ? '
 subtitle: ''
-img_path: "/images/MIN_Sports_CMJN_Concours_Vecto.jpg"
+img_path: "/images/Screenshot 2020-04-14 at 14.25.08.png"
 menus:
   secondary:
-    title: About Us
+    title: Qui sommes nous ?
     weight: 1
 template: page
 

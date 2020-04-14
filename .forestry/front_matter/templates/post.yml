@@ -18,8 +18,8 @@ fields:
   - Général
   label: categoriePost
   description: "Copier-Coller la catégorie puis taper sur \"Entrée\".(\U0001F534 case
-    sensitive) Les options sont : Géneral; Se muscler;Se détendre;Se défouler;Avec
-    des enfants "
+    sensitive &traling space character sensitive) Les options sont : Géneral; Se muscler;Se
+    détendre;Se défouler;Avec des enfants "
 - type: datetime
   name: date
   label: Date
@@ -48,7 +48,6 @@ pages:
 - src/pages/posts/7-minutes-d-exercices-par-jour-peuvent-suffire.md
 - src/pages/posts/besoin-de-respirer-3-activités-relaxantes-à-essayer-pendant-le-confinement.md
 - src/pages/posts/besoin-de-vous-défouler-essayez-un-entraînement-de-haute-intensité-aujourd-hui.md
-- src/pages/posts/bougezchezvous-les-5-conseils-de-sarah-ourahmoune-championne-de-boxe.md
 - src/pages/posts/ce-week-end-je-m-entraîne-avec-les-champions.md
 - src/pages/posts/de-nombreux-studios-offrent-des-cours-de-sport-gratuits-en-ligne.md
 - src/pages/posts/des-coachs-en-ligne-pour-ne-pas-perdre-le-fil-de-vos-entraînements.md

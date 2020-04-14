@@ -7,17 +7,17 @@ sections:
   section_id: Prendre contact
   title: Comment pouvons-nous vous aider ?
   content: |-
-    Afin de nous diriger vos recommandations ou demandes, veillez-nous écrire à :
+    Afin de nous diriger vos recommandations ou demandes, veuillez-nous écrire à :
 
-    ### contact@bi.team
+    ### agenda.sport@bi.team
   image: ''
   actions:
-  - label: Revenir à l'Acceuil
+  - label: Revenir à l'Accueil
     url: "/"
 menus:
   secondary:
-    title: Contact
-    weight: 3
+    title: Prendre contact
+    weight: 4
 template: landing
 
 ---

@@ -1,10 +1,10 @@
 ---
 categoriepost:
-- se détendre
+- Se détendre
 template: post
 title: Besoin de respirer ? 3 activités relaxantes à essayer pendant le confinement
 subtitle: ''
-date: 2020-04-29T00:00:00+01:00
+date: 2020-04-28T23:00:00.000+00:00
 thumb_img_path: "/images/istockphoto-957709368-1024x1024.jpg"
 img_path: "/images/istockphoto-957709368-1024x1024.jpg"
 excerpt: Pourquoi ne pas essayer l'une de ces activités aujourd'hui ?
