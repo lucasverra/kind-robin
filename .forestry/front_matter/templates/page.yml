@@ -24,6 +24,5 @@ fields:
   config:
     required: true
 pages:
-- src/pages/Politique de confidentialité.md
 - src/pages/about.md
 - src/pages/signup.md

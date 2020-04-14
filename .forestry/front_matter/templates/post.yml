@@ -18,8 +18,8 @@ fields:
   - Conseils pour tous
   label: categoriePost
   description: "Copier-Coller la catégorie puis taper sur \"Entrée\".(\U0001F534 case
-    sensitive &traling space character sensitive) Les options sont : Conseils pour tous; Se muscler;Se
-    détendre;Se défouler;Avec des enfants "
+    sensitive &traling space character sensitive) Les options sont : Conseils pour
+    tous; Se muscler;Se détendre;Se défouler;Avec des enfants "
 - type: datetime
   name: date
   label: Date
