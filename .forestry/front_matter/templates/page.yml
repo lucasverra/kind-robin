@@ -25,5 +25,5 @@ fields:
     required: true
 pages:
 - src/pages/Politique de confidentialité.md
-- src/pages/Qui sommes-nous ?.md
+- src/pages/about.md
 - src/pages/signup.md
