@@ -121,7 +121,7 @@ class SignupForm extends Component {
         </div>
         <div className="form-row">
           <div className="addition_text">
-          Vous avez un profil ? <Link to="/login">Connectez-vous ici</Link>
+          Déjà inscrit.e ? <Link to="/login">Connectez-vous ici</Link>
           </div>
         </div>
 

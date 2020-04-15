@@ -14,7 +14,7 @@ sections:
   image: "/images/bougez chez vous (5).png"
   actions:
   - label: Je m'inscris
-    url: "/profile"
+    url: "/signup"
 - type: section_features
   template: section_features
   section_id: features

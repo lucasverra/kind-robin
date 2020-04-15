@@ -111,8 +111,8 @@ export default class Profile extends React.Component {
             >
               <div className="form-row">
                 <label>
-                  Nom
-                  <span className="screen-reader-text">Nom</span>
+                  Prénom
+                  <span className="screen-reader-text">Prénom</span>
                 </label>
                 <div className="input_container">
                   <input
@@ -121,7 +121,6 @@ export default class Profile extends React.Component {
                     type="text"
                     name="name"
                     value={this.state.name}
-                    required
                     autoFocus
                   />
                 </div>
