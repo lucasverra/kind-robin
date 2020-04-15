@@ -114,7 +114,7 @@ class LoginForm extends Component {
         <div className="form-row">
           <div className="addition_text">
             Vous n'avez pas de compte ?{" "}
-            <Link to="/signup">Enregistrez-vous</Link>
+            <Link to="/signup">Inscrivez-vous</Link>
           </div>
           <div className="addition_text">
             Mot de passe oublié ? <Link to="/forgetpassword">Réinitialisez-le ici</Link>
