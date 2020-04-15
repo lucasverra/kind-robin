@@ -33,12 +33,12 @@ export default class Profile extends React.Component {
       this.setState({
         buttonState: "success",
       });
-    }, 7500);
+    }, 500);
     setTimeout(() => {
       this.setState({
         buttonState: "",
       });
-    }, 3000);
+    }, 7000);
   };
 
   handleChange = (e) => {
