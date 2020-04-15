@@ -8,7 +8,7 @@ sections:
   content: |-
     Des rappels et conseils pour vous aider à **rester en forme, chez vous**.
 
-    Lorsqu'on doit rester chez soi, maintenir une activité physique régulière peut aider à maintenir la forme et le moral.
+    Lorsqu'on doit rester chez soi, maintenir une activité physique régulière peut aider à garder la forme et le moral.
 
     ​Pour vous accompagner, le Ministère des Sports met à votre disposition BougezChezVous, une application pour vous aider à intégrer l’activité physique à votre nouveau quotidien.
   image: "/images/bougez chez vous (5).png"
@@ -23,7 +23,7 @@ sections:
   bg: gray
   featureslist:
   - title: "Des conseils et idées d'activités ouverts à tous \U0001F450"
-    content: Que vous soyez expert.e fitness ou un.e néophyte, vous avons recensé
+    content: Que vous soyez expert.e fitness ou un.e néophyte, nous avons recensé
       du contenu de qualité pour encourager l'activité physique à la maison. Les enfants
       sont aussi invités !
     image: "/images/iStock-512210330.jpg"
