@@ -151,7 +151,7 @@ export default class CustomPage extends React.Component {
                       type="submit"
                     >
                       <ButtonSubmit
-                        text={"Enregister"}
+                        text={"Enregistrer"}
                         buttonState={buttonState}
                       ></ButtonSubmit>
                     </button>
