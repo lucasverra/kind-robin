@@ -33,7 +33,7 @@ export default class Profile extends React.Component {
       this.setState({
         buttonState: "success",
       });
-    }, 1500);
+    }, 7500);
     setTimeout(() => {
       this.setState({
         buttonState: "",
