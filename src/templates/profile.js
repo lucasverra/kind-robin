@@ -59,6 +59,45 @@ export default class Profile extends React.Component {
     if (typeof window !== `undefined`) window.location.replace(`/`);
   };
 
+  handleChangeToogleEmail = () => {
+    var OneSignal = window.OneSignal || [];
+      console.log(getCurrentUser().get("email"));
+      OneSignal.setEmail(getCurrentUser().get("email"));
+      this.setState({
+        hasNotificationsEmail: !this.state
+          .hasNotificationsEmail,
+      });
+  }
+
+
+  
+  handleChangeTooglePush = () => {
+    var OneSignal = window.OneSignal || [];
+    OneSignal.push(function () {
+      OneSignal.init({
+        appId: `${process.env.GATSBY_ONE_SIGNAL_APP_ID}`,
+        allowLocalhostAsSecureOrigin: true,
+      });
+      OneSignal.setDefaultNotificationUrl(
+        `${process.env.GATSBY_ONE_SIGNAL_URL_START}`
+      );
+      //OneSignal.setEmail("a@b.com");
+      //OneSignal.sendTag("toto", "titi");
+    });
+    this.setState({
+      hasNotificationsPush: !this.state.hasNotificationsPush,
+    });
+  }
+
+
+  handleChangeToogleChild = () => {
+    this.setState({
+      hasChildFriendlyContent: !this.state
+        .hasChildFriendlyContent,
+    });
+  }
+  
+
   componentDidMount() {
     if (getCurrentUser) {
       getCurrentUser()
@@ -67,6 +106,7 @@ export default class Profile extends React.Component {
           if (user.get("userPreference")) {
             this.setState({ ...user.get("userPreference") });
           }
+          debugger
           this.setState({
             buttonState: "",
           });
@@ -182,7 +222,7 @@ export default class Profile extends React.Component {
                   </select>
                 </div>
               </div>
-            
+
               <div className="form-row">
                 <label>
                   Souhaitez vous recevoir des contenus adaptés aux enfants ?
@@ -191,20 +231,17 @@ export default class Profile extends React.Component {
                   </span>
                 </label>
                 <div className="input_container">
-                  <ToggleButton
-                    inactiveLabel="no"
-                    activeLabel="yes"
-                    value={this.state.hasChildFriendlyContent}
-                    onToggle={(value) => {
-                      this.setState({
-                        hasChildFriendlyContent: !this.state
-                          .hasChildFriendlyContent,
-                      });
-                    }}
-                  />
+                <div className="radio_values">
+                      <div className="radio_values-wrapper">
+                        <input type="radio" name="hasChildFriendlyContent" checked={this.state.hasChildFriendlyContent === true} value="oui" onChange={this.handleChangeToogleChild}/> oui
+                      </div>
+                      <div className="radio_values-wrapper">
+                        <input type="radio" name="hasChildFriendlyContent" checked={this.state.hasChildFriendlyContent === false} value="non" onChange={this.handleChangeToogleChild}/> non
+                      </div>
+                    </div>
                 </div>
-              </div>
-
+                </div>
+            
               <div className="form-row">
                 <label>
                 Acceptez-vous de recevoir des notifications par email ?
@@ -213,20 +250,14 @@ export default class Profile extends React.Component {
                   </span>
                 </label>
                 <div className="input_container">
-                  <ToggleButton
-                    inactiveLabel="no"
-                    activeLabel="yes"
-                    value={this.state.hasNotificationsEmail}
-                    onToggle={(value) => {
-                      var OneSignal = window.OneSignal || [];
-                      console.log(getCurrentUser().get("email"));
-                      OneSignal.setEmail(getCurrentUser().get("email"));
-                      this.setState({
-                        hasNotificationsEmail: !this.state
-                          .hasNotificationsEmail,
-                      });
-                    }}
-                  />
+                    <div className="radio_values">
+                      <div className="radio_values-wrapper">
+                        <input type="radio" name="hasNotificationsEmail" checked={this.state.hasNotificationsEmail === true} value="oui" onChange={this.handleChangeToogleEmail}/> oui
+                      </div>
+                      <div className="radio_values-wrapper">
+                        <input type="radio" name="hasNotificationsEmail" checked={this.state.hasNotificationsEmail === false} onChange={this.handleChangeToogleEmail}/> non
+                      </div>
+                    </div>
                 </div>
               </div>
 
@@ -238,28 +269,14 @@ export default class Profile extends React.Component {
                   </span>
                 </label>
                 <div className="input_container">
-                  <ToggleButton
-                    inactiveLabel="no"
-                    activeLabel="yes"
-                    value={this.state.hasNotificationsPush}
-                    onToggle={(value) => {
-                      var OneSignal = window.OneSignal || [];
-                      OneSignal.push(function () {
-                        OneSignal.init({
-                          appId: `${process.env.GATSBY_ONE_SIGNAL_APP_ID}`,
-                          allowLocalhostAsSecureOrigin: true,
-                        });
-                        OneSignal.setDefaultNotificationUrl(
-                          `${process.env.GATSBY_ONE_SIGNAL_URL_START}`
-                        );
-                        //OneSignal.setEmail("a@b.com");
-                        //OneSignal.sendTag("toto", "titi");
-                      });
-                      this.setState({
-                        hasNotificationsPush: !this.state.hasNotificationsPush,
-                      });
-                    }}
-                  />
+                    <div className="radio_values">
+                      <div className="radio_values-wrapper">
+                        <input type="radio" name="hasNotificationsPush" checked={this.state.hasNotificationsPush === true} value="oui" onChange={this.handleChangeTooglePush}/> oui
+                      </div>
+                      <div className="radio_values-wrapper">
+                        <input type="radio" name="hasNotificationsPush" checked={this.state.hasNotificationsPush === false} value="non" onChange={this.handleChangeTooglePush}/> non
+                      </div>
+                    </div>
                 </div>
               </div>
 
