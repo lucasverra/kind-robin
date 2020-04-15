@@ -30,9 +30,9 @@ sections:
     actions:
     - label: 'Accéder aux ressources '
       url: "/blog"
-  - title: Que vais-je recevoir ?
+  - title: Pourquoi m'inscrire ?
     content: |-
-      Une fois inscrit.e, vous recevrez :
+      Une fois inscrit.e, Bougez Chez Vous vous aide à mettre en place de nouvelles habitudes physiques, grâce à :
 
       * une invitation à un rappel quotidien à faire une activité physique, à une heure que vous aurez choisie.
       * des conseils et contenus personnalisés sous la forme d'emails et notifications et selon vos préférences.
