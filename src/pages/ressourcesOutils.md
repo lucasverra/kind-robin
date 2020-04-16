@@ -9,7 +9,7 @@ sections:
     aider à BougerChezVous en ces temps de confinement.
   bg: gray
   faqitems:
-  - question: Quels sont nos besoins d'activités sportives ? Les recommendations
+  - question: 'Recommendations : quels sont nos besoins d''activités sportives '
     answer: |-
       ##### De combien d’activité physique avons-nous besoin ?
 
