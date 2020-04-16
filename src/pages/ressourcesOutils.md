@@ -9,8 +9,7 @@ sections:
     aider à BougerChezVous en ces temps de confinement.
   bg: gray
   faqitems:
-  - question: 'Recommandations : De combien d’activité physique avons-nous besoin
-      ? '
+  - question: Quels sont nos besoins d'activités sportives ? Les recommendations
     answer: |-
       ##### De combien d’activité physique avons-nous besoin ?
 
@@ -84,7 +83,7 @@ sections:
       Bouge chez toi (disponible sur [Apple Store](https://apps.apple.com/us/app/bougecheztoi/id1504279693?ign-mpt=uo%3D2))
 menus:
   main:
-    title: Les Ressources 
+    title: Les Ressources
     weight: 3
 template: landing
 
