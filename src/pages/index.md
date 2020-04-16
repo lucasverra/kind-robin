@@ -24,8 +24,8 @@ sections:
   featureslist:
   - title: "Des conseils et idées d'activités ouverts à tous \U0001F450"
     content: Que vous soyez expert.e fitness ou un.e néophyte, nous avons recensé
-      du contenu de qualité pour encourager l'activité physique à la maison. Les enfants
-      sont aussi invités !
+      pour vous des contenus de qualité pour vous encourager à pratiquer une activité
+      physique à la maison. Les enfants sont aussi invités !
     image: "/images/iStock-512210330.jpg"
     actions:
     - label: 'Accéder aux ressources '
