@@ -21,4 +21,6 @@ Parmi les meilleures propositions :
 * [**MYF Move Your Fit **](https://www.youtube.com/user/jalexica/videos "Move Your Fit") met en ligne une vidéo par jour pendant le confinement, avec du contenu comprenant des séances d'entraînement, des séances de yoga et des activités en famille
 * [**Punch**](https://www.instagram.com/punch.boxing/channel/), un studio de boxe / bootcamp, propose des cours tous les deux jours sur leur compte instagram
 
+https://youtu.be/EhZucdK-U1k
+
 Et ce n'est pas tout ! Il y en a pour tous les goûts, alors **lancez votre recherche dès maintenant !**
