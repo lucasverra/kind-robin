@@ -52,7 +52,7 @@ sections:
 
       ![](/images/logos partenaires.png)
 
-      Liens vers les applications :
+      Pour accéder à ces applications :
 
       Be Sport (disponible sur [Apple Store](https://apps.apple.com/us/app/be-sport/id1104216922) et [Google Play](https://play.google.com/store/apps/details?id=com.besport.www.mobile&hl=en_GB))
 
