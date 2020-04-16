@@ -7,7 +7,7 @@ subtitle: ''
 date: 2020-04-08T23:00:00.000+00:00
 thumb_img_path: "/images/logos partenaires.png"
 img_path: "/images/logos partenaires.png"
-excerpt: 4 applications gratuites pendant le confinement.
+excerpt: 4 applications gratuites pour vous aider à bouger pendant le confinement.
 
 ---
 **Vous ne savez pas par quelle activité commencer ? Laissez vous guider**
