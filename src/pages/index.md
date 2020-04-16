@@ -10,7 +10,7 @@ sections:
 
     Lorsqu'on doit rester chez soi, maintenir une activité physique régulière peut aider à garder la forme et le moral.
 
-    ​Pour vous accompagner, le Ministère des Sports met à votre disposition BougezChezVous, une application pour vous aider à intégrer l’activité physique à votre nouveau quotidien.
+    ​Pour vous accompagner, le ministère des Sports met à votre disposition BougezChezVous, une application pour vous aider à intégrer l’activité physique dans votre nouveau quotidien.
   image: "/images/bougez chez vous (5).png"
   actions:
   - label: Je m'inscris
