@@ -25,4 +25,5 @@ fields:
     required: true
 pages:
 - src/pages/about.md
+- src/pages/conditions-générales-d-utilisation.md
 - src/pages/signup.md
