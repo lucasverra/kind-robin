@@ -19,6 +19,6 @@ Parmi les meilleures propositions :
 
 * [**YOZE**](https://yoze.fr/) propose des cours de yoga gratuits en ligne, offerts par des enseignants professionnels, et couvrant plusieurs pratiques et niveaux.
 * [**Angélique Bataillé**](https://www.youtube.com/channel/UCyErGfChj2SZC6PrC4NA22w/videos), une enseignante de pilates professionnelle, met en ligne des séances de 20 minutes que vous pouvez essayer à la maison.
-* [**Zenfie**](https://www.zenfie.com/fr/), l'application de méditation avec plus d'un million d'utilisateurs, est mise en accès libre pendant toute la période de confinement (utilisez le code "freezenfie").
+* [**Zenfie**](https://www.zenfie.com/fr/), l'application de méditation avec plus d'un million d'utilisateurs, est mise en accès libre pendant toute la période de confinement (utilisez le code « freezenfie »).
 
 Et ce n'est pas tout ! Il y en a pour tous les goûts, alors **lancez votre recherche dès maintenant !**
