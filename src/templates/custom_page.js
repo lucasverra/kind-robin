@@ -43,7 +43,7 @@ export default class CustomPage extends React.Component {
         this.setState({
           buttonState: "",
         });
-      }, 3000);
+      }, 7000);
     });
   };
 
