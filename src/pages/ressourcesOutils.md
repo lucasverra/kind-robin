@@ -9,7 +9,8 @@ sections:
     aider à BougerChezVous en ces temps de confinement.
   bg: gray
   faqitems:
-  - question: 'Recommendations : quels sont nos besoins d''activités sportives '
+  - question: 'Recommendations : de combien d''activité physique avons-nous besoin
+      ? '
     answer: "##### De combien d’activité physique avons-nous besoin ?\n\nL’activité
       physique permet de garder la forme, et le moral. \n\nLa quantité précise d’activité
       physique nécessaire à chacun pour se sentir bien dépend évidemment de l'âge,
