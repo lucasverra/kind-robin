@@ -32,10 +32,10 @@ sections:
       url: "/blog"
   - title: Pourquoi m'inscrire ?
     content: |-
-      Une fois inscrit.e, Bougez Chez Vous vous aide à accomplir vos objectifs d'activité physique, grâce à :
+      Une fois inscrit.e, Bougez Chez Vous vous aide à définir et réaliser vos objectifs d'activité physique, grâce à :
 
-      * une invitation à un rappel quotidien à faire une activité physique, à une heure que vous aurez choisie.
-      * des conseils et contenus personnalisés sous la forme d'emails et notifications et selon vos préférences.
+      * une invitation à un temps quotidien prévu pour faire une activité physique, à une heure que vous aurez choisie.
+      * des conseils et contenus personnalisés sous la forme d'emails et notifications, tenant compte de selon vos préférences.
     image: images/feature2.png
     actions:
     - label: Voir des exemples de rappels et conseils
