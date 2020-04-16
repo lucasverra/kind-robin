@@ -2,17 +2,17 @@
 categoriepost:
 - Conseils pour tous
 template: post
-title: 4 applications sportives payantes, maintenant gratuites !
+title: Les applications partenaires du ministère des Sports
 subtitle: ''
 date: 2020-04-08T23:00:00.000+00:00
-thumb_img_path: "/images/Screenshot 2020-04-12 at 18.54.59.png"
-img_path: "/images/Screenshot 2020-04-12 at 18.54.59.png"
-excerpt: ''
+thumb_img_path: "/images/logos partenaires.png"
+img_path: "/images/logos partenaires.png"
+excerpt: 4 applications gratuites pendant le confinement.
 
 ---
 **Vous ne savez pas par quelle activité commencer ? Laissez vous guider**
 
-Tout au long du confinement, **Goove**, **Activiti by My Coach** , **BeSport** et **BougeChezToi** mettent à votre disposition leurs contenus gratuitement, avec le concours du ministère des Sports.
+Tout au long du confinement, **Goove**, **Activiti by My Coach** , **BeSport** et **BougeChezToi** mettent à votre disposition leurs contenus gratuitement, sous le patronage du ministère des Sports.
 
 Conçues par des professionnels du sport, ces applications - normalement payantes - sont en accès libre sur les différentes plateformes (mobile, tablette et ordinateur).
 
