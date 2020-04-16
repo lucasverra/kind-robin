@@ -67,9 +67,9 @@ sections:
     answer: |-
       Le ministère des Sports a [recensé pour vous plusieurs applications offrant des suggestions d’exercices et d’activités](http://sports.gouv.fr/IMG/pdf/appsportliste-2.pdf), répondant à vos différentes attentes : Me détendre, Me défouler, Me muscler, Faire attention à son poids, Activités adaptées aux personnes en situation de handicap, Activités rapides pour les pressés, ou Activités en famille.
 
-      Afin de continuer à vous soutenir dans votre pratique d’activité physique, le ministère a également accordé son haut patronage aux plateformes numériques Be Sport, My Coach , Goove.app et BougeChezToi dont les contenus correspondent à des critères de qualité vérifiés par l’Observatoire national de l’activité physique et de la sédentarité (ONAPS).
+      Afin de continuer à vous soutenir dans votre pratique d’activités physiques, le ministère a également accordé son haut patronage aux plateformes numériques Be Sport, My Coach , Goove.app et BougeChezToi dont les contenus correspondent à des critères de qualité vérifiés par l’Observatoire national de l’activité physique et de la sédentarité (ONAPS).
 
-      Ces acteurs se sont engagés à proposer gratuitement à tous les publics leurs supports conçus par des professionnels du sport, de la santé et de l’activité physique adaptée.
+      Ces acteurs se sont engagés à proposer gratuitement à leurs supports conçus par des professionnels du sport, de la santé et de l’activité physique adaptée.
 
       Des séances d’entraînement variées à base d’exercices de renforcement musculaire, stretching et mouvements fondamentaux sont notamment proposées en accès libre sur les différentes plateformes (mobile, tablette et ordinateur).
 
@@ -81,7 +81,7 @@ sections:
 
       [Goove app](https://www.goove.app/free-access/themes) (web-application disponible sans téléchargement)
 
-      Bouge chez toi (disponible sur [Apple Store](https://apps.apple.com/us/app/bougecheztoi/id1504279693?ign-mpt=uo%3D2))
+      Bouge chez toi (disponible sur [Apple Store](https://apps.apple.com/us/app/bougecheztoi/id1504279693?ign-mpt=uo%3D2) et [Google Play](https://play.google.com/store/apps/details?id=com.mile_up.bouge_chez_toi.bouge_chez_toi&hl=en))
 menus:
   main:
     title: Les Ressources
