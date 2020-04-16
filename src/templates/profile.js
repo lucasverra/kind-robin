@@ -142,7 +142,7 @@ export default class Profile extends React.Component {
         <Layout {...this.props}>
           <section className="custom-container-2">
           <h4>Mon profil</h4>
-          <p>Merci de votre inscription ! Veuillez répondre aux questions ci-dessous pour nous permettre de vous envoyer des contenus personalisés.</p>
+          <p className="custom-profile-intro">Merci de votre inscription ! Veuillez répondre aux questions ci-dessous pour nous permettre de vous envoyer des contenus personalisés. Vous pourrez mettre ces informations à jour à tout moment.</p>
             <form
               name="myprefrences"
               method="POST"
