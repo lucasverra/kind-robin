@@ -49,6 +49,8 @@ sections:
 
       Des séances d’entraînement variées à base d’exercices de renforcement musculaire, stretching et mouvements fondamentaux sont notamment proposées en accès libre sur les différentes plateformes (mobile, tablette et ordinateur).
 
+      ![](/images/logos partenaires.png)
+
       Liens vers les applications :
 
       Be Sport (disponible sur [Apple Store](https://apps.apple.com/us/app/be-sport/id1104216922) et [Google Play](https://play.google.com/store/apps/details?id=com.besport.www.mobile&hl=en_GB))
