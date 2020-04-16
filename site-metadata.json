@@ -24,13 +24,9 @@
     "has_subscribe": false,
     "subscribe_title": "Subscribe",
     "subscribe_content": "Stay up to date with our latest developments.",
-    "content": "&copy; Bougez Chez Vous 2020.",
+    "content": "&copy; Behavioural Insights Team 2020. All Rights Reserved",
     "links": [
-      {
-        "text": "Ministère des sports",
-        "url": "http://www.sports.gouv.fr/accueil-du-site/actualites/article/coronavirus-covid-19-avec-le-ministere-des-sports-faire-du-sport-chez-soi-c-est",
-        "new_window": true
-      }
+
     ]
   }
 }
