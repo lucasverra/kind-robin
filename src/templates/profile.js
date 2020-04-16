@@ -140,6 +140,7 @@ export default class Profile extends React.Component {
     } else {
       return (
         <Layout {...this.props}>
+          <h1>This is a tittle</h1>
           <section className="custom-container-2">
             <form
               name="myprefrences"
