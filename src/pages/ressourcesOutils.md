@@ -50,17 +50,12 @@ sections:
 
       Des séances d’entraînement variées à base d’exercices de renforcement musculaire, stretching et mouvements fondamentaux sont notamment proposées en accès libre sur les différentes plateformes (mobile, tablette et ordinateur).
 
-      ![](/images/logos partenaires.png)
+      **Pour accéder à ces applications :**
 
-      Pour accéder à ces applications :
-
-      Be Sport (disponible sur [Apple Store](https://apps.apple.com/us/app/be-sport/id1104216922) et [Google Play](https://play.google.com/store/apps/details?id=com.besport.www.mobile&hl=en_GB))
-
-      Activiti by My Coach (disponible sur [Apple Store](https://apps.apple.com/fr/app/activiti-x-mycoach/id1503192846) et [Google Play](https://play.google.com/store/apps/details?id=com.mycoachsport.activiti&hl=en_US))
-
-      [Goove app](https://www.goove.app/free-access/themes) (web-application disponible sans téléchargement)
-
-      Bouge Chez Toi (disponible sur [Apple Store](https://apps.apple.com/us/app/bougecheztoi/id1504279693?ign-mpt=uo%3D2) et [Google Play](https://play.google.com/store/apps/details?id=com.mile_up.bouge_chez_toi.bouge_chez_toi&hl=en))
+      * Be Sport (disponible sur [Apple Store](https://apps.apple.com/us/app/be-sport/id1104216922) et [Google Play](https://play.google.com/store/apps/details?id=com.besport.www.mobile&hl=en_GB))
+      * Activiti by My Coach (disponible sur [Apple Store](https://apps.apple.com/fr/app/activiti-x-mycoach/id1503192846) et [Google Play](https://play.google.com/store/apps/details?id=com.mycoachsport.activiti&hl=en_US))
+      * [Goove app](https://www.goove.app/free-access/themes) (web-application disponible sans téléchargement)
+      * Bouge Chez Toi (disponible sur [Apple Store](https://apps.apple.com/us/app/bougecheztoi/id1504279693?ign-mpt=uo%3D2) et [Google Play](https://play.google.com/store/apps/details?id=com.mile_up.bouge_chez_toi.bouge_chez_toi&hl=en))
 menus:
   main:
     title: Les Ressources
