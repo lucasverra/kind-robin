@@ -25,7 +25,7 @@ sections:
       de sommeil), et de rompre les périodes prolongées passées en position assise
       par **quelques minutes de marche et d’étirements au minimum toutes les 2 heures**.\n\nVous
       pouvez retrouver plus d'information [ici.](http://www.sports.gouv.fr/accueil-du-site/actualites/article/coronavirus-covid-19-avec-le-ministere-des-sports-faire-du-sport-chez-soi-c-est)"
-  - question: 'Conseils : Comment maintenir une activité physique régulière ?'
+  - question: 'Conseils : comment maintenir une activité physique régulière ?'
     answer: |-
       Ce n’est pas parce qu’on est confiné qu’il faut arrêter toute activité physique, bien au contraire. Il est nécessaire de l’adapter à cette situation exceptionnelle, en maintenant une pratique régulière, dans son jardin comme à l’intérieur.
 
