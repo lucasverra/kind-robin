@@ -7,7 +7,7 @@ subtitle: ''
 date: 2020-04-17T00:00:00+01:00
 thumb_img_path: "/images/iStock-1126384516.jpg"
 img_path: "/images/iStock-1126384516-1.jpg"
-excerpt: Les sciences comportementales offrent des clés pour rester actifs.
+excerpt: Les sciences comportementales nous offrent des clés pour rester actifs.
 
 ---
 Que ce soit pour booster votre moral, bien-être ou santé physique, rester actif est plus important que jamais.
