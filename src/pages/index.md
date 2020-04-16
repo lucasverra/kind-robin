@@ -29,7 +29,7 @@ sections:
     image: "/images/iStock-512210330.jpg"
     actions:
     - label: 'Accéder aux ressources '
-      url: "/blog"
+      url: "/pages/ressourcesOutils.md"
   - title: Pourquoi m'inscrire ?
     content: |-
       Une fois inscrit.e, Bougez Chez Vous vous aide à définir et réaliser vos objectifs d'activité physique, grâce à :
