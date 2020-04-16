@@ -2,7 +2,7 @@
 categoriepost:
 - Conseils pour tous
 template: post
-title: 3 applications gratuites proposant des activités sportives adaptées à tous
+title: 4 applications sportives payantes, maintenant gratuites !
 subtitle: ''
 date: 2020-04-08T23:00:00.000+00:00
 thumb_img_path: "/images/Screenshot 2020-04-12 at 18.54.59.png"
