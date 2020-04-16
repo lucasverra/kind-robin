@@ -11,7 +11,7 @@ img_path: "/images/iStock-1129449588.jpg"
 excerpt: Du mal à vous détendre sans votre séance de sport hebdomadaire?
 
 ---
-Votre studio préféré a du fermer ses portes ? Ce n'est pas une raison pour manquer votre cours de Pilates !
+Votre studio préféré a dû fermer ses portes ? Ce n'est pas une raison pour manquer votre cours de Pilates !
 
 Les studios trouvent de nouvelles façons de vous accompagner, en transportant leurs cours jusque dans votre salon.
 
