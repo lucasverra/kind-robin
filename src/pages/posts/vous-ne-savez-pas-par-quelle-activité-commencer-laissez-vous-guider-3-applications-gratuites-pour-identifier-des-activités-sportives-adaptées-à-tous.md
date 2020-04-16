@@ -4,7 +4,7 @@ categoriepost:
 template: post
 title: Les applications partenaires du ministère des Sports
 subtitle: ''
-date: 2020-04-08T23:00:00.000+00:00
+date: 2020-04-17T00:00:00+01:00
 thumb_img_path: "/images/logos partenaires.png"
 img_path: "/images/logos partenaires.png"
 excerpt: 4 applications gratuites pour vous aider à bouger pendant le confinement.
