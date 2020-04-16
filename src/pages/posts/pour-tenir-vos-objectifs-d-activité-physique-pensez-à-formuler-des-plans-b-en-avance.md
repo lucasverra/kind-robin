@@ -22,6 +22,4 @@ Pour être sûr(e) de pouvoir tenir ces plans, une technique reconnue vise à co
 
 Complétez ces phrases pour être sûr(e) d'avoir un plan B, et d'atteindre les objectifs que vous vous êtes fixés.
 
-**Bonne semaine !**
-
-L'équipe Bougez Chez Vous
+Bonne semaine !
