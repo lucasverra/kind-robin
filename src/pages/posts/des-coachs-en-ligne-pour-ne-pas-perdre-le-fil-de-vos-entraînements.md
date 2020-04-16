@@ -10,7 +10,7 @@ img_path: "/images/iStock-670408148.jpg"
 excerpt: 'Du mal à vous motiver sans votre coach ou votre salle de sport ? '
 
 ---
-Votre salle de sport a du fermer ses portes ? Ce n'est pas une raison pour rater votre entraînement quotidien !
+Votre salle de sport a dû fermer ses portes ? Ce n'est pas une raison pour rater votre entraînement quotidien !
 
 Les coachs sportifs et les salles de sport trouvent de nouvelles façons de vous faire transpirer en s'invitant dans votre salon :
 
