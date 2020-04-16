@@ -5,8 +5,8 @@ template: post
 title: 'Activité physique : quels sont nos besoins? '
 subtitle: ''
 date: 2020-04-17T00:00:00+01:00
-thumb_img_path: "/images/iStock-957709368 (1).jpg"
-img_path: "/images/iStock-957709368 (1)-1.jpg"
+thumb_img_path: "/images/iStock-627078448.jpg"
+img_path: "/images/iStock-627078448.jpg"
 excerpt: ''
 
 ---
