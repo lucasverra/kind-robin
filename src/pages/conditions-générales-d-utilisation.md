@@ -17,7 +17,6 @@ Le site Bougez Chez Vous est un service gratuit, qui vous offre des ressources, 
 
 Le site Bougez Chez Vous recense des contenus développés pour encourager la formation d’habitudes sportives. Ces contenus sont fournis pour votre seule information, et ne peuvent en aucun cas être considérés comme des conseils médicaux. Avant d’essayer une nouvelle activité recommandée sur ce site, veuillez obtenir la recommandation d’un professionnel de santé pour garantir que cette activité ne vous soit pas contre-indiquée.
 
-  
 **Notifications et personnalisation des contenus**
 
 Afin de vous aider à maintenir de nouvelles habitudes sportives, l’inscription au site Bougez Chez Vous vous permet d’exprimer des préférences et ouvre l’accès à un service de rappels et notifications, personnalisés selon vos préférences. Vous recevrez alors, si vous y consentez, des notifications push et des notifications par email, au plus quatre fois par semaine. Il est possible de mettre à jour ces préférences et de désactiver les notifications à tout moment sur la page “Mon Profil”.
@@ -34,7 +33,7 @@ Pour toutes les informations collectées dans le cadre de ce projet, le Behaviou
 
 L’utilisateur dispose d'un droit d'accès, de rectification, de suppression et d'opposition de ses données personnelles sur simple demande par email à l’adresse dpo@bi.team.
 
-Consultez notre [politique de confidentialité]() pour plus d’information sur le traitement des données personnelles.
+Consultez notre politique de confidentialité pour plus d’information sur le traitement des données personnelles.
 
 ##### **Propriété intellectuelle**
 
