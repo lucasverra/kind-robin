@@ -10,18 +10,20 @@ sections:
   bg: gray
   faqitems:
   - question: 'Recommendations : quels sont nos besoins d''activités sportives '
-    answer: |-
-      ##### De combien d’activité physique avons-nous besoin ?
-
-      L’activité physique permet de maintenir une bonne santé physique et mentale.
-
-      La quantité précise d’activité physique nécessaire à chacun pour se sentir bien dépend évidemment de l'âge, du métabolisme, des habitudes sportives et de l'état de santé, mais trois recommandations principales sont à avoir à l'esprit :
-
-      1. Les travaux de médecins recommandent une pratique minimale d’activité physique dynamique, correspondant à **1 heure par jour pour les enfants et les adolescents**, et à **30 minutes par jour pour les adultes**.
-      2. L’Organisation Mondiale de la Santé recommande de réaliser **au moins deux fois par semaine des activités variées** qui renforcent les muscles et améliorent la souplesse et l’équilibre.
-      3. Il est tout aussi important de **réduire le temps passé en position assise ou allongée** (hors temps normal de sommeil), et de rompre les périodes prolongées passées en position assise par **quelques minutes de marche et d’étirements au minimum toutes les 2 heures**.
-
-      Vous pouvez retrouver plus d'information [ici.](http://www.sports.gouv.fr/accueil-du-site/actualites/article/coronavirus-covid-19-avec-le-ministere-des-sports-faire-du-sport-chez-soi-c-est)
+    answer: "##### De combien d’activité physique avons-nous besoin ?\n\nL’activité
+      physique permet de garder la forme, et le moral. \n\nLa quantité précise d’activité
+      physique nécessaire à chacun pour se sentir bien dépend évidemment de l'âge,
+      du métabolisme, des habitudes sportives et de l'état de santé de chacun, mais
+      trois recommandations principales sont à avoir à l'esprit :\n\n1. Les travaux
+      de médecins recommandent une pratique minimale d’activité physique correspondant
+      à **1 heure par jour pour les enfants et les adolescents**, et à **30 minutes
+      par jour pour les adultes**.\n2. L’Organisation Mondiale de la Santé recommande
+      de réaliser **au moins deux fois par semaine des activités variées** qui renforcent
+      les muscles et améliorent la souplesse et l’équilibre.\n3. Il est aussi important
+      de **réduire le temps passé en position assise ou allongée** (hors temps normal
+      de sommeil), et de rompre les périodes prolongées passées en position assise
+      par **quelques minutes de marche et d’étirements au minimum toutes les 2 heures**.\n\nVous
+      pouvez retrouver plus d'information [ici.](http://www.sports.gouv.fr/accueil-du-site/actualites/article/coronavirus-covid-19-avec-le-ministere-des-sports-faire-du-sport-chez-soi-c-est)"
   - question: 'Conseils : Comment maintenir une activité physique régulière ?'
     answer: "Ce n’est pas parce qu’on est confiné qu’il faut arrêter toute activité
       physique, bien au contraire. Il est nécessaire de l’adapter à cette situation
