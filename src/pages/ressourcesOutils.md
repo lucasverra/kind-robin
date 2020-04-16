@@ -25,46 +25,20 @@ sections:
       par **quelques minutes de marche et d’étirements au minimum toutes les 2 heures**.\n\nVous
       pouvez retrouver plus d'information [ici.](http://www.sports.gouv.fr/accueil-du-site/actualites/article/coronavirus-covid-19-avec-le-ministere-des-sports-faire-du-sport-chez-soi-c-est)"
   - question: 'Conseils : Comment maintenir une activité physique régulière ?'
-    answer: "Ce n’est pas parce qu’on est confiné qu’il faut arrêter toute activité
-      physique, bien au contraire. Il est nécessaire de l’adapter à cette situation
-      exceptionnelle, en maintenant une pratique régulière, dans son jardin comme
-      à l’intérieur.\n\n**Voici quelques conseils simples à adopter pour développer
-      de nouvelles habitudes, inspirés par les enseignements des sciences comportementales
-      :**\n\n* **Créez une nouvelle routine active**, par exemple en choisissant en
-      avance les créneaux auxquels vous allez faire de l’activité, ou en ajoutant
-      des pauses dans votre agenda pour vous lever et marcher au moins toutes les
-      deux heures. \n\n  BougezChezVous est un outil développé pour vous aider à mettre
-      en place de nouvelles habitudes à la maison. Nous vous transmettrons donc des
-      propositions plusieurs fois par semaine pour vous aider à vous tenir à ce nouveau
-      rythme !\n* **Fixez vous des objectifs ambitieux, mais atteignables :** Pour
-      atteindre ces objectifs, il a été montré qu’une méthode efficace peut être de
-      se fixer des buts intermédiaires. Ceux-ci doivent être précis, pas trop faciles
-      (il faut faire un peu d’effort), mais atteignables (pour ne pas se décourager/rester
-      motivé(e)).\n\n  Par exemple, si vous souhaitez arriver à réaliser l'exercice
-      de « la planche » pendant 3 minutes, commencez par 1 minute à la fin de la première
-      semaine, 2 minutes à la fin de la 2ème semaine, 3 minutes à la fin de la 3ème
-      semaine, et ensuite maintenez 3 minutes pendant plusieurs semaines.\n* **Motivez
-      vous collectivement** : Partager ses objectifs d’activité physique avec ses
-      proches et faire du sport ensemble (même à distance!) a de nombreux avantages.
-      Par exemple, ne pas vouloir faire faux bond à un ami permet de se motiver, alors
-      qu’il est plus simple de trouver des excuses pour remettre une séance de sport
-      à plus tard que l’on fait seul.\n\n  Faire du sport à plusieurs est aussi une
-      source de plaisir, et on sait qu’il est beaucoup plus simple d’atteindre des
-      objectifs lorsqu’on s’amuse! Faire participer vos enfants peut aussi être un
-      bon moyen de s’amuser et de se défouler tous ensemble.\n* **Suivez vos progrès**
-      : Pour établir une nouvelle habitude de manière durable, il est important d'avoir
-      des retours sur vos progrès. Si vous le souhaitez, vous pouvez bien sûr utiliser
-      des outils comme des montres connectées ou des applications dédiées. Vous pouvez
-      aussi tout simplement marquer d’une croix les séances réalisées dans votre calendrier.
-      L’important est de prendre le temps de revenir sur les séances faites pendant
-      la semaine, de vous demander par exemple ce que vous avez aimé, ce qui a bien
-      fonctionné pour vous motiver, ou ce que vous pourriez faire différemment. Utilisez
-      ensuite ces réflexions pour planifier la semaine suivante !\n* **Faites-vous
-      plaisir** : On le répète, il est beaucoup plus simple de maintenir de bonnes
-      habitudes lorsqu’on prend du plaisir ! Que ce soit en choisissant la musique
-      qui vous plaît, en faisant du sport avec vos proches, ou en alternant des activités
-      de renforcement musculaire et des activités plaisir - l’important est de se
-      faire du bien !"
+    answer: |-
+      Ce n’est pas parce qu’on est confiné qu’il faut arrêter toute activité physique, bien au contraire. Il est nécessaire de l’adapter à cette situation exceptionnelle, en maintenant une pratique régulière, dans son jardin comme à l’intérieur.
+
+      **Voici quelques conseils simples à adopter pour développer de nouvelles habitudes, inspirés par les enseignements des sciences comportementales :**
+
+      * **Planifiez votre activité physique,** par exemple en choisissant à l'avance les créneaux auxquels vous allez faire du sport, ou en ajoutant des pauses dans votre agenda pour vous lever et marcher au moins toutes les deux heures.
+
+        BougezChezVous est un outil développé pour vous aider à mettre en place de nouvelles habitudes à la maison. Nous vous transmettrons donc des propositions plusieurs fois par semaine pour vous aider à vous tenir à ce nouveau rythme !
+      * **Fixez vous des objectifs ambitieux, mais atteignables :** Pour atteindre ces objectifs, il a été montré qu’une méthode efficace peut être de se fixer des buts intermédiaires. Ceux-ci doivent être précis, pas trop faciles (il faut faire un peu d’effort), mais atteignables (pour ne pas se décourager et rester motivé.e).
+
+        Par exemple, si vous souhaitez arriver à réaliser l'exercice de « la planche » pendant 3 minutes, commencez par 1 minute à la fin de la première semaine, 2 minutes à la fin de la 2ème semaine, 3 minutes à la fin de la 3ème semaine, et ensuite maintenez 3 minutes pendant plusieurs semaines.
+      * **Motivez vous à plusieurs** : Partager ses objectifs d’activité physique avec ses proches et faire du sport ensemble (même à distance!) a de nombreux avantages. Par exemple, ne pas vouloir faire faux bond à un ami permet de se motiver. Faire du sport à plusieurs est aussi une source de plaisir, et on sait qu’il est beaucoup plus simple d’atteindre des objectifs lorsqu’on s’amuse ! Faire participer vos enfants peut aussi être un bon moyen de s’amuser et de se défouler tous ensemble.
+      * **Suivez vos progrès** : Pour établir une nouvelle habitude de manière durable, il est important d'avoir des retours sur vos progrès. Si vous le souhaitez, vous pouvez bien sûr utiliser des outils comme des montres connectées ou des applications dédiées. Vous pouvez aussi tout simplement marquer d’une croix les séances réalisées dans votre calendrier. L’important est de prendre le temps de revenir sur les séances faites pendant la semaine, de vous demander par exemple ce que vous avez aimé, ce qui a bien fonctionné pour vous motiver, ou ce que vous pourriez faire différemment. Utilisez ensuite ces réflexions pour planifier la semaine suivante !
+      * **Faites-vous plaisir** : On le répète, il est beaucoup plus simple de maintenir de bonnes habitudes lorsqu’on prend du plaisir ! Que ce soit en choisissant la musique qui vous plaît, en faisant du sport avec vos proches, ou en alternant des activités de renforcement musculaire et des activités plaisir - l’important est de se faire du bien !
   - question: 'Suggestions : Des applications pour trouver des idées d’activités'
     answer: |-
       Le ministère des Sports a [recensé pour vous plusieurs applications offrant des suggestions d’exercices et d’activités](http://sports.gouv.fr/IMG/pdf/appsportliste-2.pdf), répondant à vos différentes attentes : Me détendre, Me défouler, Me muscler, Faire attention à son poids, Activités adaptées aux personnes en situation de handicap, Activités rapides pour les pressés, ou Activités en famille.
