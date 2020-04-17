@@ -4,7 +4,7 @@ categoriepost:
 template: post
 title: 'De nombreux studios offrent des cours de sport gratuits en ligne '
 subtitle: ''
-date: 2020-04-08T23:00:00.000+00:00
+date: 2020-04-22T00:00:00+01:00
 thumb_img_path: "/images/iStock-1187354788.jpg"
 img_path: "/images/iStock-1187354788.jpg"
 excerpt: 'Besoin de vous défouler, mais du mal à vous motiver sans vos cours de sport
