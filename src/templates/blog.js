@@ -124,7 +124,7 @@ export default class Blog extends React.Component {
                             ).strftime("%Y-%m-%d %H:%M")}
                           >
                             {moment(_.get(post, "frontmatter.date")).strftime(
-                              "%B %d, %Y"
+                              "%d/%m/%Y"
                             )}
                           </time>
                         </footer>

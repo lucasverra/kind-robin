@@ -28,7 +28,7 @@ export default class Post extends React.Component {
                   }
                   <footer className="post-meta">
                     <time className="published"
-                      dateTime={moment(_.get(this.props, 'pageContext.frontmatter.date')).strftime('%Y-%m-%d %H:%M')}>{moment(_.get(this.props, 'pageContext.frontmatter.date')).strftime('%A, %B %e, %Y')}</time>
+                      dateTime={moment(_.get(this.props, 'pageContext.frontmatter.date')).strftime('%Y-%m-%d %H:%M')}>{moment(_.get(this.props, 'pageContext.frontmatter.date')).strftime('%d/%m/%Y')}</time>
                   </footer>
                   <div className="post-content">
                     {htmlToReact(_.get(this.props, 'pageContext.html'))}
