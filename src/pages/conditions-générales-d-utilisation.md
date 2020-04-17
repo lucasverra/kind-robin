@@ -3,7 +3,10 @@ template: page
 title: Conditions générales d'utilisation
 subtitle: ''
 img_path: ''
-
+menus:
+  secondary:
+    title: Conditions générales d'utilisation
+    weight: 2
 ---
 ## Conditions générales d’utilisation du site Bougez Chez Vous
 

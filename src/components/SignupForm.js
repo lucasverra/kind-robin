@@ -115,7 +115,7 @@ class SignupForm extends Component {
               checked={gdpr}
             />
             <label htmlFor="gdpr">
-            En cochant cette case, je reconnais avoir pris connaissance des <Link to="/conditions">Conditions Générales d'Utilisation.</Link>
+            En cochant cette case, je reconnais avoir pris connaissance des <Link to="/conditions-générales-d-utilisation/">Conditions Générales d'Utilisation</Link> et la <Link to="/politique-de-confidentialité/">politique de confidentialité.</Link>
             </label>
           </div>
         </div>
