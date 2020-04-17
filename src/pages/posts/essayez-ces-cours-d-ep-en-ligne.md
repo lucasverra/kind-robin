@@ -4,7 +4,7 @@ categoriepost:
 template: post
 title: Essayez ces cours d'activité physique en ligne !
 subtitle: ''
-date: 2020-04-08T23:00:00.000+00:00
+date: 2020-04-22T00:00:00+01:00
 thumb_img_path: "/images/iStock-508948884.jpg"
 img_path: "/images/iStock-508948884.jpg"
 excerpt: 'Vos enfants ont besoin de se défouler ? '
