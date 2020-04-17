@@ -10,7 +10,7 @@ sections:
 
     Lorsqu'on doit rester chez soi, maintenir une activité physique régulière peut aider à garder la forme et le moral.
 
-    ​Pour vous accompagner, le Ministère des Sports met à votre disposition BougezChezVous, une application pour vous aider à intégrer l’activité physique à votre nouveau quotidien.
+    ​Pour vous accompagner, le ministère des Sports met à votre disposition BougezChezVous, une application pour vous aider à intégrer l’activité physique dans votre nouveau quotidien.
   image: "/images/bougez chez vous (5).png"
   actions:
   - label: Je m'inscris
@@ -24,18 +24,18 @@ sections:
   featureslist:
   - title: "Des conseils et idées d'activités ouverts à tous \U0001F450"
     content: Que vous soyez expert.e fitness ou un.e néophyte, nous avons recensé
-      du contenu de qualité pour encourager l'activité physique à la maison. Les enfants
-      sont aussi invités !
+      pour vous des contenus de qualité pour vous encourager à pratiquer une activité
+      physique à la maison. Les enfants sont aussi invités !
     image: "/images/iStock-512210330.jpg"
     actions:
     - label: 'Accéder aux ressources '
-      url: "/blog"
+      url: "/ressourcesOutils/"
   - title: Pourquoi m'inscrire ?
     content: |-
-      Une fois inscrit.e, Bougez Chez Vous vous aide à accomplir vos objectifs d'activité physique, grâce à :
+      Une fois inscrit.e, Bougez Chez Vous vous aide à définir et réaliser vos objectifs d'activité physique, grâce à :
 
-      * une invitation à un rappel quotidien à faire une activité physique, à une heure que vous aurez choisie.
-      * des conseils et contenus personnalisés sous la forme d'emails et notifications et selon vos préférences.
+      * une invitation à un temps quotidien prévu pour faire une activité physique, à une heure que vous aurez choisie.
+      * des conseils et contenus personnalisés sous la forme d'emails et notifications, tenant compte de selon vos préférences.
     image: images/feature2.png
     actions:
     - label: Voir des exemples de rappels et conseils
@@ -44,7 +44,7 @@ sections:
   template: section_cta
   section_id: call-to-action
   title: Inscrivez-vous pour bénéficier de rappels et conseils personnalisés
-  subtitle: Et commencez dès à présent à planifier vos activités!
+  subtitle: Et commencez dès à présent à planifier vos activités !
   actions:
   - label: Je m'inscris
     url: "/signup"

@@ -249,7 +249,7 @@ input[type="button"],
 input[type="reset"],
 a.button {
   background: _palette(accent);
-  border-radius: 3px;
+  border-radius: 30px;
   border: 2px solid _palette(accent);
   box-sizing: border-box;
   color: #fff;
@@ -286,7 +286,7 @@ a.button.large {
 }
 
 .button.secondary {
-  background: transparent;
+  background: transparent;  
   color: _palette(accent);
   -webkit-transition: background-color .2s ease-in-out, color .2s ease-in-out;
   transition: background-color .2s ease-in-out, color .2s ease-in-out;

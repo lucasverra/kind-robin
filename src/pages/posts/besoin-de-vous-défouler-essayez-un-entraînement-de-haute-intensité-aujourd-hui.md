@@ -21,4 +21,6 @@ Ils consistent en des courtes périodes d’exercice de haute intensité altern�
 
 https://youtu.be/8YsUv_kf-qg
 
-[**Pensez**](https://youtu.be/8YsUv_kf-qg) **à essayer un des ces entrainements dés aujourd'hui ! Et notre conseil: Mettez la musique à fond!**
+N'oubliez pas : commencez doucement, échauffez-vous, ne cherchez pas à en faire trop si vous n’êtes pas entraîné !
+
+[**Pensez**](https://youtu.be/8YsUv_kf-qg) **à essayer un des ces entrainements dés aujourd'hui. Et notre conseil : Mettez la musique à fond !**

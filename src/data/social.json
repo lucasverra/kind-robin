@@ -1,13 +1,18 @@
 {
   "links": [
     {
+      "type": "twitter",
+      "title": "Twitter",
+      "url": "https://twitter.com/Sports_gouv"
+    },
+    {
       "title": "Instagram",
       "url": "https://www.instagram.com/sports.gouv/"
     },
     {
-      "type": "twitter",
-      "title": "Twitter",
-      "url": "https://twitter.com/Sports_gouv"
+      "title": "Facebook",
+      "url": "https://www.facebook.com/sports.gouv.fr"
     }
+
   ]
 }
