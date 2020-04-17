@@ -60,7 +60,7 @@ Dans la mesure permise par la loi, nous et nos partenaires déclinons toute resp
 
 ##### **Mentions légales**
 
-Ce site est opéré par the Behavioural Insights Team, (société numéro 08567792, enregistrée au 4 Matthew Parker Street, Londres, SW1H 9NP, Royaume-Uni), et hébergé par la société Netlify.
+Ce site est opéré par Behavioural Insights Ltd - le nom légal du Behavioural Insights Team, (société numéro 08567792, enregistrée au 4 Matthew Parker Street, Londres, SW1H 9NP, Royaume-Uni), et hébergé par la société Netlify.
 
 ##### **Modifications du site**
 
