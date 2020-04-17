@@ -4,7 +4,7 @@ categoriepost:
 template: post
 title: Des coachs en ligne pour ne pas perdre le fil de vos entraînements
 subtitle: ''
-date: 2020-04-08T23:00:00.000+00:00
+date: 2020-04-22T00:00:00+01:00
 thumb_img_path: "/images/iStock-670408148.jpg"
 img_path: "/images/iStock-670408148.jpg"
 excerpt: 'Du mal à vous motiver sans votre coach ou votre salle de sport ? '
