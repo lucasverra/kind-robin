@@ -2,9 +2,9 @@
 categoriepost:
 - Conseils pour tous
 template: post
-title: C'est dimanche ! Planifiez votre semaine pour continuer à Bouger Chez Vous
+title: C'est dimanche ! Planifiez votre semaine pour continuer à BougerChezVous
 subtitle: ''
-date: 2020-04-26T00:00:00+01:00
+date: 2020-04-25T23:00:00.000+00:00
 thumb_img_path: "/images/make-an-exercise-plan-full.jpg"
 img_path: "/images/make-an-exercise-plan-full.jpg"
 excerpt: ''
