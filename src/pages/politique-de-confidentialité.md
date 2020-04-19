@@ -9,6 +9,8 @@ menus:
     weight: 2
 
 ---
+# Politique de confidentialité
+
 ##### **Introduction**
 
 BougezChezVous, une application web offrant des contenus et rappels personnalisés pour encourager l’activité physique pendant le confinement, a été développée et sera évaluée par le Behavioural Insights Team (BIT).
@@ -63,7 +65,8 @@ Si vous souhaitez retirer votre consentement, vous pouvez nous contacter à tout
 
 Vous pourrez par ailleurs mettre à jour vos préférences de notifications (y compris vous désinscrire) à tout moment sur la page “Mon profil”.
 
-#####   
+##### 
+
 **Qui est susceptible d’avoir accès aux données que nous recueillons ?**
 
 L'accès à vos données personnelles est strictement limité à un nombre limité de membres du BIT.
