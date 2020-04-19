@@ -4,7 +4,7 @@ categoriepost:
 template: post
 title: Essayez ces cours d'activité physique en ligne !
 subtitle: ''
-date: 2020-04-22T00:00:00+01:00
+date: 2020-04-21T23:00:00.000+00:00
 thumb_img_path: "/images/iStock-508948884.jpg"
 img_path: "/images/iStock-508948884.jpg"
 excerpt: 'Vos enfants ont besoin de se défouler ? '
@@ -12,7 +12,7 @@ excerpt: 'Vos enfants ont besoin de se défouler ? '
 ---
 L'école est peut-être fermée, mais il existe encore de nombreuses façons d'encourager votre enfant à rester actif.ve !
 
-Les profs de sport trouvent de nouvelles façons d'encourager les familles à bouger en s'invitant chaque jour dans votre salon.
+Les professeurs de sport trouvent de nouvelles façons d'encourager les familles à bouger en s'invitant chaque jour dans votre salon.
 
 Parmi les meilleures propositions:
 
