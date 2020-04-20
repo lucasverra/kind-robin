@@ -68,10 +68,10 @@ export default class Profile extends React.Component {
       });
       console.log(getCurrentUser().get("email"));
       OneSignal.setEmail(getCurrentUser().get("email"));
-      this.setState({
+    });
+    this.setState({
         hasNotificationsEmail: !this.state
           .hasNotificationsEmail,
-      });
     });
   }
 
