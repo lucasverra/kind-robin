@@ -17,6 +17,6 @@ Le premier vers de nouvelles habitudes : Etablir un plan, en décidant quelles a
 
 Pour vous aider à démarrer, faites un plan pour cette semaine : choisissez trois jours où vous ferez une activité physique d'au moins 30 minutes. Notez-les dès à présent dans votre agenda, sur votre calendrier ou sur votre téléphone portable.
 
-Envie d'explorer d'autres contenus, qu’il s’agisse d'une séance vidéo de yoga, d'un entraînement de muscu sans équipement, ou d’une séance de danse dans votre salon ? N'hésitez pas à explorer dès maintenant les options disponibles sur la page « [Les Ressources](https://kind-robin-60456.netlify.com/ressourcesOutils/ "les ressources") ».
+Envie d'explorer d'autres contenus, qu’il s’agisse d'une séance vidéo de yoga, d'un entraînement de muscu sans équipement, ou d’une séance de danse dans votre salon ? N'hésitez pas à explorer dès maintenant les options disponibles sur la page « [Les Ressources](/ressourcesOutils/ "les ressources") ».
 
 **Lancez-vous : à vos calendriers !**
