@@ -61,12 +61,18 @@ export default class Profile extends React.Component {
 
   handleChangeToogleEmail = () => {
     var OneSignal = window.OneSignal || [];
+    OneSignal.push(function () {
+      OneSignal.init({
+        appId: `${process.env.GATSBY_ONE_SIGNAL_APP_ID}`,
+        allowLocalhostAsSecureOrigin: true,
+      });
       console.log(getCurrentUser().get("email"));
       OneSignal.setEmail(getCurrentUser().get("email"));
       this.setState({
         hasNotificationsEmail: !this.state
           .hasNotificationsEmail,
       });
+    });
   }
 
 
