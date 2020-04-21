@@ -179,7 +179,7 @@ export default class Profile extends React.Component {
                 </label>
                 <div className="input_container">
                   <select
-                    value={this.state.timeExerciseEachDay.value}
+                    value={this.state.timeExerciseEachDay}
                     id="time"
                     name="timeExerciseEachDay"
                     className="time"

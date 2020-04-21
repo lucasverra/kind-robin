@@ -46,7 +46,7 @@ export const setPrefrence = (userPreference) => {
             tags.hasChildFriendlyContent = "hasChildFriendlyContent";
           }
           tags.physicalActivityGoal = userPreference.physicalActivityGoal.value;
-          tags.timeExerciseEachDay = userPreference.timeExerciseEachDay.value;
+          tags.timeExerciseEachDay = userPreference.timeExerciseEachDay;
 
           OneSignal.sendTags(tags);
         });
