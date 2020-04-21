@@ -6,7 +6,7 @@ title: Un message de Cécilia Berder, escrimeuse en équipe de France
 subtitle: ''
 date: 2020-04-21T00:00:00+01:00
 thumb_img_path: "/images/Screenshot 2020-04-21 at 11.17.05.png"
-img_path: ''
+img_path: "/images/Screenshot 2020-04-21 at 11.17.05.png"
 excerpt: ''
 
 ---
