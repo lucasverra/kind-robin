@@ -13,9 +13,8 @@ excerpt: Cécilia partage ses conseils pour BougerChezVous, et se faire du bien
 Cécile Berder, escrimeuse en équipe de France, vous a envoyé un message :
 
 <body>
-
-<iframe src="[https://player.vimeo.com/video/265045525](https://player.vimeo.com/video/265045525 "https://player.vimeo.com/video/265045525")" width="640" height="360" frameborder="0" allow="autoplay; fullscreen" allowfullscreen></iframe>
-
+<iframe src="https://player.vimeo.com/video/410139015?title=0&byline=0&portrait=0" width="500" height="889" frameborder="0" allow="autoplay; fullscreen" allowfullscreen></iframe>
 </body>
 
-Ses conseils pour BougerChezVous : Etre à l'écoute de son corps et se faire plaisir ! Et on est bien d'accord...
+
+Ses conseils pour BougerChezVous : Etre à l'écoute de son corps et se faire plaisir. Et on est bien d'accord !
