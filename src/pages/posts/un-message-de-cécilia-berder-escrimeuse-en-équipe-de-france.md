@@ -13,7 +13,7 @@ excerpt: Cécilia partage ses conseils pour BougerChezVous, et se faire du bien
 Cécile Berder, escrimeuse en équipe de France, vous a envoyé un message :
 
 <body>
-<iframe src="https://player.vimeo.com/video/410139015?title=0&byline=0&portrait=0" width="500" height="889" frameborder="0" allow="autoplay; fullscreen" allowfullscreen></iframe>
+<iframe src="https://player.vimeo.com/video/410139015?title=0&byline=0&portrait=0" width="300" height="533" frameborder="0" allow="autoplay; fullscreen" allowfullscreen></iframe>
 </body>
 
 
