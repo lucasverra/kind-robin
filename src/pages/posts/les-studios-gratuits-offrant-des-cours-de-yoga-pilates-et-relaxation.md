@@ -5,10 +5,10 @@ template: post
 title: Des studios offrent gratuitement des cours de yoga, pilates et relaxation en
   ligne
 subtitle: ''
-date: 2020-04-22T18:00:00+01:00
+date: 2020-04-22T17:00:00.000+00:00
 thumb_img_path: "/images/iStock-1129449588.jpg"
 img_path: "/images/iStock-1129449588.jpg"
-excerpt: Du mal à vous détendre sans votre séance de sport hebdomadaire?
+excerpt: Du mal à vous détendre sans votre séance de sport hebdomadaire ?
 
 ---
 Votre studio préféré a dû fermer ses portes ? Ce n'est pas une raison pour manquer votre cours de Pilates !
