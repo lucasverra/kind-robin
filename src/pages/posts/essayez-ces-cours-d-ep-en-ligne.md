@@ -16,7 +16,7 @@ Les professeurs de sport trouvent de nouvelles façons d'encourager des familles
 
 Parmi les meilleures propositions:
 
-* [**MYD Move Your Fit**](https://www.youtube.com/user/jalexica/videos), une chaîne Youtube française, propose plusieurs entrainements convenant à la famille.
+* [**MYD Move Your Fit**](https://www.youtube.com/user/jalexica/videos), une chaîne Youtube française, propose plusieurs entraînements convenant à la famille.
 * [**Sarah Ourahmoune**](https://www.youtube.com/watch?v=e4RNJ_0TQOI&t=1s), boxeuse française et olympienne, a mis en ligne 10 jeux sportifs pour parents et enfants à la maison
 * Le coach sportif anglais, [**Joe Wicks**,](https://www.youtube.com/user/thebodycoach1/videos) a connu un énorme succès avec ses leçons quotidiennes d'EP, attirant des millions de téléspectateurs (voyez "P.E. With Joe"). Ca peut aussi être une occasion de combiner avec le cours d'anglais...
 
