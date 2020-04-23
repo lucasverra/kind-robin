@@ -2,12 +2,13 @@
 categoriepost:
 - Avec des enfants
 template: post
-title: Essayez ces cours d'activité physique pour toute la famille en ligne !
+title: Essayez ces cours d'activité physique pour toute la famille !
 subtitle: ''
 date: 2020-04-21T23:00:00.000+00:00
 thumb_img_path: "/images/iStock-508948884.jpg"
 img_path: "/images/iStock-508948884.jpg"
-excerpt: 'Vos enfants ont besoin de se défouler ? '
+excerpt: Vos enfants ont besoin de se défouler ? De nombreuses ressources en ligne
+  offrent des solutions.
 
 ---
 L'école est peut-être fermée, mais il existe encore de nombreuses façons d'encourager vos enfants à rester actifs.ves!
