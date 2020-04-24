@@ -5,7 +5,7 @@ template: post
 title: 'Ce week-end, je m''entraîne avec les champions ! '
 subtitle: ''
 date: 2020-04-23T23:00:00.000+00:00
-thumb_img_path: "/images/21240391.jpg"
+thumb_img_path: "/images/Screenshot 2020-04-24 at 15.18.23.png"
 img_path: ''
 excerpt: Ce weekend, je m'entraîne avec Elodie Clouvel, vice-championne olympique
   de pentathlon
