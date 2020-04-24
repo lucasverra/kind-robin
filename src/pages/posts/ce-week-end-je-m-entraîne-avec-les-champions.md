@@ -13,10 +13,10 @@ excerpt: Ce weekend, je m'entraîne avec Elodie Clouvel, vice-championne olympiq
 ---
 En cette période de confinement, beaucoup ont adapté leurs conseils pour vous montrer qu'il est possible de continuer (ou de commencer) à s'entraîner, même sans matériel et dans moins de 10m2.
 
-Elodie Clouvel, vice-championne olympique de pentathlon moderne, a relevé le défi et partage une séance courte. Pourquoi ne pas essayer de faire cet entraînement, seul.e ou en famille, ce weekend ?
+Elodie Clouvel, vice-championne olympique de pentathlon moderne, a relevé le défi et partage une séance courte. Pourquoi ne pas essayer de faire cet entraînement, seul.e ou en famille, ce weekend ? 
 
 <body>
 <iframe src="https://player.vimeo.com/video/411423622" width="300" height="225" frameborder="0" allow="autoplay; fullscreen" allowfullscreen></iframe>
 </body>
 
-Faites nous savoir ce que vous  avez pensé de ce challenge sur les réseaux sociaux, grâce au hashtag #BougezChezVous.
+Faites nous savoir comment vous vous en êtes sortis sur les réseaux sociaux, grâce au hashtag #BougezChezVous en nous envoyant vos meilleurs photos, vidéos, ou même vos chansons préférées pour bouger !
