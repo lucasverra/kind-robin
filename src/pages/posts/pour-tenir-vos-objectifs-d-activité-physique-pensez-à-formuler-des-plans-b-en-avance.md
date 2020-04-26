@@ -7,10 +7,10 @@ subtitle: ''
 date: 2020-04-25T23:00:00.000+00:00
 thumb_img_path: "/images/iStock-1175530803.jpg"
 img_path: "/images/iStock-1175530803.jpg"
-excerpt: ''
+excerpt: Pensez dès aujourd’hui à planifier vos activités pour la semaine.
 
 ---
-**Pensez dès aujourd’hui à planifier vos activités pour la semaine prochaine.**
+**Pensez dès aujourd’hui à planifier vos activités pour la semaine.**
 
 Quels jours allez-vous pouvoir faire de l’activité physique ? Et que ferez-vous ? Placez des rappels dans votre calendrier dès maintenant.
 
