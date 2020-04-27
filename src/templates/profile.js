@@ -185,11 +185,11 @@ export default class Profile extends React.Component {
                 </label>
                 <div className="input_container">
                   <select
-                    value={this.state.timeExerciseEachDay}
+                    value={this.state.timeExerciseEachDay.value}
                     id="time"
                     name="timeExerciseEachDay"
                     className="time"
-                    onChange={this.handleChange}
+                    onChange={this.handleOptionsChange}
                   >
                     <option></option>
                     {options.map((value, index) => {

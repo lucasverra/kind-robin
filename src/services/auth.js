@@ -31,6 +31,7 @@ export const setPrefrence = (userPreference) => {
 
         OneSignal.deleteTags([
           "physicalActivityGoal",
+          "timeExerciseEachDay",
           "hasNotificationsPush",
           "hasNotificationsEmail",
           "hasChildFriendlyContent",
@@ -45,6 +46,7 @@ export const setPrefrence = (userPreference) => {
             tags.hasChildFriendlyContent = "hasChildFriendlyContent";
           }
           tags.physicalActivityGoal = userPreference.physicalActivityGoal.value;
+          tags.timeExerciseEachDay = userPreference.timeExerciseEachDay;
 
           OneSignal.sendTags(tags);
         });

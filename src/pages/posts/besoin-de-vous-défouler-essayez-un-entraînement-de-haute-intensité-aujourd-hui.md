@@ -5,7 +5,7 @@ template: post
 title: Besoin de vous défouler ? Essayez un entraînement de haute intensité aujourd'hui
   !
 subtitle: ''
-date: 2020-04-22T00:00:00+01:00
+date: 2020-04-29T00:00:00+01:00
 thumb_img_path: "/images/iStock-872677354.jpg"
 img_path: "/images/iStock-872677354.jpg"
 excerpt: Les HIIT s'adaptent à tous les niveaux, et ne demandent souvent aucun équipement.
