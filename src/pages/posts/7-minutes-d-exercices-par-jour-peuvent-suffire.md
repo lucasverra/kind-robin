@@ -2,7 +2,7 @@
 categoriepost:
 - Conseils pour tous
 template: post
-title: Défi 7 min d’exercice par jour !
+title: Défi 7 minutes d’exercice par jour !
 subtitle: ''
 date: 2020-04-19T23:00:00.000+00:00
 thumb_img_path: "/images/iStock-925905698.jpg"
