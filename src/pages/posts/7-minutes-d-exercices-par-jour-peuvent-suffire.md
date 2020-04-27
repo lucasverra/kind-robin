@@ -10,7 +10,7 @@ img_path: "/images/iStock-925905698.jpg"
 excerpt: Prêt.e à relever le défi cette semaine ?
 
 ---
-**Pour arriver à bouger chaque jour, 7 minutes peuvent suffire**, que ce soit au lever, au coucher, entre deux réunions, ou pendant que vos enfants font leurs exercices de maths...
+**Pour arriver à bouger chaque jour, 7 minutes peuvent suffire**, que ce soit au lever, au coucher, entre deux réunions (ou pendant un zoom un peu long), ou pendant que vos enfants font leurs exercices de maths...
 
 De nombreux sites et applications offrent des exemples de « 7-minute workouts ». Ceux-ci s'adaptent à tous les niveaux, toutes les envies et toutes les situations, et ne requièrent aucun matériel !
 
