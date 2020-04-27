@@ -86,7 +86,7 @@ export const setPrefrence = (userPreference) => {
 };
 
 export const sendSurvey = (data) => {
-    debugger
+    // debugger
     const Survey = Object.extend("Survey");
 
     let dataTosend = {};
