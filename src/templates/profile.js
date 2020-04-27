@@ -151,7 +151,7 @@ export default class Profile extends React.Component {
                 <FaTimes onClick={() => this.setState({ showPopup: false })} />
               </div>
               <div className="popup_body">
-                your information has been saved ok.
+                Vos préférences sont correctement enregistrées
               </div>
               <div className="popup_footer">
                 <button
