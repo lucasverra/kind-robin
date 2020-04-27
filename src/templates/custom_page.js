@@ -3,7 +3,7 @@ import _ from "lodash";
 import { ButtonSubmit } from "../utils/ButtonSubmit";
 import { Layout } from "../components/index";
 import { safePrefix, htmlToReact } from "../utils";
-import { sendSurvey } from "../services/auth"
+import { sendSurvey } from "../services/auth";
 
 import "../sass/custom.scss";
 import { FaCheck, FaTimes } from "react-icons/fa";
@@ -13,38 +13,38 @@ export default class CustomPage extends React.Component {
     super(props);
     this.state = {
       buttonState: "",
-      howfellCheckedIndex:"",
-      manydaywillsportCheckedIndex:"",
-      manydaydidsportCheckedIndex:"",
-      preferedMessage:""
+      howfellCheckedIndex: "",
+      manydaywillsportCheckedIndex: "",
+      manydaydidsportCheckedIndex: "",
+      preferedMessage: "",
     };
   }
 
-  handleChange = (event) => { 
+  handleChange = (event) => {
     this.setState({
       [event.target.name]: event.target.value,
     });
-  }
+  };
 
   handleSubmit = (event) => {
     event.preventDefault();
 
-
-    sendSurvey(this.state).then((r)=>{
+    sendSurvey(this.state)
+      .then((r) => {
         this.setState({ buttonState: "success" });
-      }
-    ).catch((e) => {
-      this.setState({
-        buttonState: "error",
-      });
-    })
-    .finally(() => {
-      setTimeout(() => {
+      })
+      .catch((e) => {
         this.setState({
-          buttonState: "",
+          buttonState: "error",
         });
-      }, 7000);
-    });
+      })
+      .finally(() => {
+        setTimeout(() => {
+          this.setState({
+            buttonState: "",
+          });
+        }, 7000);
+      });
   };
 
   displayOptions = (optionCount, key, startFrom, value) => {
@@ -52,7 +52,14 @@ export default class CustomPage extends React.Component {
     for (let index = startFrom; index < optionCount; index++) {
       optionComponents.push(
         <div key={key + index} className="radio_values-wrapper">
-          <input  key={key + index} onClick={this.handleChange} type="radio" name={key} value={index} /> {index}
+          <input
+            key={key + index}
+            onClick={this.handleChange}
+            type="radio"
+            name={key}
+            value={index}
+          />{" "}
+          {index}
         </div>
       );
     }
@@ -104,17 +111,27 @@ export default class CustomPage extends React.Component {
                       du tout” et 10 à “je me sens en super forme”
                     </label>
                     <div className="radio_values" key="howfell">
-                      {this.displayOptions(11, "howfellCheckedIndex",1, this.state.howfellCheckedIndex)}
+                      {this.displayOptions(
+                        11,
+                        "howfellCheckedIndex",
+                        1,
+                        this.state.howfellCheckedIndex
+                      )}
                     </div>
                   </div>
-                  
-                  <div  id='toto' className="form-row">
+
+                  <div id="toto" className="form-row">
                     <label>
                       La semaine dernière : combien de jours avez-vous fait une
                       activité physique ?{" "}
                     </label>
                     <div className="radio_values" key="manydaydidsport">
-                      {this.displayOptions(8, "manydaydidsportCheckedIndex",0, this.state.manydaydidsportCheckedIndex)}
+                      {this.displayOptions(
+                        8,
+                        "manydaydidsportCheckedIndex",
+                        0,
+                        this.state.manydaydidsportCheckedIndex
+                      )}
                     </div>
                   </div>
 
@@ -124,11 +141,16 @@ export default class CustomPage extends React.Component {
                       une activité physique ?
                     </label>
                     <div className="radio_values" key="manydaywillsport">
-                      {this.displayOptions(8, "manydaywillsportCheckedIndex", 0, this.state.manydaywillsportCheckedIndex)}
+                      {this.displayOptions(
+                        8,
+                        "manydaywillsportCheckedIndex",
+                        0,
+                        this.state.manydaywillsportCheckedIndex
+                      )}
                     </div>
                   </div>
 
-                  <div className="form-row" key='titi'>
+                  <div className="form-row" key="titi">
                     <label>
                       Quelle(s) activité(s) avez-vous prévu de faire ?
                     </label>
@@ -149,6 +171,7 @@ export default class CustomPage extends React.Component {
                         buttonState && `btn-${buttonState}`
                       } button secondary btn-submit`}
                       type="submit"
+                      disabled={buttonState === "" ? false : true}
                     >
                       <ButtonSubmit
                         text={"Enregistrer"}
